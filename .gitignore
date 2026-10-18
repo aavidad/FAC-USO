@@ -6,6 +6,8 @@ docker/.secrets/
 __pycache__/
 .runtime/
 bot-secrets/
+/.secrets/
+/backups/
 research/*.html
 research/base-*.txt
 research/base-media.json
@@ -19,3 +21,7 @@ research/base-media.json
 *.wav
 *.mp3
 *.part
+
+# Medios finales solicitados para el repositorio público.
+!/video/facuso-recorrido-guiado.mp4
+!/video/facuso-locucion.mp3

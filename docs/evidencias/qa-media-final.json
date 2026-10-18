@@ -1,0 +1,27 @@
+{
+  "video": "video/facuso-recorrido-guiado.mp4",
+  "video_sha256": "d9378b5d7520a20d142ecd3943beed0427df7b7b3c7f69ea99192170d00949a0",
+  "video_bytes": 33221671,
+  "duration_seconds": 455.4,
+  "chapters": 14,
+  "video_codec": "h264",
+  "dimensions": [
+    1440,
+    900
+  ],
+  "fps": 25,
+  "audio_codec": "aac",
+  "audio_integrated_lufs": -16.2,
+  "audio_peak_dbfs": -1.1,
+  "decode_exit_code": 0,
+  "audio_mp3": "video/facuso-locucion.mp3",
+  "audio_mp3_sha256": "404bf5964d930b23f2c28cea346991d75fc6504c7f1407a9cde6e0799a991385",
+  "final_frames_reviewed": [
+    "bienvenida",
+    "movil",
+    "bots"
+  ],
+  "duplicate_label_fixed": true,
+  "source": "Chrome de sistema sobre WordPress local, sin sesión, método ETF",
+  "screenshots_folder": "imagenes/"
+}

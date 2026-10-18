@@ -4,6 +4,8 @@ La web de muestra funciona en [http://127.0.0.1:18086/](http://127.0.0.1:18086/)
 
 Repositorio: [aavidad/FAC-USO](https://github.com/aavidad/FAC-USO). Contiene el código, los datos editoriales, las imágenes finales del tema, los instaladores y los manuales. La configuración privada y el documento original de especificaciones se conservan fuera de Git. Las condiciones de los materiales están en [NOTICE.md](NOTICE.md) y las pautas de seguridad en [SECURITY.md](SECURITY.md).
 
+[Vídeo con voz: recorrido de 7:35](video/README.md) · [Capturas](imagenes/README.md) · [Descargar la entrega](https://github.com/aavidad/FAC-USO/releases/tag/v1.0.0).
+
 ## Instalar en un WordPress vacío
 
 1. En WordPress, abre **Plugins → Añadir plugin → Subir plugin**.

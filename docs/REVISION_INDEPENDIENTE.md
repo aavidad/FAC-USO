@@ -171,3 +171,9 @@ Para el cron se aplicó `security-audit` en modo focal y solo lectura. Se revisa
 ## OPAEF: revisión de contenido y navegación
 
 Una revisión independiente leyó `data/opaef.json` y las capturas de escritorio y móvil. Confirmó las dos subpestañas accesibles y un contenido sin acuerdos atribuidos al I Plan ni promesas de confidencialidad absoluta. Se retiró de la página del observatorio la fuente institucional del organismo porque no acreditaba su actividad: ese dato procede de la organización. La ficha permanece en la presentación general de OPAEF. Se corrigió también una concordancia. La página no recoge testimonios ni datos de casos.
+
+## Publicación del repositorio
+
+La revisión focal previa a GitHub comprobó exclusiones de configuración, sesiones, secretos, el ODT original y los paquetes ZIP anidados. El índice se analizó con Gitleaks en local y se contrastó con los valores de los secretos privados, sin incorporarlos al informe. La comprobación recorrió 179 archivos del índice y 597 archivos contando los ZIP anidados: cero coincidencias de secretos o rutas privadas. Una revisión independiente de fuente aprobó la exclusión del ODT y el contenido de los paquetes. Las fotos finales y los contactos profesionales previstos para la web permanecen como material público con su procedencia.
+
+Las herramientas del vídeo transmiten al sintetizador únicamente la locución pública. El primer recorrido se capturó sin sesión, con filtrado GET/origen; la versión final de la herramienta bloquea además service workers, WebSocket y respuestas de redirección. Esta revisión de publicación no equivale a una auditoría de seguridad completa del futuro servidor de producción.

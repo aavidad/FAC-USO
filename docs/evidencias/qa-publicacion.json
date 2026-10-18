@@ -1,0 +1,11 @@
+{
+  "files_staged": 179,
+  "files_including_archives": 597,
+  "expanded_bytes": 88742184,
+  "private_paths_found": 0,
+  "known_secret_value_matches": 0,
+  "archive_depth_limit": 4,
+  "gitleaks_staged": "no leaks found",
+  "original_odt_excluded": true,
+  "scope": "Revisión local del material publicado: rutas privadas, valores conocidos de secretos y archivos anidados. No es una auditoría del alojamiento."
+}

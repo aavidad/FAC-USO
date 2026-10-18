@@ -90,8 +90,8 @@ python3 bot.py --province granada --dry-run
 Si ya existen noticias creadas por una versión anterior del bot, complete los textos del BOE y corrija sus categorías una sola vez por provincia:
 
 ```bash
-docker compose --env-file ../.runtime/cron.env -f compose.yaml --profile bots run --rm -T cadiz --province cadiz --province cadiz --enrich-existing --dry-run
-docker compose --env-file ../.runtime/cron.env -f compose.yaml --profile bots run --rm -T cadiz --province cadiz --province cadiz --enrich-existing
+docker compose --env-file ../.runtime/cron.env -f compose.yaml --profile bots run --rm -T cadiz --province cadiz --enrich-existing --dry-run
+docker compose --env-file ../.runtime/cron.env -f compose.yaml --profile bots run --rm -T cadiz --province cadiz --enrich-existing
 ```
 
 El comando solo modifica publicaciones de la cuenta provincial con identificador de bot y cuerpo igual a la plantilla automática anterior. Deja intactos los textos editados por una persona. En el ensayo local se añaden también `-f compose.local.yaml` a los comandos anteriores.
