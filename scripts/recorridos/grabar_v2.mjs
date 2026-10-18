@@ -90,6 +90,29 @@ async function action(page,op){
  case 'mobile_submenu':{const loc=page.getByRole('button',{name:'Abrir apartados de Conócenos'});await move(page,loc);await loc.click();break;}
  case 'diagram':await diagram(page,op);break;
  case 'clear_diagram':await page.evaluate(()=>document.querySelector('#v2-diagram')?.remove());break;
+ case 'course_url':{
+  const paths=['/opes','/opes/ope-tcae-c1-promocion-interna-diputacion-2026','/tests'];
+  if(!paths.includes(op.path))throw Error('Curso fuera de la muestra pública');
+  await page.goto('https://uso.dipgra.cloud'+op.path,{waitUntil:'load'});
+  await page.waitForFunction(()=>parseFloat(getComputedStyle(document.querySelector('h1')).fontSize)>=24,{},{timeout:10000});
+  const notice=page.getByRole('button',{name:'Aceptar y continuar',exact:true});
+  if(await notice.isVisible())await notice.click();
+  const cookies=page.locator('#cookie-notice-ok');
+  if(await cookies.isVisible())await cookies.click();
+  await top(page);break;
+ }
+ case 'course_heading':await center(page,page.getByRole('heading',{name:op.text,exact:true}));break;
+ case 'course_image':await center(page,page.locator('main img').first());break;
+ case 'course_question':await center(page,page.locator('#public-demo-test > div').first());await page.locator('#public-demo-test > div').first().locator('input').nth(1).check();break;
+ case 'course_correct':{
+  await page.getByRole('button',{name:'Comprobar test',exact:true}).click();
+  await center(page,page.locator('#demo-feedback-0'));break;
+ }
+ case 'facuso_course_test':{
+  await page.goto(origin+'/territorios/granada/diputacion-de-granada/',{waitUntil:'load'});
+  await page.locator('.fac-tcae-container summary').click();
+  await center(page,page.locator('.fac-tcae fieldset').first());break;
+ }
  default:throw Error('Acción desconocida '+op.type);
  }
 }
@@ -100,7 +123,15 @@ try{
   mobile=false;
   const ctx=await browser.newContext({viewport:plan.viewport,deviceScaleFactor:1,serviceWorkers:'block',acceptDownloads:false,
    ...(!preflight?{recordVideo:{dir:resolve(folder,'raw'),size:plan.viewport}}:{})});
-  await ctx.route('**/*',async route=>{const req=route.request();const u=new URL(req.url());if(['data:','about:'].includes(u.protocol))return route.continue();if(req.method()!=='GET'||u.origin!==origin)return route.abort();try{const r=await route.fetch({maxRedirects:0});if(r.status()>=300&&r.status()<400)return route.abort();return route.fulfill({response:r});}catch{return route.abort();}});
+  await ctx.route('**/*',async route=>{const req=route.request();const u=new URL(req.url());if(['data:','about:'].includes(u.protocol))return route.continue();
+   const publicCourse=u.origin==='https://uso.dipgra.cloud'&&(/^\/static\//.test(u.pathname)||/^\/demo\/tcae\/tema-1\//.test(u.pathname)||['/opes','/opes/ope-tcae-c1-promocion-interna-diputacion-2026','/tests','/favicon.ico','/manifest.webmanifest'].includes(u.pathname));
+   const publicStyle=u.protocol==='https:'&&['cdn.tailwindcss.com','cdn.jsdelivr.net','fonts.googleapis.com','fonts.gstatic.com'].includes(u.hostname);
+   if(req.method()!=='GET'||!(u.origin===origin||publicCourse||publicStyle))return route.abort();try{let r=await route.fetch({maxRedirects:0});if(r.status()>=300&&r.status()<400){
+    const next=new URL(r.headers().location||'',u);
+    if(!publicStyle||next.origin!==u.origin)return route.abort();
+    r=await route.fetch({url:next.href,maxRedirects:0});
+    if(r.status()>=300&&r.status()<400)return route.abort();
+   }return route.fulfill({response:r});}catch{return route.abort();}});
   if(typeof ctx.routeWebSocket==='function')await ctx.routeWebSocket('**/*',ws=>ws.close());
   await ctx.addInitScript(()=>document.addEventListener('DOMContentLoaded',()=>{
    const cursor=document.createElement('div');cursor.id='v2-cursor';cursor.style='position:fixed;left:80%;top:30%;width:22px;height:30px;background:#cf2c1b;clip-path:polygon(0 0,0 90%,28% 68%,48% 100%,65% 91%,44% 60%,85% 60%);pointer-events:none;z-index:2147483647;filter:drop-shadow(0 0 2px white)';document.body.append(cursor);document.addEventListener('mousemove',e=>{cursor.style.left=e.clientX+'px';cursor.style.top=e.clientY+'px';});

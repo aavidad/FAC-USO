@@ -59,3 +59,5 @@ El ODT denomina «Qué es la USO-Andalucía» a una página que propone copiar d
 Actualizar alcance, prioridades y criterios cuando FAC-USO Andalucía apruebe cambios. Registrar aquí las decisiones editoriales y remitir los detalles de pila, datos, interfaz, recorrido y tareas a `TRD.md`, `ESQUEMA_BACKEND.md`, `DISENO_UI_UX.md`, `FLUJO_APP.md` y `PLAN_IMPLEMENTACION.md`.
 
 ABSORBIDOS: `20261015 MODIFICACION ESTRUCTURA WEB.odt` — parcial; conserva el listado original, nombres y direcciones de contacto, así como las diferencias entre las dos listas de sectores. Fuentes web oficiales — parcial; se sintetizan aquí y en `data/institucional.json`, y siguen siendo referencia para actualizaciones.
+
+La sección de USO Diputación de Granada presenta sus cursos ajustados a las bases de las OPE de esta administración, con capturas reales y una práctica pública de seis preguntas de TCAE. El acceso completo permanece autorizado en el portal original. El recorrido y la procedencia se documentan en `docs/CURSOS_GRANADA.md`.

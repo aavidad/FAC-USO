@@ -58,7 +58,21 @@ Provincias ofrece Andalucía y las ocho provincias. Cada territorio reúne conta
 
 En Granada encontramos la sede, el teléfono y el correo publicados, además del acceso a su boletín provincial y a los anuncios de empleo.
 
-Granada incluye también un espacio para USO en la Diputación. Desde él se puede ampliar la información en la web de la sección sindical.
+La sección de USO en la Diputación de Granada tiene una web propia: uso punto dipgra punto cloud. Además de atención sindical y empleo, ofrece cursos específicos para las OPE de esta administración, adaptados a las bases de cada convocatoria.
+
+El catálogo real identifica las bases de referencia de cada temario. Hay cursos de TCAE, Operario, Servicios Generales, Integración Social, Servicios Múltiples y Auxiliar Administrativo. Las especialidades en preparación o revisión muestran su estado.
+
+Entramos en la ficha de TCAE de promoción interna. Sus bases son de febrero de dos mil veintiséis y el índice organiza veintiún temas. Cada modalidad tiene su propio programa: este curso y el de turno libre se consultan por separado.
+
+Para ver cómo se estudia, abrimos la muestra pública real de TCAE. Incluye un fragmento del tema de Constitución, texto por apartados y botones para escuchar los audios. El material completo requiere afiliación y acceso autorizado a la especialidad.
+
+La infografía permite repasar la estructura de la Constitución de forma visual. Según el curso, los materiales también pueden incluir esquemas, supuestos prácticos, juegos de repaso y tutor de inteligencia artificial cuando estén habilitados.
+
+Pasamos al test de la muestra, que contiene seis preguntas con cuatro opciones. Seleccionamos una respuesta en la primera pregunta para mostrar cómo funciona. Esta práctica abierta permite conocer el formato del curso.
+
+Al comprobar el test aparece la explicación de cada respuesta y un enlace al fragmento del temario para repasar. Las demás preguntas quedan sin contestar en esta demostración. Así se puede volver a estudiar el contenido después de practicar.
+
+De vuelta en FAC-USO, la sección de Granada reúne el resumen de los cursos y las capturas del recorrido. También puedes hacer aquí las seis preguntas de la muestra pública. Las respuestas no se guardan ni se envían; el acceso al curso completo sigue en el portal de Granada.
 
 ## USO-OPAEF y Observatorio de Igualdad
 

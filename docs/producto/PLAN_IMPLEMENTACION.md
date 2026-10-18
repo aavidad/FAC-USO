@@ -30,7 +30,7 @@ Los bot se ejecutan cada hora mediante cron. Almería lee el BOP mediante Chrome
 
 ## Despliegue de revisión en cidonia.cloud
 
-WordPress y MariaDB tienen volúmenes y redes propios; Caddy sirve HTTPS con Let’s Encrypt y renovación automática. Los ocho bots y el lector de Almería están instalados en el servidor, con cuentas nuevas y cron horario. Hay copias diarias y una restauración SQL ensayada sin tocar la base activa. El entorno conserva `noindex`. El manual operativo está en `docs/DESPLIEGUE_CIDONIA.md`. La auditoría completa quedó incompleta por cuota de subagentes; la revisión focal independiente y los ensayos no la sustituyen. El vídeo corregido está publicado en «Conócenos → Vídeos»: 56 fases acompasadas con la locución, 15 capítulos y subtítulos. Se ha comprobado la reproducción y el salto de tiempo en escritorio y móvil.
+WordPress y MariaDB tienen volúmenes y redes propios; Caddy sirve HTTPS con Let’s Encrypt y renovación automática. Los ocho bots y el lector de Almería están instalados en el servidor, con cuentas nuevas y cron horario. Hay copias diarias y una restauración SQL ensayada sin tocar la base activa. El entorno conserva `noindex`. El manual operativo está en `docs/DESPLIEGUE_CIDONIA.md`. La auditoría completa quedó incompleta por cuota de subagentes; la revisión focal independiente y los ensayos no la sustituyen. El vídeo corregido está publicado en «Conócenos → Vídeos»: 63 fases acompasadas con la locución, 15 capítulos y subtítulos. Se ha comprobado la reproducción y el salto de tiempo en escritorio y móvil.
 
 ## Contradicciones encontradas
 
@@ -41,3 +41,5 @@ La primera petición de copiar el tema actual fue reemplazada por la decisión p
 Anotar una tarea como cerrada solo con prueba, fecha y artefacto. Cuando cambien los 132 contenidos, el tema o los bot, reconstruir ZIP y XML y actualizar sus ensayos y huellas. Los criterios de producto están en `PRD.md`, el recorrido en `FLUJO_APP.md` y los hallazgos editoriales en `docs/REVISION_CONTENIDO.md`.
 
 ABSORBIDOS: `20261015 MODIFICACION ESTRUCTURA WEB.odt` — parcial; se incorpora el alcance y quedan en el original sus nombres y discrepancias. `docs/PRUEBAS.md`, `docs/PRUEBAS_IMPORTACION.md` y `docs/BOT_NOTICIAS.md` — parcial; se sintetiza el estado, esos documentos conservan comandos y evidencia detallada.
+
+La sección de USO Diputación de Granada presenta sus cursos ajustados a las bases de las OPE de esta administración, con capturas reales y una práctica pública de seis preguntas de TCAE. El acceso completo permanece autorizado en el portal original. El recorrido y la procedencia se documentan en `docs/CURSOS_GRANADA.md`.

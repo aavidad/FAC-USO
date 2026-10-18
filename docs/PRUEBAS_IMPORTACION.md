@@ -1,6 +1,6 @@
 # Ensayo de los archivos de importación
 
-Los dos archivos de `dist/` se prueban en un WordPress oficial 7.1.3 con PHP 8.3 dentro de Docker. La validación usa el MariaDB local existente, pero crea solo tablas con prefijos `facuso_ziptest_` y `facuso_wxrtest_`. El WordPress principal conserva sus tablas `wp_` y su volumen. El proxy de validación escucha únicamente en `127.0.0.1:18087`; el contenedor de WordPress solo pertenece a la red interna `facuso-importacion_local`. La configuración PHP compartida permite subir archivos de hasta 16 MB; `facuso-arranque.zip` ocupa unos 5,3 MB.
+Los dos archivos de `dist/` se prueban en un WordPress oficial 7.1.3 con PHP 8.3 dentro de Docker. La validación usa el MariaDB local existente, pero crea solo tablas con prefijos `facuso_ziptest_` y `facuso_wxrtest_`. El WordPress principal conserva sus tablas `wp_` y su volumen. El proxy de validación escucha únicamente en `127.0.0.1:18087`; el contenedor de WordPress solo pertenece a la red interna `facuso-importacion_local`. La configuración PHP compartida permite subir archivos de hasta 16 MB; `facuso-arranque.zip` ocupa unos 5,9 MB.
 
 ```bash
 docker compose -f docker/compose.validation.yaml up -d
@@ -33,10 +33,12 @@ La ejecución del importador se hace con `WP_HTTP_BLOCK_EXTERNAL` y sin descarga
 | ZIP repetido | 0 contenidos nuevos, 0 conflictos y ningún medio duplicado. |
 | XML con WordPress Importer oficial 0.9.1 | 557 comprobaciones, 0 errores; 74 páginas, 132 noticias, 39 categorías y 2 menús. |
 | Enlaces con `/portal` | 552 comprobaciones, 0 errores. |
-| Portada, «Conócenos», ocho páginas de empleo público y tres de OPAEF | Las 13 rutas respondieron HTTP 200 desde `127.0.0.1:18087`. |
+| Portada, «Conócenos», ocho páginas de empleo público y tres de OPAEF | Las 15 rutas respondieron HTTP 200 desde `127.0.0.1:18087`. |
 
-Los resultados íntegros, los prefijos usados, las trece rutas HTTP y los hashes están en [importaciones-final.json](evidencias/importaciones-final.json). Las salidas individuales se conservan en `docs/evidencias/importacion-{zip,subdir,xml}.json`.
+Los resultados íntegros, los prefijos usados, las quince rutas HTTP y los hashes están en [importaciones-final.json](evidencias/importaciones-final.json). Las salidas individuales se conservan en `docs/evidencias/importacion-{zip,subdir,xml}.json`.
 
-SHA-256 de los archivos ensayados: `facuso-arranque.zip` = `0b54b1ce800aa2aec0033247661463a5ead2b1cf9788d92c6567e8b522c31dfb`; `facuso-andalucia.xml` = `5f664c132d122baccf1964668c59456c9908b19d48801ff89cef0c4d0d55a951`; `facuso-andalucia-tema.zip` = `bbe3d698b66416e03ff885bf135013ad04f7b8cf98cbe75af8895607d40444f7`.
+SHA-256 de los archivos ensayados: `facuso-arranque.zip` = `8becdf31add6db660e65a0a088921dc1c90d7a5b1c80c34827c0a319c5af3143`; `facuso-andalucia.xml` = `9faf9d1b8e0bcd6a1b77c2520ee36d72bafec3f69e125b8548687a92fea98b97`; `facuso-andalucia-tema.zip` = `c69e038676dfe49ad4fbdde5bd0244794bd9730ada0a56cf555e264827a5a863`.
 
 La última repetición incluye el reproductor de vídeo propio y los subtítulos VTT en «Conócenos → Vídeos». ZIP, XML y subdirectorio conservan cero errores. El MP4 se aloja en la URL HTTPS pública y está en `video/` del repositorio; no se descarga en el servidor durante la importación ni se incluye dentro del ZIP pequeño del complemento.
+
+La ampliación de Granada incluye capturas reales de cursos, audio público local, vídeo corto y seis preguntas. El ZIP ofrece práctica interactiva; el XML conserva las seis preguntas, opciones y explicaciones en desplegables nativos, sin shortcodes pendientes ni necesidad de JavaScript del complemento.

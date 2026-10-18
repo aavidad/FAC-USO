@@ -44,3 +44,5 @@ En una versión anterior, los 61 registros `sources` de `data/territorios.json` 
 Actualizar cuando cambien campos, categorías, API, permisos, importación o fuentes del bot. Comparar `data/*.json`, `scripts/build.py`, `facuso-arranque.php`, `bot/` y las pruebas. Los recorridos están en `FLUJO_APP.md` y los pendientes en `PLAN_IMPLEMENTACION.md`.
 
 ABSORBIDOS: `data/*.json` — parcial; se resume el modelo, los registros quedan en los JSON. `scripts/build.py`, `package/facuso-arranque/facuso-arranque.php` y `bot/` — parcial; se documenta persistencia y autorización, el código sigue siendo la implementación.
+
+La sección de USO Diputación de Granada presenta sus cursos ajustados a las bases de las OPE de esta administración, con capturas reales y una práctica pública de seis preguntas de TCAE. El acceso completo permanece autorizado en el portal original. El recorrido y la procedencia se documentan en `docs/CURSOS_GRANADA.md`.

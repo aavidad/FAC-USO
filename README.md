@@ -8,7 +8,7 @@ La web está disponible para revisión en **[https://facuso.cidonia.cloud/](http
 
 Repositorio: [aavidad/FAC-USO](https://github.com/aavidad/FAC-USO). Contiene el código, los datos editoriales, las imágenes finales del tema, los instaladores y los manuales. La configuración privada y el documento original de especificaciones se conservan fuera de Git. Las condiciones de los materiales están en [NOTICE.md](NOTICE.md) y las pautas de seguridad en [SECURITY.md](SECURITY.md).
 
-[Ver el vídeo corregido en la web — 11:35](https://facuso.cidonia.cloud/conocenos/videos/) · [Capturas](imagenes/README.md) · [Descargar la entrega](https://github.com/aavidad/FAC-USO/releases/latest).
+[Ver el vídeo corregido en la web — 13:46](https://facuso.cidonia.cloud/conocenos/videos/) · [Capturas](imagenes/README.md) · [Descargar la entrega](https://github.com/aavidad/FAC-USO/releases/latest).
 
 ## Instalar en un WordPress vacío
 
@@ -53,3 +53,5 @@ Las credenciales no están en los paquetes. El aprovisionador de WP-CLI crea cue
 Para reconstruir los archivos desde los datos editoriales: `python scripts/build.py` (requiere Python y `lxml`; importar en WordPress no requiere Python). `python scripts/package_release.py` crea la entrega completa. El código de preparación y verificación vive en `scripts/`. Los guiones `bootstrap*.php` y `sync_preview.php` están restringidos al entorno local de muestra; no son guiones de despliegue en producción.
 
 Para parar WordPress: `docker compose -f docker/compose.yaml stop`. Para detener las consultas automáticas, retira su cron con `bash bot/install-cron.sh --remove`; sus contenedores son de ejecución única. Los comandos están en el manual. No uses `down -v` si quieres conservar las noticias y los ajustes locales.
+
+[Formación de Granada: resumen, capturas, vídeo corto y test de TCAE](https://facuso.cidonia.cloud/territorios/granada/diputacion-de-granada/). Los cursos se ajustan a las bases de las OPE de la Diputación; el recorrido muestra recursos reales del portal. [Manual y procedencia](docs/CURSOS_GRANADA.md).

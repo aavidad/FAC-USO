@@ -16,10 +16,10 @@ $item = null;
 foreach (facuso_data()['pages'] as $candidate) {
     if ($candidate['slug'] === 'videos') $item = $candidate;
 }
-if (!$item || !str_contains($item['html'], '/facuso-presentacion/facuso-recorrido-v2.mp4')) {
+if (!$item || !str_contains($item['html'], '/facuso-presentacion/facuso-recorrido-v3.mp4')) {
     throw new RuntimeException('El manifiesto no contiene el recorrido corregido.');
 }
-$video = '/var/www/html/wp-content/uploads/facuso-presentacion/facuso-recorrido-v2.mp4';
+$video = '/var/www/html/wp-content/uploads/facuso-presentacion/facuso-recorrido-v3.mp4';
 if (!is_file($video) || filesize($video) < 1000000 || is_link($video)) {
     throw new RuntimeException('Falta el MP4 publicado.');
 }

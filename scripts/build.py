@@ -271,6 +271,13 @@ def wxr(data):
             return '<figure><img src="/wp-content/themes/facuso-andalucia/assets/'+html.escape(photo['file'])+'" alt="'+html.escape(photo['alt'])+'"><figcaption>'+html.escape(photo['credit'])+'</figcaption></figure>'
         body=re.sub(r'\[facuso_imagen file="([a-z0-9.\/-]+)"\]',static_photo,body)
         body=body.replace('[facuso_galeria]','')
+        if '[facuso_muestra_tcae]' in body:
+            demo = read('muestra-tcae.json')
+            static_demo = '<h2>'+html.escape(demo['title'])+'</h2><p>'+html.escape(demo['intro'])+'</p>'
+            for question in demo['questions']:
+                static_demo += '<h3>'+html.escape(question['question'])+'</h3><ul>'+''.join('<li>'+html.escape(option)+'</li>' for option in question['options'])+'</ul><details><summary>'+html.escape(demo['labels']['answer'])+'</summary><p>'+html.escape(question['options'][question['correct']])+'</p><p>'+html.escape(question['explanation'])+'</p></details>'
+            static_demo += '<p><a href="https://uso.dipgra.cloud/tests">'+html.escape(demo['labels']['source'])+'</a></p>'
+            body=body.replace('[facuso_muestra_tcae]', static_demo)
         # El XML conserva enlaces y contenido aunque no se instale el complemento.
         body=body.replace('[facuso_secciones]','')
         body=re.sub(r'\[facuso_publicaciones[^\]]*\]',static_publications,body)
@@ -332,6 +339,7 @@ def main():
     (PACKAGE/'allowed-source-hosts.json').write_text(json.dumps(sorted(source_hosts),ensure_ascii=False,indent=2))
     for folder in [PACKAGE/'languages',PACKAGE/'theme/languages']:
         folder.mkdir(exist_ok=True);(folder/'es.json').write_text((ROOT/'data/interfaz-es.json').read_text())
+    (PACKAGE/'muestra-tcae.json').write_text((ROOT/'data/muestra-tcae.json').read_text())
     (DIST/'contenido-fuentes.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
     wxr(data)
     for output,folder,prefix in [('facuso-arranque.zip',PACKAGE,'facuso-arranque'),('facuso-andalucia-tema.zip',PACKAGE/'theme','facuso-andalucia')]:

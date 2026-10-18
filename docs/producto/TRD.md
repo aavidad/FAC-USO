@@ -45,3 +45,5 @@ El usuario eligió WordPress, Docker para pruebas, un tema nuevo con colores FAC
 Actualizar cuando cambien artefactos, fuentes, permisos, versiones, configuración o despliegue. Contrastar con `scripts/build.py`, `bot/`, el complemento, el tema y los informes de pruebas. El alcance está en `PRD.md`, los datos en `ESQUEMA_BACKEND.md` y las tareas editoriales en `PLAN_IMPLEMENTACION.md`.
 
 ABSORBIDOS: `scripts/build.py`, `docker/compose*.yaml`, `bot/` y `package/facuso-arranque/` — parcial; se resume su funcionamiento, pero el código y la configuración siguen siendo la implementación. `20261015 MODIFICACION ESTRUCTURA WEB.odt` — parcial; las decisiones de estructura se reparten entre los seis documentos de producto.
+
+La sección de USO Diputación de Granada presenta sus cursos ajustados a las bases de las OPE de esta administración, con capturas reales y una práctica pública de seis preguntas de TCAE. El acceso completo permanece autorizado en el portal original. El recorrido y la procedencia se documentan en `docs/CURSOS_GRANADA.md`.

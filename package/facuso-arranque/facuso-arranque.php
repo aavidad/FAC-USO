@@ -623,3 +623,5 @@ add_filter('rest_pre_insert_post', function ($prepared, $request) {
     }
     return $prepared;
 }, 10, 2);
+
+require_once __DIR__ . '/muestra-tcae.php';

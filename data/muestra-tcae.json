@@ -1,0 +1,97 @@
+{
+  "source": "https://uso.dipgra.cloud/tests",
+  "checked": "2026-10-18",
+  "title": "Prueba una muestra real de TCAE",
+  "intro": "Fragmento público del tema de Constitución de USO Diputación de Granada. Las seis preguntas y sus explicaciones proceden de la muestra original; esta práctica no guarda ni envía tus respuestas.",
+  "questions": [
+    {
+      "question": "1. ¿Qué opción expresa correctamente la idea de «norma suprema»?",
+      "options": [
+        "La forma política del Estado español es la Monarquía parlamentaria.",
+        "Ninguna ley, reglamento o actuación pública puede contradecir la Constitución.",
+        "El artículo 55 regula la suspensión de determinados derechos y libertades.",
+        "El Consejo General del Poder Judicial es el órgano de gobierno del Poder Judicial."
+      ],
+      "correct": 1,
+      "explanation": "Correcta. Para «norma suprema», la idea que debes fijar es esta: Ninguna ley, reglamento o actuación pública puede contradecir la Constitución.",
+      "source": "#1-la-constitucion-como-norma-suprema",
+      "fragment": "La Constitución es la norma suprema: ninguna ley, reglamento o actuación pública puede contradecirla."
+    },
+    {
+      "question": "2. Cuando se habla de «supremacía constitucional», ¿qué respuesta debe marcarse?",
+      "options": [
+        "El artículo 2 combina unidad de la Nación española, autonomía territorial y solidaridad.",
+        "El Rey es Jefe del Estado y símbolo de su unidad y permanencia.",
+        "Todas las normas inferiores deben respetar la Constitución.",
+        "El Tribunal Constitucional controla la constitucionalidad de las leyes y conoce del amparo."
+      ],
+      "correct": 2,
+      "explanation": "Correcta. La opción C identifica bien «supremacía constitucional»: Todas las normas inferiores deben respetar la Constitución.",
+      "source": "#1-la-constitucion-como-norma-suprema",
+      "fragment": "La Constitución es la norma suprema: ninguna ley, reglamento o actuación pública puede contradecirla."
+    },
+    {
+      "question": "3. ¿Cuál de estas formulaciones corresponde a «estructura constitucional»?",
+      "options": [
+        "El artículo 9.3 incluye legalidad, jerarquía normativa, seguridad jurídica e interdicción de la arbitrariedad.",
+        "Los actos del Rey necesitan refrendo en los términos constitucionales.",
+        "El Tribunal Constitucional no revisa cualquier asunto judicial, sino cuestiones constitucionales tasadas.",
+        "La Constitución contiene preámbulo, título preliminar, diez títulos y disposiciones complementarias."
+      ],
+      "correct": 3,
+      "explanation": "Correcta. Si te preguntan por «estructura constitucional», quédate con esto: La Constitución contiene preámbulo, título preliminar, diez títulos y disposiciones complementarias.",
+      "source": "#2-estructura-de-la-constitucion",
+      "fragment": "La Constitución se organiza en preámbulo, título preliminar, títulos numerados, disposiciones y artículos."
+    },
+    {
+      "question": "4. En el tema, «título preliminar» se reconoce por una idea básica. ¿Cuál es?",
+      "options": [
+        "La dignidad de la persona fundamenta el orden político y la paz social.",
+        "Las Cortes Generales representan al pueblo español y se forman por Congreso y Senado.",
+        "El título preliminar recoge los principios básicos del Estado.",
+        "El Tribunal de Cuentas fiscaliza las cuentas y la gestión económica del sector público."
+      ],
+      "correct": 2,
+      "explanation": "Correcta. El dato propio de «título preliminar» es: El título preliminar recoge los principios básicos del Estado.",
+      "source": "#2-estructura-de-la-constitucion",
+      "fragment": "La Constitución se organiza en preámbulo, título preliminar, títulos numerados, disposiciones y artículos."
+    },
+    {
+      "question": "5. ¿Qué dato conviene asociar directamente con «estado social y democrático de Derecho»?",
+      "options": [
+        "El artículo 14 reconoce la igualdad ante la ley y prohíbe discriminaciones.",
+        "Las Cortes ejercen potestad legislativa, aprueban presupuestos y controlan al Gobierno.",
+        "El Defensor del Pueblo es alto comisionado de las Cortes para defender derechos del Título I.",
+        "El artículo 1.1 define España como Estado social y democrático de Derecho."
+      ],
+      "correct": 3,
+      "explanation": "Correcta. Esa opción distingue «estado social y democrático de Derecho» de otros contenidos: El artículo 1.1 define España como Estado social y democrático de Derecho.",
+      "source": "#3-principios-basicos-del-titulo-preliminar",
+      "fragment": "El título preliminar recoge principios esenciales como Estado social y democrático de Derecho, soberanía nacional, Monarquía parlamentaria, unidad, autonomía, solidaridad y artículo 9.3."
+    },
+    {
+      "question": "6. ¿Qué enunciado identifica sin confusión «valores superiores»?",
+      "options": [
+        "La sección primera del capítulo segundo contiene derechos fundamentales y libertades públicas.",
+        "El Senado es la cámara de representación territorial.",
+        "Los valores superiores son libertad, justicia, igualdad y pluralismo político.",
+        "El Defensor del Pueblo supervisa la actividad administrativa y da cuenta a las Cortes."
+      ],
+      "correct": 2,
+      "explanation": "Correcta. Para «valores superiores», la idea que debes fijar es esta: Los valores superiores son libertad, justicia, igualdad y pluralismo político.",
+      "source": "#3-principios-basicos-del-titulo-preliminar",
+      "fragment": "El título preliminar recoge principios esenciales como Estado social y democrático de Derecho, soberanía nacional, Monarquía parlamentaria, unidad, autonomía, solidaridad y artículo 9.3."
+    }
+  ],
+  "labels": {
+    "check": "Comprobar test",
+    "reset": "Repetir test",
+    "result": "Resultado",
+    "correct": "Correcto",
+    "incorrect": "Incorrecto",
+    "unanswered": "Sin responder",
+    "source": "Ver en el temario original",
+    "noscript": "Activa JavaScript o abre la muestra original para corregir el test.",
+    "answer": "Ver respuesta y explicación"
+  }
+}

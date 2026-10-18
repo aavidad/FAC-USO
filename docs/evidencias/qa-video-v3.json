@@ -1,0 +1,38 @@
+{
+  "players": [
+    {
+      "path": "/conocenos/videos/",
+      "duration": 826.3,
+      "playing": true,
+      "cues": 63,
+      "error": 0,
+      "src": "https://facuso.cidonia.cloud/wp-content/uploads/facuso-presentacion/facuso-recorrido-v3.mp4",
+      "seek": true,
+      "mobile": {
+        "viewport": 390,
+        "width": 390,
+        "video": 354
+      }
+    },
+    {
+      "path": "/territorios/granada/diputacion-de-granada/",
+      "duration": 105.24,
+      "playing": true,
+      "cues": 6,
+      "error": 0,
+      "src": "https://facuso.cidonia.cloud/wp-content/uploads/facuso-presentacion/facuso-cursos-granada-v1.mp4",
+      "seek": true,
+      "mobile": {
+        "viewport": 390,
+        "width": 390,
+        "video": 354
+      }
+    }
+  ],
+  "phases": 63,
+  "chapters": 15,
+  "minimum_stable_seconds": 8.347877983000012,
+  "all_voice_inside_scene": true,
+  "decoded_without_errors": true,
+  "sha256": "a8ec4789d424b6840490f4bdc0f82ed937bf4e7803ed1f945eaf7257aaed8789"
+}

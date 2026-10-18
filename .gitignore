@@ -25,3 +25,7 @@ research/base-media.json
 # Medios finales solicitados para el repositorio público.
 !/video/facuso-recorrido-guiado.mp4
 !/video/facuso-locucion.mp3
+
+# Fragmento de audio ya público, autorizado para la muestra de TCAE.
+!/package/facuso-arranque/theme/assets/cursos-granada/tcae-muestra.mp3
+!/video/facuso-cursos-granada.mp4

@@ -1,0 +1,36 @@
+{
+  "origin": "https://facuso.cidonia.cloud",
+  "questions": 6,
+  "correct": "6/6",
+  "empty": "0/6",
+  "wrong_answer": true,
+  "reset": true,
+  "feedback": 6,
+  "images": [
+    {
+      "url": "https://facuso.cidonia.cloud/wp-content/plugins/facuso-arranque/theme/assets/cursos-granada/catalogo.webp",
+      "width": 1440
+    },
+    {
+      "url": "https://facuso.cidonia.cloud/wp-content/plugins/facuso-arranque/theme/assets/cursos-granada/tcae-indice.webp",
+      "width": 1440
+    },
+    {
+      "url": "https://facuso.cidonia.cloud/wp-content/plugins/facuso-arranque/theme/assets/cursos-granada/tcae-tema.webp",
+      "width": 1440
+    },
+    {
+      "url": "https://facuso.cidonia.cloud/wp-content/plugins/facuso-arranque/theme/assets/cursos-granada/tcae-infografia.webp",
+      "width": 1440
+    }
+  ],
+  "audio_seconds": 3.192,
+  "mobile": {
+    "viewport": 390,
+    "width": 390
+  },
+  "external_new_tab": true,
+  "errors": [],
+  "private_data": false,
+  "source": "https://uso.dipgra.cloud/tests"
+}

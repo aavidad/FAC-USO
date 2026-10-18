@@ -31,3 +31,5 @@ El ODT repite la lista de sectores con cambios; se aplicó la segunda, que añad
 Actualizarlo cuando cambien una ruta, un filtro, una etapa de importación o un paso editorial. Contrastar con `data/*.json`, `scripts/build.py`, el tema y el complemento. El alcance está en `PRD.md`, la construcción en `TRD.md` y los pendientes en `PLAN_IMPLEMENTACION.md`.
 
 ABSORBIDOS: `20261015 MODIFICACION ESTRUCTURA WEB.odt` — parcial; se recoge la jerarquía, mientras que el original conserva las personas y diferencias de sus listas. `data/territorios.json` y `scripts/build.py` — parcial; la estructura y el recorrido se resumen aquí, el contenido permanece en sus ficheros.
+
+La sección de USO Diputación de Granada presenta sus cursos ajustados a las bases de las OPE de esta administración, con capturas reales y una práctica pública de seis preguntas de TCAE. El acceso completo permanece autorizado en el portal original. El recorrido y la procedencia se documentan en `docs/CURSOS_GRANADA.md`.

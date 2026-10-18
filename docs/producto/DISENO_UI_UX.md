@@ -35,3 +35,5 @@ El ODT pidió un distintivo sectorial en cada sección, pero solo Justicia tiene
 Actualizar al cambiar colores, cabecera, navegación, tarjetas, galería o accesibilidad. Contrastar con `theme/style.css`, sus plantillas y `facuso-arranque.php`. El recorrido de cada persona está en `FLUJO_APP.md` y las aprobaciones pendientes en `PLAN_IMPLEMENTACION.md`.
 
 ABSORBIDOS: `20261015 MODIFICACION ESTRUCTURA WEB.odt` — parcial; cabecera y navegación se reflejan aquí, mientras que el original conserva detalles de cargos. `package/facuso-arranque/theme/` — parcial; se documenta el patrón visible, su código permanece en el tema.
+
+La sección de USO Diputación de Granada presenta sus cursos ajustados a las bases de las OPE de esta administración, con capturas reales y una práctica pública de seis preguntas de TCAE. El acceso completo permanece autorizado en el portal original. El recorrido y la procedencia se documentan en `docs/CURSOS_GRANADA.md`.

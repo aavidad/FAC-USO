@@ -4,12 +4,12 @@
 02:44 Información sindical y empleo público
 03:39 Sectores y especialidades
 04:37 Provincias y secciones sindicales
-05:14 USO-OPAEF y Observatorio de Igualdad
-06:07 Empleo provincial: BOP y BOE
-06:55 Noticias con imagen, crédito y fuente
-07:31 Filtros combinados de noticias
-08:10 Fotografías, enlaces y afiliación
-08:59 La web en el móvil
-09:30 Noticias automáticas: fuentes y conectores
-10:14 Automatización cada hora y seguridad
-11:00 Cobertura y cierre
+07:25 USO-OPAEF y Observatorio de Igualdad
+08:18 Empleo provincial: BOP y BOE
+09:06 Noticias con imagen, crédito y fuente
+09:42 Filtros combinados de noticias
+10:21 Fotografías, enlaces y afiliación
+11:10 La web en el móvil
+11:41 Noticias automáticas: fuentes y conectores
+12:25 Automatización cada hora y seguridad
+13:11 Cobertura y cierre

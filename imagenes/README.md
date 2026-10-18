@@ -10,3 +10,5 @@ El vídeo y la locución están en [video/](../video/README.md). Las imágenes m
 ## Versión corregida
 
 [Bienvenida con portada completa](bienvenida-v2.jpg) · [Menú visible durante la explicación](menu-v2.jpg) · [Hoja de control v2](hoja-control-v2.jpg) · [Quince fotogramas finales](recorrido-v2/).
+
+[Capturas reales de cursos de Granada](cursos-granada/): catálogo, índice TCAE, tema con audio, infografía y test, además de la integración en FAC-USO en escritorio y móvil. [Hoja de control del vídeo ampliado](hoja-control-v3.jpg).

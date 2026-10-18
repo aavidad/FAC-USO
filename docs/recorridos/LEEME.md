@@ -2,7 +2,7 @@
 
 La versión vigente está publicada en [la web](https://facuso.cidonia.cloud/conocenos/videos/) y en [video/](../../video/README.md). Su guion es [guion-v2.md](guion-v2.md) y el plan de acciones y locuciones está en [plan-v2.json](plan-v2.json).
 
-El método conserva la voz española usada en ETF y alinea cada frase con una pantalla. Hay 56 fases y 15 capítulos. Primero se prepara la locución y se mide su duración. Chrome graba las acciones reales contra la web pública, sin sesión de WordPress. Cada capítulo incluye un ancla visual para relacionar el reloj del navegador con los PTS del WebM. El montaje conserva el movimiento sin acelerarlo y prolonga la pantalla final durante la explicación, con un mínimo de lectura. El inicio permanece en la portada; no se usa un avance de páginas que todavía no se explica.
+El método conserva la voz española usada en ETF y alinea cada frase con una pantalla. Hay 63 fases y 15 capítulos. Primero se prepara la locución y se mide su duración. Chrome graba las acciones reales contra la web pública, sin sesión de WordPress. Cada capítulo incluye un ancla visual para relacionar el reloj del navegador con los PTS del WebM. El montaje conserva el movimiento sin acelerarlo y prolonga la pantalla final durante la explicación, con un mínimo de lectura. El inicio permanece en la portada; no se usa un avance de páginas que todavía no se explica.
 
 ## Repetir en el entorno de trabajo
 
@@ -20,3 +20,5 @@ La captura bloquea service workers, WebSocket, redirecciones, métodos distintos
 `publish-video.php` actualiza exclusivamente la página propia de Vídeos mediante CLI en el servidor, conservando una revisión. Los archivos MP4, JPG y VTT se copian al directorio público de medios y `data/video-presentacion.json` registra sus URLs y la huella del vídeo. Las credenciales no forman parte de esa publicación.
 
 La [QA vigente](QA.md) detalla duración, codec, mínimo de lectura, subtítulos, reproducción remota y límites. Los archivos `voz.py`, `grabar.mjs`, `montar.py`, `guion.md` y `QA-v1.md` conservan la primera versión como referencia; no son el flujo usado para la corrección.
+
+La ampliación incorpora el catálogo público, el índice TCAE C1 y la muestra real del tema de Constitución de USO Diputación de Granada. Solo se permiten GET a las rutas públicas seleccionadas y sus estilos; nunca se abre el área privada ni se envían consultas al tutor. El capítulo también se ofrece como vídeo corto en la sección de Granada.
