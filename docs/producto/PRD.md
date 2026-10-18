@@ -42,7 +42,7 @@ El fichero [institucional.json](../../data/institucional.json) contiene las pág
 
 ## Decisiones y límites conocidos
 
-- El usuario eligió WordPress, pidió la prueba en Docker y decidió un tema nuevo, moderno y funcional en verde, rojo y blanco de FAC-USO. El ZIP importador incluye el complemento y el tema. No ha elegido alojamiento definitivo ni responsables humanos de edición.
+- El usuario eligió WordPress, pidió la prueba en Docker y decidió un tema nuevo, moderno y funcional en verde, rojo y blanco de FAC-USO. El ZIP importador incluye el complemento y el tema. Posteriormente autorizó un entorno de revisión en cidonia.cloud con dominio facuso.cidonia.cloud, HTTPS y bots horarios en el servidor. Los responsables humanos de edición siguen pendientes.
 - El ODT pide un escudo provincial o logo sectorial junto al logo regional según la sección. Aún faltan los ficheros oficiales de algunos distintivos y reglas de uso; ningún emblema se atribuye a una entidad sin comprobar su procedencia.
 - La duplicación de sectores en el ODT introduce «Diputaciones» y «Ayuntamientos» en la segunda lista. Esta lista más detallada sirve de base, pendiente de ratificación editorial.
 - La web en construcción ya tiene contenido real y taxonomías parciales. Una importación pensada para WordPress vacío podría duplicarlo si se ejecuta allí sin conciliación de slugs y entradas.

@@ -387,9 +387,15 @@ def fetch_items(province_slug: str, config: dict, *, today=None, opener=None) ->
                 url = "https://" + host + "/bop/" + stamp
             else:
                 url = "https://" + host + "/publica/consulta-de-bops/buscador/BOP-" + stamp + "/"
-            raw = fetch(url, {host}, opener=opener)
-            if raw:
-                found.extend(parse_bop_html(raw, province_slug=province_slug, published=day))
+            try:
+                raw = fetch(url, {host}, opener=opener)
+                if raw:
+                    found.extend(parse_bop_html(raw, province_slug=province_slug, published=day))
+            except (BotError, OSError) as exc:
+                # Un sumario diario no disponible no invalida los otros días,
+                # el BOE ni las fuentes sindicales recogidas en la misma pasada.
+                print("Aviso BOP " + province_slug + " " + day.isoformat() + ": " + str(exc),
+                      file=sys.stderr, flush=True)
     if province_slug == "cadiz" and config.get("bop_enabled", False):
         host = "www.bopcadiz.es"
         index = fetch(CADIZ_INDEX_URL, {host}, opener=opener)
@@ -543,23 +549,30 @@ class WordPress:
 
     def existing_records(self, province_id: int) -> set[tuple[str, str]]:
         result = set()
-        for page in range(1, 11):
-            rows = self.request("/posts", params={"context": "edit", "status": "any", "per_page": 100, "page": page})
-            if not rows:
-                break
-            for row in rows:
-                source_url = (row.get("meta") or {}).get("facuso_source_url")
-                if source_url and province_id in row.get("categories", []):
-                    title_field = row.get("title") or {}
-                    title = title_field.get("raw") or title_field.get("rendered") or ""
-                    result.add((source_url, text_only(title)))
-            if len(rows) < 100:
-                break
+        # Published imports may belong to an editor. The edit context alone
+        # hides those records from a provincial account without edit_others_posts.
+        for context, status in (("view", "publish"), ("edit", "any")):
+            for page in range(1, 11):
+                rows = self.request("/posts", params={"context": context, "status": status,
+                                    "categories": province_id, "per_page": 100, "page": page})
+                if not rows:
+                    break
+                for row in rows:
+                    source_url = (row.get("meta") or {}).get("facuso_source_url")
+                    if source_url and province_id in row.get("categories", []):
+                        title_field = row.get("title") or {}
+                        title = title_field.get("raw") or title_field.get("rendered") or ""
+                        result.add((source_url, text_only(title)))
+                if len(rows) < 100:
+                    break
         return result
 
     def slug_exists(self, slug: str) -> bool:
-        rows = self.request("/posts", params={"context": "edit", "status": "any", "slug": slug, "per_page": 100})
-        return bool(rows)
+        for context, status in (("view", "publish"), ("edit", "any")):
+            if self.request("/posts", params={"context": context, "status": status,
+                            "slug": slug, "per_page": 100}):
+                return True
+        return False
 
     def own_posts(self) -> list[dict]:
         me = self.request("/users/me", params={"context": "edit"})

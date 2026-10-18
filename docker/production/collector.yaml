@@ -1,0 +1,8 @@
+networks:
+  facuso_acceso:
+    name: facuso-cidonia_acceso
+services:
+  almeria_browser:
+    logging:
+      driver: json-file
+      options: {max-size: "5m", max-file: "2"}

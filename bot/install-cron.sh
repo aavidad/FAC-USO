@@ -3,12 +3,13 @@
 set -euo pipefail
 umask 077
 
-usage() { printf 'Uso: %s [--local | --remove]\n' "$0" >&2; exit 2; }
+usage() { printf 'Uso: %s [--local | --production | --remove]\n' "$0" >&2; exit 2; }
 [[ $# -le 1 ]] || usage
 mode=install
 if [[ $# -eq 1 ]]; then
   case $1 in
     --local) mode=local ;;
+    --production) mode=production ;;
     --remove) mode=remove ;;
     *) usage ;;
   esac
@@ -44,6 +45,7 @@ if [[ $mode != remove ]]; then
   printf -v runner_escaped '%q' "$runner"
   printf '0 * * * * /bin/bash %s' "$runner_escaped" >>"$updated"
   [[ $mode != local ]] || printf ' --local' >>"$updated"
+  [[ $mode != production ]] || printf ' --production' >>"$updated"
   printf ' # FACUSO_HOURLY\n' >>"$updated"
 fi
 if ! cmp -s -- "$current" "$updated"; then

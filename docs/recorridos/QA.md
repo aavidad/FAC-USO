@@ -1,5 +1,7 @@
 # Comprobación del vídeo de recorrido
 
+Estado editorial: el responsable ha pedido ralentizar la navegación, mantener visibles menús y apartados mientras se explican y corregir el inicio. Esta revisión técnica no supone aceptación de ese ritmo visual. La corrección está pendiente y no se ha regenerado el vídeo.
+
 Fecha: 18 de octubre de 2026. El vídeo se grabó en la vista previa pública local de FAC-USO Andalucía, sin entrar en WordPress. Los artefactos de trabajo están en `/home/alberto/Vídeos/FAC-USO/recorrido-9b1bb6d68b/`, fuera del repositorio.
 
 | Artefacto | Comprobación |

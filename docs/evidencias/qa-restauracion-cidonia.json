@@ -1,0 +1,17 @@
+{
+  "base_restored": "facuso in isolated ephemeral MariaDB, --network none, no ports",
+  "counts": {
+    "pages": 74,
+    "posts": 132,
+    "attachments": 34,
+    "users": 9
+  },
+  "active_database_changed": false,
+  "backup_integrity": [
+    "database.sql.gz gzip -t",
+    "wordpress.tar.gz tar -tzf",
+    "private-config.tar.gz tar -tzf"
+  ],
+  "off_server_copy": "private .runtime/cidonia-backup/ excluded from Git",
+  "limitation": "Not a full bare-server or certificate-storage recovery test."
+}

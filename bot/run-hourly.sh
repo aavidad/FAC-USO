@@ -3,12 +3,16 @@
 set -u -o pipefail
 umask 077
 
-usage() { printf 'Uso: %s [--local]\n' "$0" >&2; exit 2; }
+usage() { printf 'Uso: %s [--local | --production]\n' "$0" >&2; exit 2; }
 [[ $# -le 1 ]] || usage
 local_mode=false
+production_mode=false
 if [[ $# -eq 1 ]]; then
-  [[ $1 == --local ]] || usage
-  local_mode=true
+  case $1 in
+    --local) local_mode=true ;;
+    --production) production_mode=true ;;
+    *) usage ;;
+  esac
 fi
 
 root=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd -P) || exit 1
@@ -39,6 +43,10 @@ if $local_mode; then
   bot_compose+=(-f "$root/bot/compose.local.yaml")
 fi
 browser_compose=(docker compose --env-file "$env_file" -f "$root/bot/compose.almeria-browser.yaml")
+if $production_mode; then
+  bot_compose+=(-p facuso-bots)
+  browser_compose+=(-f "$root/docker/production/collector.yaml")
+fi
 
 rotate_log() {
   local log=$1

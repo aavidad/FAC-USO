@@ -45,6 +45,45 @@ class FakeWP:
 
 
 class BotTests(unittest.TestCase):
+    def test_unavailable_bop_day_does_not_discard_other_days_or_boe(self):
+        boe = {"title": "Plaza Jaén", "url": "https://www.boe.es/diario_boe/txt.php?id=1",
+               "date": "2026-10-18", "source": "boe", "excerpt": ""}
+        bop = {"title": "Bolsa municipal", "url": "https://bop.dipujaen.es/anuncio/1",
+               "date": "2026-10-16", "source": "bop", "excerpt": ""}
+        def fetch(url, *args, **kwargs):
+            if "dipujaen" in url and not url.endswith("16-10-2026"):
+                raise bot.BotError("HTTP 500")
+            return b"fixture"
+        with patch.object(bot, "fetch", side_effect=fetch), \
+             patch.object(bot, "parse_boe", return_value=[boe]), \
+             patch.object(bot, "parse_bop_html", return_value=[bop]) as parse, \
+             patch.object(bot.sys, "stderr"):
+            rows = bot.fetch_items("jaen", {"boe_lookback_days": 1, "bop_enabled": True,
+                                   "bop_lookback_days": 3}, today=date(2026, 10, 18))
+        self.assertEqual({r["url"] for r in rows}, {boe["url"], bop["url"]})
+        self.assertEqual(parse.call_count, 1)
+
+    def test_editor_imports_and_own_drafts_both_prevent_duplicate_posts(self):
+        wp = object.__new__(bot.WordPress)
+        imported = {"categories": [3], "title": {"rendered": "Bolsa municipal"},
+                    "meta": {"facuso_source_url": "https://bop.dipgra.es/anuncio/1"}}
+        draft = {"categories": [3], "title": {"raw": "Otra bolsa"},
+                 "meta": {"facuso_source_url": "https://bop.dipgra.es/anuncio/2"}}
+        calls = []
+        def request(endpoint, *, params):
+            calls.append(params)
+            return [imported] if params["context"] == "view" else [draft]
+        wp.request = request
+        self.assertEqual(wp.existing_records(3), {
+            ("https://bop.dipgra.es/anuncio/1", "Bolsa municipal"),
+            ("https://bop.dipgra.es/anuncio/2", "Otra bolsa")})
+        self.assertEqual([(p["context"], p["status"], p["categories"]) for p in calls],
+                         [("view", "publish", 3), ("edit", "any", 3)])
+        calls.clear()
+        self.assertTrue(wp.slug_exists("imported-editor-post"))
+        self.assertEqual(len(calls), 1)
+        self.assertEqual(calls[0]["context"], "view")
+
     def test_boe_filters_by_exact_province_and_official_url(self):
         rows = bot.parse_boe(BOE, province="Granada", published=date(2026, 10, 16))
         self.assertEqual([row["url"] for row in rows], ["https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1"])

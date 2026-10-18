@@ -1,0 +1,16 @@
+{
+  "review": "security-audit",
+  "mode": "full quick",
+  "status": "incomplete",
+  "completed": "four independent source reconnaissance passes and nine coverage units",
+  "deferred_units": 9,
+  "reason": "agent usage limit before hunting, critic and verification completion",
+  "separate_focal_review": "independent source review completed without confirmed vulnerability",
+  "runtime_checks": "see qa-cidonia-https.json, qa-bots-cidonia.json and qa-restauracion-cidonia.json",
+  "not_claimed": [
+    "complete audit approval",
+    "absence of vulnerabilities",
+    "full host recovery test"
+  ],
+  "run_metadata_and_ledger_validators": "PASS"
+}

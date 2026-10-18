@@ -1,6 +1,10 @@
 # FAC-USO Andalucía
 
-La web de muestra funciona en [http://127.0.0.1:18086/](http://127.0.0.1:18086/). Solo es accesible desde este equipo. WordPress, la base de datos y los bots se ejecutan en Docker.
+**Web de revisión: https://facuso.cidonia.cloud/**
+
+Administración: [facuso.cidonia.cloud/wp-admin/](https://facuso.cidonia.cloud/wp-admin/). Las credenciales se conservan en el servidor y no se publican en GitHub.
+
+La web está disponible para revisión en **[https://facuso.cidonia.cloud/](https://facuso.cidonia.cloud/)**, con certificado Let’s Encrypt y ocho bots provinciales programados cada hora. La muestra local sigue en [127.0.0.1:18086](http://127.0.0.1:18086/). WordPress, la base de datos y los bots se ejecutan en Docker. El [manual de sistemas](docs/DESPLIEGUE_CIDONIA.md) explica acceso, operación, copias y límites de la revisión de seguridad.
 
 Repositorio: [aavidad/FAC-USO](https://github.com/aavidad/FAC-USO). Contiene el código, los datos editoriales, las imágenes finales del tema, los instaladores y los manuales. La configuración privada y el documento original de especificaciones se conservan fuera de Git. Las condiciones de los materiales están en [NOTICE.md](NOTICE.md) y las pautas de seguridad en [SECURITY.md](SECURITY.md).
 

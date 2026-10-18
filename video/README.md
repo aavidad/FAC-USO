@@ -1,5 +1,7 @@
 # Vídeo de FAC-USO Andalucía
 
+Primera versión del recorrido: pendiente de ajustar el ritmo visual y la correspondencia entre narración y navegación, según la revisión del responsable. La voz se conserva. La corrección está aplazada mientras se termina el despliegue.
+
 [Ver o descargar el vídeo con voz](facuso-recorrido-guiado.mp4) · 7:35 · 14 capítulos.
 
 [Escuchar la locución MP3](facuso-locucion.mp3) · [Guion](guion.md) · [Índice de capítulos](capitulos.txt).

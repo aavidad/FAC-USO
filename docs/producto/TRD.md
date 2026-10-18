@@ -30,9 +30,9 @@ El aprovisionador `bot/provision_wordpress.php` crea ocho usuarios con rol provi
 
 ## Ensayo y despliegue
 
-`docker/compose.yaml` levanta WordPress 7.1.3 con PHP 8.3, MariaDB 11.4 y Nginx. Solo el proxy escucha en `127.0.0.1:18086`; la red de WordPress y la base es interna, y WordPress tiene bloqueada la salida HTTP externa en la prueba. `docker/compose.validation.yaml` crea instalaciones de importación con prefijos de tablas separados y proxy en `127.0.0.1:18087`. Los secretos se leen de archivos locales privados en `docker/.secrets/`. No se ha escrito en el WordPress remoto ni se ha desplegado al dominio público.
+`docker/compose.yaml` levanta WordPress 7.1.3 con PHP 8.3, MariaDB 11.4 y Nginx. Solo el proxy escucha en `127.0.0.1:18086`; la red de WordPress y la base es interna, y WordPress tiene bloqueada la salida HTTP externa en la prueba. `docker/compose.validation.yaml` crea instalaciones de importación con prefijos de tablas separados y proxy en `127.0.0.1:18087`. Los secretos se leen de archivos locales privados en `docker/.secrets/`. La instalación de revisión remota usa `docker/production/compose.yaml` en `/opt/facuso` y el dominio https://facuso.cidonia.cloud/. Su red de datos es independiente y solo su gateway comparte la red del Caddy existente. El certificado Let’s Encrypt se renueva automáticamente.
 
-La producción sigue necesitando alojamiento, HTTPS, cuentas editoriales humanas, copias restaurables, política de actualización, textos legales y aprobación editorial. El bot requiere credenciales nuevas del destino; los secretos del ensayo local no se distribuyen. Antes de publicar se revisan permisos, red, privacidad, restauración y accesibilidad en el servidor real.
+El alojamiento de revisión, HTTPS, cron y copias están configurados en cidonia.cloud. Quedan cuentas editoriales humanas, validación de la recuperación completa del servidor, textos legales, aprobación editorial y cierre de la auditoría de seguridad completa. El bot requiere credenciales nuevas del destino; los secretos del ensayo local no se distribuyen. Antes de publicar se revisan permisos, red, privacidad, restauración y accesibilidad en el servidor real.
 
 ## Decisiones de base y contradicciones
 

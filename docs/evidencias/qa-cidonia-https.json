@@ -1,0 +1,1264 @@
+{
+  "url": "https://facuso.cidonia.cloud",
+  "verified_tls": true,
+  "http_redirect": 308,
+  "html_checked": 204,
+  "assets_checked": 48,
+  "errors": [],
+  "protected_routes": [
+    {
+      "path": "/wp-admin/install.php",
+      "status": 404
+    },
+    {
+      "path": "/wp-admin/install.php/",
+      "status": 404
+    },
+    {
+      "path": "/wp-admin/INSTALL.php",
+      "status": 404
+    },
+    {
+      "path": "/wp-admin/setup-config.php/",
+      "status": 404
+    },
+    {
+      "path": "/.env",
+      "status": 404
+    },
+    {
+      "path": "/wp-config.php",
+      "status": 404
+    },
+    {
+      "path": "/xmlrpc.php",
+      "status": 403
+    },
+    {
+      "path": "/wp-content/uploads/test.php",
+      "status": 403
+    }
+  ],
+  "existing_sites": "cidonia.cloud and juegos.cidonia.cloud HTTP 200",
+  "html": [
+    {
+      "path": "/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/conocenos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/servicios-a-la-afiliacion/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/informacion/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/enlaces/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/noticias/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/afiliacion/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/creditos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/conocenos/que-es-la-uso-andalucia/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/conocenos/comision-ejecutiva-regional/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/conocenos/elecciones/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/conocenos/congresos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/conocenos/estatutos-y-resoluciones/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/conocenos/historia-de-la-uso/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/conocenos/videos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/conocenos/fotos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/conocenos/sedes/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/conocenos/contacto/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/servicios-a-la-afiliacion/promociones/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/servicios-a-la-afiliacion/formacion/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/servicios-a-la-afiliacion/asesoria-juridica/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/servicios-a-la-afiliacion/crs/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/informacion/accion-sindical/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/informacion/salud-laboral/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/informacion/igualdad/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-de-justicia/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/sanidad/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-local/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-autonomica/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-general-del-estado/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/andalucia/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/almeria/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/cadiz/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/cordoba/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/granada/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/huelva/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/jaen/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/malaga/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/sevilla/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/enlaces/corporativos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/enlaces/publicaciones-oficiales/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/enlaces/acceso-certificado-digital/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/informacion/empleo-publico/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/sanidad/personal-sanitario/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/sanidad/personal-gestion-y-servicios/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/sanidad/personal-sociosanitario/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-local/bomberos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-local/policia-local/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-local/diputaciones/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-local/ayuntamientos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-local/administracion-y-servicios/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-local/funcion-publica-local/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-autonomica/universidades/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-autonomica/personal-laboral/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sectores/administracion-autonomica/funcionariado/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/granada/diputacion-de-granada/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/sevilla/opaef/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/almeria/empleo-publico-almeria/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/cadiz/empleo-publico-cadiz/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/cordoba/empleo-publico-cordoba/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/granada/empleo-publico-granada/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/huelva/empleo-publico-huelva/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/jaen/empleo-publico-jaen/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/malaga/empleo-publico-malaga/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/sevilla/empleo-publico-sevilla/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/informacion/empleo-publico/bolsas-de-trabajo/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/informacion/empleo-publico/oposiciones/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/informacion/empleo-publico/ofertas-de-empleo-publico/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/sevilla/opaef/uso-opaef/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/territorios/sevilla/opaef/observatorio-igualdad-opaef/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/la-justicia-da-la-razon-a-uso-y-obliga-al-sas-a-reactivar-en-un-mes-las-elecciones-sindicales-en-jerez-costa-noroeste-y-sierra-de-cadiz/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/los-sindicatos-del-opaef-denuncian-el-abandono-institucional-del-presidente-de-la-diputacion-ante-la-grave-crisis-del-servicio-de-recaudacion/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/uso-andalucia-respalda-las-movilizaciones-del-personal-civil-de-defensa-el-22-de-septiembre-para-exigir-salarios-dignos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/la-seccion-sindical-de-uso-sanidad-en-el-hospital-de-valme-denuncia-el-nuevo-colapso-de-urgencias-mas-de-500-pacientes-en-24-horas/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/caos-en-el-sas-sanidad-uso-denuncie-la-precarizacion-y-el-bloqueo-en-la-bolsa-laboral/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/uso-denuncia-graves-fallos-de-seguridad-y-casi-30-deficiencias-en-la-nueva-jefatura-de-policia-local-de-isla-cristina/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/fac-uso-logra-que-sanidad-amplie-a-2-000-horas-la-formacion-de-las-tcae-y-mantiene-la-exigencia-del-grupo-c1/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/fac-uso-denuncia-en-la-universidad-de-sevilla-la-falta-de-financiacion-y-su-impacto-en-el-personal/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/sevilla-sale-a-la-calle-el-personal-civil-de-defensa-reclama-salarios-justos-y-la-eliminacion-de-la-discriminacion-retributiva/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/uso-andalucia-respalda-la-gran-movilizacion-de-la-plantilla-de-sadeco-ante-el-ayuntamiento-contra-el-desgobierno-y-la-falta-de-medios/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/hay-preacuerdo-en-faisem-paso-decisivo-hacia-la-reclasificacion-profesional-la-equiparacion-salarial-y-la-carrera-profesional-de-toda-la-plantilla/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/fac-uso-y-aplage-llaman-a-movilizarse-en-92-centros-de-defensa-para-exigir-300-euros-consolidados-al-personal-civil/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/la-plantilla-de-faisem-se-levanta-en-sevilla-tras-15-anos-de-paralisis-laboral-y-la-perdida-de-200-empleos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/fac-uso-andalucia-reclama-en-el-parlamento-la-reclasificacion-de-los-tcae-y-alerta-del-desmantelamiento-del-sas-por-las-externalizaciones/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/fac-uso-andalucia-denuncia-el-acuerdo-de-carrera-profesional-en-las-universidades-por-trato-discriminatorio/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/i-convenio-sanidad-privada-huelva-firma-historica-y-mejoras-uso/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/fac-uso-andalucia-lanza-formacion-gratuita-para-policias-y-bomberos-solo-comunidad-andaluza/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/fac-uso-andalucia-lleva-al-parlamento-las-principales-reivindicaciones-de-los-tecnicos-sanitarios-del-sas-incluido-su-paso-al-grupo-c/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/logro-historico-uso-tumba-en-los-tribunales-la-exclusion-injusta-de-una-trabajadora-en-la-diputacion-de-cordoba/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/uso-y-aplage-vuelven-a-la-calle-en-andalucia-para-exigir-un-acuerdo-retributivo-justo-para-todo-el-personal-civil-de-defensa/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/exito-rotundo-de-las-movilizaciones-de-las-tcae-en-andaluciafac-uso-llena-los-centros-sanitarios-para-exigir-el-paso-al-grupo-c/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/uso-denuncia-deficiencias-y-riesgos-en-los-nuevos-quirofanos-del-hospital-de-riotinto/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/el-comite-de-empresa-de-aucorsa-reclama-en-pleno-municipal-soluciones-urgentes-para-aucorsa-mas-flota-y-condiciones-laborales-dignas/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/domingo-castillo-respalda-en-sevilla-la-campana-stop-agresiones-de-fac-uso-para-proteger-al-personal-sanitario-y-empleados-publicos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/uso-celebra-la-victoria-judicial-frente-al-ayuntamiento-de-moron-por-la-mala-gestion-y-la-falta-de-refuerzos-en-bomberos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/denuncia-de-fac-uso-andalucia-sobre-las-condiciones-laborales-de-las-auxiliares-de-ayuda-a-domicilio-en-sevilla-ante-las-olas-de-calor/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/fac-uso-andalucia-celebra-un-hito-jornada-laboral-de-4-dias-y-mejoras-sociales-en-el-nuevo-convenio-del-ayuntamiento-de-alcala-la-real/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/la-fac-uso-sanidad-andalucia-denuncia-que-el-sas-recorta-nuevamente-el-crp-de-sus-profesionales/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/spj-uso-andalucia-marca-la-hoja-de-ruta-para-la-subida-retributiva-del-personal-de-justicia/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/la-junta-de-andalucia-debe-25-millones-a-casi-9-500-funcionarios-de-justicia-denuncia-spj-uso/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/spj-uso-andalucia-entrega-a-la-consejeria-un-plan-integral-para-mejorar-salarios-derechos-y-condiciones-del-personal-de-justicia/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/spj-uso-denuncia-una-nueva-caida-del-sistema-informatico-judicial-y-alerta-de-la-exposicion-de-datos-personales/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/spj-uso-andalucia-alerta-de-un-recorte-masivo-de-personal-en-justicia-la-junta-deja-vacias-decenas-de-plazas-y-colapsa-los-juzgado/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/spj-uso-denuncia-el-caos-en-la-implantacion-de-los-tribunales-de-instancia-por-falta-de-prevision-y-pura-improvisacion/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/spj-uso-gana-sentencia-clave-contra-la-consejeria-de-justicia-de-la-junta-de-andalucia-por-la-retirada-indebida-de-plazas-en-el-concurso-de-traslados/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/spj-uso-reclama-refuerzos-inmediatos-en-los-juzgados-de-violencia-sobre-la-mujer-para-afrontar-la-ampliacion-de-competencias/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/bolsa-monitor-escuela-verano-turrillas-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/plaza-gestor-administrativo-vera-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/plazas-iedt-cadiz-correccion-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/plazas-diputacion-cadiz-sanidad-tecnicos-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/bolsa-tecnico-informatico-lucena-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/plaza-archivo-biblioteca-lucena-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/bolsa-peones-armilla-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/plaza-subalterno-armilla-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/bolsa-operarios-agron-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/bolsa-bibliotecas-diputacion-huelva-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/bolsa-medicos-diputacion-huelva-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/plaza-oficial-obras-almendro-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/plaza-notificador-torredelcampo-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/plazas-auxiliar-administrativo-navas-san-juan-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/bolsa-proteccion-civil-algarrobo-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/interinidad-tecnico-sistemas-rincon-victoria-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/plazas-educador-diputacion-sevilla-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/plaza-tecnico-informatico-diputacion-sevilla-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-4adcd5a0863fd405c9db8ed7/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-granada-786951a81428af8f1d57db00/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-cadiz-5e817a731c149424cd9d2aad/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-almeria-b019b9254477f81fefb7aa80/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-almeria-f31e77b11b7d7cd34278d2a4/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-almeria-bdc95905ccf54a4bead64f29/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-almeria-da463572a3d65752dbe50711/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-huelva-d11425cfe16b6a003e0aeeaa/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-huelva-5d2ded1f633990e88409e6e3/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-huelva-bb1aa6e06fe9a768326edf8a/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-huelva-028a14dcb6778ca34f721bba/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-4006232ef2b332c116114f7e/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-0047c9f500f41e38237fedf9/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-f9ecb399ac8b663daa668719/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-4c947688fada4c693c557a4c/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-d32c12427161ef787b9410e2/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-f8d515a301cb8591f208804a/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-79ae235055d0853d4e6daec4/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-bcb5a728c0679ba754ac6d9e/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-469c080a51cd406e34d6a488/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-b80cc407e990a3b65f0cb165/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-941e53a30a5a2f58c3dfc938/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-85f82d495bd7ee692d8a4f36/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-f96dd215c7a215da3acb67f9/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-6fe74ac5e8f0d04747a3d042/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-cadiz-256579a954387a5966359d90/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-cadiz-1f56082ce8ceef8d3c34ef42/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-f853df671fccdde2a94e2c51/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-aa3763d14e576d836bf12aa6/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-granada-6eb5ef025fc20ed0ae8097fb/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-cadiz-269efede6311939e2fda9602/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-cadiz-fb5bf5f09c5bc6f03ecf9600/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-granada-5ed50bcdb33f3946d5e39a20/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-granada-8d08cc7538ee067987d30ed9/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-granada-fe2463800b9c1289aca379ae/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-granada-6efb934f642f7777195c5fe7/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-malaga-888a8a9708af60ea90f7909a/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-malaga-91fa773bf58f28daf3aa1655/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-cordoba-25d268da098701222005b44c/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-almeria-a49468b3fffa21bf3a307271/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-almeria-96e7cea0e1f73d9fb33b0860/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-almeria-26e6b922d101bc00f886faea/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-almeria-b3fb0e42663bb7342497cb9a/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-a0f62086a7f3e505c0b926c8/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-0ddd872865b033c6141805a8/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-301413596724475909bd9a20/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-6969870d1128fb82f3293dca/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-4a2e478b6d841c06eb08cb9d/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-cadiz-d0963655095c406e5c39a029/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-malaga-1bce613ff72b21317843e7b4/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-almeria-47e2e1148514708d235d17d2/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-3853e2c0aeef0c287bd6f100/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-e11a995e49012467831ab550/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-84c2c620b4ac90229e42d115/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-50b130f932989a95bac95959/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-malaga-6cd88ba445bc85d6da5bb5c9/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-granada-37e840ee6a3c51f9fb57b8a8/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-malaga-f9d1b8f35eed7b6ce1e31657/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-cordoba-5d4e01bd3e5c523f6c6b079c/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-almeria-defbbfd06adf3548c3dc5075/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-02d1744149a8ab32f872bf59/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-sevilla-b7f99b5bc2923b0317ff2daa/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-jaen-e96d079e34890d3797b81911/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-cadiz-4ee0fc4c66720ecb2d7997c7/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-cordoba-e75ddfdf0fa9f6f7de6840ff/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-huelva-57ec28b4ea6a64dd3e8878a2/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-almeria-01c23149d612acf38c3b8f64/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-granada-de86300f97d86f03d31d8b86/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-malaga-f1b42179213bf66fa46e18c4/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/facuso-cadiz-58aebfd08553ec1a663088bb/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/prepara-gratis-con-uso-las-oposiciones-a-age-seguridad-social-y-correos/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/se-el-cambio-tu-decides/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/uso-te-resume-el-contenido-y-las-principales-medidas-que-contienen-los-dos-nuevos-decretos-de-vivienda-aprobados-por-el-gobierno/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/el-sindicato-rechaza-que-las-mutuas-puedan-dar-altas-medicas-en-it-por-enfermedad-comun-y-las-acusaciones-de-fraude-en-las-bajas/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/elecciones-29-n-que-pasa-con-las-leyes-pendientes/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/nueva-poliza-de-proteccion-juridica-laboral-de-uso-y-arag-para-la-afiliacion/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/spj-uso-cadiz-resolucion-autorrefuerzo-en-scej-de-jerez-cadiz-algeciras-y-ap-de-cadiz-desde-el-16-de-septiembre-al-15-de-noviembre-2026/",
+      "status": 200,
+      "bad": false
+    },
+    {
+      "path": "/almeria-arde-y-las-administraciones-vuelven-a-llegar-tarde-fac-uso-llevaba-meses-advirtiendolo/",
+      "status": 200,
+      "bad": false
+    }
+  ],
+  "assets": [
+    {
+      "path": "/wp-content/plugins/facuso-arranque/includes/external-links.js",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/foto-empleo-atencion.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/foto-empleo-aula.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/foto-empleo-ayuntamiento.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/foto-empleo-oficina.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/foto-empleo.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/foto-formacion.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/foto-justicia.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/foto-sanidad.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/montaje-campana.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/caos-en-el-sas-sanidad-uso-denuncie-la-precarizacion-y-el-bloque-19a4dea8.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/domingo-castillo-respalda-en-sevilla-la-campana-stop-agresiones-77a1a3c7.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/el-comite-de-empresa-de-aucorsa-reclama-en-pleno-municipal-soluc-bdb6dcb9.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/exito-rotundo-de-las-movilizaciones-de-las-tcae-en-andaluciafac-bcd58327.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/fac-uso-andalucia-celebra-un-hito-jornada-laboral-de-4-dias-y-me-a3cfd0c1.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/fac-uso-andalucia-denuncia-el-acuerdo-de-carrera-profesional-en-3ce221c0.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/fac-uso-andalucia-lanza-formacion-gratuita-para-policias-y-bombe-7048174c.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/fac-uso-andalucia-reclama-en-el-parlamento-la-reclasificacion-de-5b55f509.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/fac-uso-y-aplage-llaman-a-movilizarse-en-92-centros-de-defensa-p-14c6295e.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/i-convenio-sanidad-privada-huelva-firma-historica-y-mejoras-uso-9f7897fc.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/la-justicia-da-la-razon-a-uso-y-obliga-al-sas-a-reactivar-en-un-e96d2590.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/la-plantilla-de-faisem-se-levanta-en-sevilla-tras-15-anos-de-par-7d6dc5d6.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/logro-historico-uso-tumba-en-los-tribunales-la-exclusion-injusta-c00b6e26.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/los-sindicatos-del-opaef-denuncian-el-abandono-institucional-del-7863ea12.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/sevilla-sale-a-la-calle-el-personal-civil-de-defensa-reclama-sal-34fa47ad.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/spj-uso-andalucia-entrega-a-la-consejeria-un-plan-integral-para-80cb95f7.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/spj-uso-andalucia-marca-la-hoja-de-ruta-para-la-subida-retributi-43b10a1f.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/spj-uso-denuncia-una-nueva-caida-del-sistema-informatico-judicia-6e1582b9.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/spj-uso-gana-sentencia-clave-contra-la-consejeria-de-justicia-de-19989a9e.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/uso-andalucia-respalda-la-gran-movilizacion-de-la-plantilla-de-s-fd7be4b9.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/uso-andalucia-respalda-las-movilizaciones-del-personal-civil-de-11d26c18.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/uso-celebra-la-victoria-judicial-frente-al-ayuntamiento-de-moron-53e5756e.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/uso-denuncia-deficiencias-y-riesgos-en-los-nuevos-quirofanos-del-6d37fc3a.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/uso-denuncia-graves-fallos-de-seguridad-y-casi-30-deficiencias-e-954cdfbd.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/plugins/facuso-arranque/theme/assets/noticias/uso-y-aplage-vuelven-a-la-calle-en-andalucia-para-exigir-un-acue-e1512235.webp",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/almeria.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/bandera-andalucia.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/cadiz.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/cordoba.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/granada.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/huelva.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/jaen.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/justicia.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/logo-facuso-andalucia.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/malaga.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/navigation.js",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/assets/sevilla.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/themes/facuso-andalucia/style.css",
+      "status": 200
+    }
+  ],
+  "certificate": {
+    "issuer": "Let’s Encrypt YE1",
+    "not_after_utc": "2027-01-16 12:44:13"
+  },
+  "audit": "independent focal review complete; full quick audit interrupted by agent usage limit"
+}

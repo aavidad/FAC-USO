@@ -2,6 +2,10 @@
 
 El paquete WordPress contiene los contenidos iniciales. Los ocho bots de `bot/` añaden las noticias posteriores: uno por provincia, con cuenta y contraseña de aplicación propias. Cada bot consulta fuentes públicas, clasifica sus hallazgos y los envía a WordPress mediante la API REST. La configuración habitual crea borradores para revisión. En el WordPress local de pruebas se puede usar `BOT_PUBLISH=true` para comprobar el recorrido completo.
 
+## Instalación remota
+
+La web y los ocho bots están instalados en https://facuso.cidonia.cloud/. El cron horario usa `--production`; el lector de Almería emplea `docker/production/collector.yaml`. Las credenciales son nuevas y privadas del servidor. El manual completo está en [DESPLIEGUE_CIDONIA.md](DESPLIEGUE_CIDONIA.md). El BOP de Jaén está devolviendo HTTP 500 desde ese VPS: su bot registra los avisos y continúa con BOE y fuentes sindicales, reintentando el boletín en cada pasada.
+
 ## Fuentes activas
 
 | Provincia | Fuentes oficiales de empleo | Noticias sindicales |
@@ -23,7 +27,7 @@ La cobertura del BOE es complementaria: no equivale a leer todos los BOP. Almer�
 
 Cada noticia lleva el título, la fecha de la publicación original y un enlace a ella. Para el BOE añade hasta seis párrafos, con un máximo conjunto de 2.000 caracteres, tomados del texto HTML oficial. Si ese texto no está disponible, conserva fecha y enlace. Los RSS sindicales usan como máximo 25 palabras del título y no copian el cuerpo de la noticia. El bot no calcula plazos ni da por abierta una convocatoria; los requisitos y fechas deben comprobarse en el anuncio original. No descarga PDF ni adjuntos.
 
-Las categorías son la provincia, el sector y la materia. Las materias de empleo se guardan como `empleo-publico`, `bolsas-de-trabajo`, `oposiciones` u `ofertas-de-empleo-publico`. El bot conserva `facuso_source_url` y un identificador externo. Antes de insertar consulta las publicaciones que ya tienen su categoría provincial y después comprueba el slug calculado para esa provincia. Una segunda ejecución no debe añadir duplicados.
+Las categorías son la provincia, el sector y la materia. Las materias de empleo se guardan como `empleo-publico`, `bolsas-de-trabajo`, `oposiciones` u `ofertas-de-empleo-publico`. El bot conserva `facuso_source_url` y un identificador externo. Antes de insertar consulta las publicaciones públicas de su provincia y sus propios borradores; así reconoce también el snapshot importado por un administrador. Después comprueba el slug calculado para esa provincia. Una segunda ejecución no debe añadir duplicados.
 
 El sector se asigna cuando el título identifica al organismo: por ejemplo, una universidad andaluza entra en Universidades y Administración autonómica, mientras que un ayuntamiento entra en Administración local. Si el título no permite conocerlo, la noticia conserva la provincia y la materia sin forzar un sector.
 

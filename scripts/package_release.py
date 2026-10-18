@@ -19,8 +19,9 @@ files=[]
 for name in ['README.md','AGENTS.md','NOTICE.md','SECURITY.md','.gitignore']:
     path=ROOT/name
     if path.exists():files.append(path)
-for directory in ['bot','data','docs','scripts','package','docker']:
+for directory in ['bot','data','docs','scripts','package','docker','imagenes']:
     files += [p for p in (ROOT/directory).rglob('*') if allowed(p)]
+files += [p for p in (ROOT/'video').glob('*') if allowed(p) and p.suffix in {'.md', '.txt'}]
 for directory in ['research/bop-malaga','research/bop-scout']:
     files += [p for p in (ROOT/directory).glob('*') if allowed(p) and p.suffix in {'.md','.py','.json'}]
 files += [DIST/name for name in ['facuso-arranque.zip','facuso-andalucia-tema.zip','facuso-andalucia.xml','contenido-fuentes.json']]

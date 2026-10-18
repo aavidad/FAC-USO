@@ -1,6 +1,6 @@
 # Estado de la entrega FAC-USO Andalucía
 
-Fecha de referencia: 18 de octubre de 2026. El paquete y la instalación aislada están probados. No se ha desplegado ni modificado el WordPress público. La aprobación editorial para publicar sigue pendiente.
+Fecha de referencia: 18 de octubre de 2026. El paquete y la instalación aislada están probados. Se ha desplegado un entorno de revisión en https://facuso.cidonia.cloud/ con HTTPS y bots horarios; la aprobación editorial definitiva sigue pendiente.
 
 ## Trabajo completado con evidencia local
 
@@ -20,13 +20,17 @@ Fecha de referencia: 18 de octubre de 2026. El paquete y la instalación aislada
 
 Los bot se ejecutan cada hora mediante cron. Almería lee el BOP mediante Chrome y JSON validado; Huelva consume la API oficial; Cádiz, Córdoba, Granada, Jaén y Sevilla usan lectores HTML. Málaga utiliza BOE y fuentes sindicales porque el BOP presenta una barrera de acceso. Esta limitación deja incompleta la vigilancia automática de ese boletín. Los 70 contenidos se guardaron como snapshot inicial; el bot sigue siendo el mecanismo para noticias futuras. La integración de avisos adicionales del BOE puede ampliar ese snapshot; sus recuentos no se dan por cambiados sin una nueva importación y prueba.
 
-## Pendiente antes de publicar en un dominio real
+## Pendiente antes de la publicación definitiva
 
 1. FAC-USO Andalucía debe aprobar la bienvenida firmada, el aviso legal y la política de privacidad; ambas páginas siguen en borrador. Debe ratificar cargos, correos y teléfonos, en especial la vocalía pendiente, y decidir qué equipo revisa las noticias de los bot.
 2. La organización debe confirmar permisos editoriales de fotografías y distintivos, aportar los cuatro logotipos sectoriales faltantes y, si lo desea, sustituir las ilustraciones generadas por material propio. El montaje no debe presentarse como foto documental.
 3. Decidir alojamiento, dominio, HTTPS, copias restaurables, cuentas humanas, roles, calendario de actualización y si los bot publicarán o crearán borradores. Los secretos de prueba no sirven para producción; deben aprovisionarse ocho credenciales nuevas.
 4. Verificar contactos y enlaces externos justo antes de publicar. Revisar plazos de convocatorias contra sus bases y rectificaciones. El BOP de Málaga necesita una vía oficial de acceso automatizable o seguimiento editorial manual.
 5. Repetir la prueba integral en la instalación definitiva y hacer la revisión de seguridad y accesibilidad correspondiente al hito público. La revisión local de código fue focal y los ensayos Docker no prueban el alojamiento futuro.
+
+## Despliegue de revisión en cidonia.cloud
+
+WordPress y MariaDB tienen volúmenes y redes propios; Caddy sirve HTTPS con Let’s Encrypt y renovación automática. Los ocho bots y el lector de Almería están instalados en el servidor, con cuentas nuevas y cron horario. Hay copias diarias y una restauración SQL ensayada sin tocar la base activa. El entorno conserva `noindex`. El manual operativo está en `docs/DESPLIEGUE_CIDONIA.md`. La auditoría completa quedó incompleta por cuota de subagentes; la revisión focal independiente y los ensayos no la sustituyen. La siguiente tarea pendiente es corregir el ritmo visual del vídeo, conservando la locución.
 
 ## Contradicciones encontradas
 

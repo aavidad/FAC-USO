@@ -1,0 +1,141 @@
+{
+  "domain": "facuso.cidonia.cloud",
+  "jobs": {
+    "almeria": {
+      "started_at": "2026-10-18T13:47:35Z",
+      "finished_at": "2026-10-18T13:47:40Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "almeria",
+        "fetched": 11,
+        "created": 0,
+        "existing": 11,
+        "preview": 0
+      },
+      "warnings_latest_run": []
+    },
+    "almeria_browser": {
+      "started_at": "2026-10-18T13:47:26Z",
+      "finished_at": "2026-10-18T13:47:35Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "date": "2026-10-18",
+        "items": 7,
+        "output": "/data/almeria_bop.json"
+      },
+      "warnings_latest_run": []
+    },
+    "cadiz": {
+      "started_at": "2026-10-18T13:47:40Z",
+      "finished_at": "2026-10-18T13:47:46Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "cadiz",
+        "fetched": 8,
+        "created": 0,
+        "existing": 8,
+        "preview": 0
+      },
+      "warnings_latest_run": []
+    },
+    "cordoba": {
+      "started_at": "2026-10-18T13:47:46Z",
+      "finished_at": "2026-10-18T13:47:52Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "cordoba",
+        "fetched": 3,
+        "created": 0,
+        "existing": 3,
+        "preview": 0
+      },
+      "warnings_latest_run": []
+    },
+    "granada": {
+      "started_at": "2026-10-18T13:47:52Z",
+      "finished_at": "2026-10-18T13:47:58Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "granada",
+        "fetched": 8,
+        "created": 0,
+        "existing": 8,
+        "preview": 0
+      },
+      "warnings_latest_run": []
+    },
+    "huelva": {
+      "started_at": "2026-10-18T13:47:58Z",
+      "finished_at": "2026-10-18T13:48:04Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "huelva",
+        "fetched": 5,
+        "created": 0,
+        "existing": 5,
+        "preview": 0
+      },
+      "warnings_latest_run": []
+    },
+    "jaen": {
+      "started_at": "2026-10-18T13:48:04Z",
+      "finished_at": "2026-10-18T13:48:10Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "jaen",
+        "fetched": 7,
+        "created": 0,
+        "existing": 7,
+        "preview": 0
+      },
+      "warnings_latest_run": [
+        "Aviso BOP jaen 2026-10-18: HTTP 500",
+        "Aviso BOP jaen 2026-10-17: HTTP 500",
+        "Aviso BOP jaen 2026-10-16: HTTP 500"
+      ]
+    },
+    "malaga": {
+      "started_at": "2026-10-18T13:48:10Z",
+      "finished_at": "2026-10-18T13:48:15Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "malaga",
+        "fetched": 6,
+        "created": 0,
+        "existing": 6,
+        "preview": 0
+      },
+      "warnings_latest_run": []
+    },
+    "sevilla": {
+      "started_at": "2026-10-18T13:48:15Z",
+      "finished_at": "2026-10-18T13:48:20Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "sevilla",
+        "fetched": 17,
+        "created": 0,
+        "existing": 17,
+        "preview": 0
+      },
+      "warnings_latest_run": []
+    }
+  },
+  "cron": [
+    "0 * * * * /bin/bash /opt/facuso/bot/run-hourly.sh --production # FACUSO_HOURLY",
+    "35 3 * * * /bin/bash /opt/facuso/docker/production/backup.sh >> /opt/facuso/.runtime/backup.log 2>&1 # FACUSO_BACKUP"
+  ],
+  "clock_zone": "UTC",
+  "full_cycle_exit_code": 0,
+  "duplicate_snapshot_copies_trashed": 35,
+  "snapshot_originals_preserved": true
+}

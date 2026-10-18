@@ -1,0 +1,14 @@
+facuso.cidonia.cloud {
+    tls {
+        ca https://acme-v02.api.letsencrypt.org/directory
+    }
+    encode zstd gzip
+    header {
+        -Server
+        X-Content-Type-Options nosniff
+        Referrer-Policy strict-origin-when-cross-origin
+        X-Robots-Tag "noindex, nofollow"
+        Permissions-Policy "camera=(), microphone=(), geolocation=()"
+    }
+    reverse_proxy facuso-cidonia-gateway-1:8080
+}
