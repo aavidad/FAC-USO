@@ -1,0 +1,22 @@
+[
+  {
+    "file": "foto-empleo-oficina.webp",
+    "original": "assets/fotos-generadas/empleo-oficina.png",
+    "prompt": "Photorealistic editorial website photo, landscape 16:9. Generic Andalusian municipal employment office interior on a clear morning, warm natural window light, orderly wooden service desk, empty chair, desktop monitor with blank screen, closed paper folder and an unmarked appointment diary, muted cream stone walls, subtle deep green #00683d accents and a tiny red accent. Clean contemporary civic atmosphere, wide composition, no person, no real institution, no logo, no readable text, no official seal, no identifiable document data, no watermark. Natural photojournalistic realism, not a render or illustration."
+  },
+  {
+    "file": "foto-empleo-aula.webp",
+    "original": "assets/fotos-generadas/empleo-aula.png",
+    "prompt": "Photorealistic editorial website photo, landscape 16:9. An empty public examination classroom in a contemporary Andalusian civic building, wide symmetrical perspective with many separate white desks and simple chairs arranged in orderly rows, bright natural daylight through side windows, cream walls, a subtle deep green #00683d accent and tiny muted red detail. Clean, calm, ready for an exam. No people, no papers with text, no real institution, no logos, no official seals, no readable text, no watermark. Natural architectural photography, not a render or illustration."
+  },
+  {
+    "file": "foto-empleo-ayuntamiento.webp",
+    "original": "assets/fotos-generadas/empleo-ayuntamiento.png",
+    "prompt": "Photorealistic editorial website photo, landscape 16:9. Exterior of a completely fictional generic Andalusian town hall on a sunny morning: modest historic whitewashed civic facade, warm sandstone doorway, shaded plaza with orange trees, calm pedestrian scale, balanced wide composition, a subtle deep green #00683d painted architectural detail and tiny red flower accents. No people, no real town hall or landmark, no place name, no sign, no coat of arms, no official flags, no logos, no readable text, no watermark. Natural architectural documentary photography, not a render or illustration."
+  },
+  {
+    "file": "foto-empleo-atencion.webp",
+    "original": "assets/fotos-generadas/empleo-atencion.png",
+    "prompt": "Photorealistic editorial website photo, landscape 16:9. Generic public employment and citizen service counter in an Andalusian municipal office, viewed from behind two ordinary adult visitors in foreground with faces completely hidden and no identifiable features, friendly staff figure in background soft focus, warm natural daylight, cream stone and wood, subtle deep green #00683d counter trim and tiny red accent, wide calm civic composition. Blank computer screens and plain paper with no readable text or personal data. No real institution, no logos, no official seals, no readable signs, no watermark. Natural editorial photography, not a render or illustration."
+  }
+]

@@ -1,0 +1,734 @@
+{
+  "pages": [
+    {
+      "slug": "sectores",
+      "title": "Sectores",
+      "parent": null,
+      "status": "publish",
+      "html": "<p>FAC-USO Andalucía organiza la información de atención a la ciudadanía por ámbitos de trabajo. Selecciona un sector para consultar sus colectivos y los recursos de referencia. Las publicaciones se podrán filtrar por sector cuando el sitio incorpore noticias.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li><li><a href=\"https://facuso.es/\">Federación estatal FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Los cinco sectores responden al encargo local; los estatutos federales incluyen además Correos y Telégrafos."
+      ]
+    },
+    {
+      "slug": "administracion-de-justicia",
+      "title": "Administración de Justicia",
+      "parent": "sectores",
+      "status": "publish",
+      "html": "<p>Información para el personal de los órganos judiciales y servicios relacionados. SPJ-USO publica actualidad sindical y avisos sobre empleo y bolsas de personal interino en Andalucía.</p><h2>Recursos</h2><ul><li><a href=\"https://spj.facuso.es/\">SPJ-USO</a></li><li><a href=\"https://www.juntadeandalucia.es/boja/\">BOJA</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://spj.facuso.es/",
+          "title": "SPJ-USO"
+        },
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "sanidad",
+      "title": "Sanidad",
+      "parent": "sectores",
+      "status": "publish",
+      "html": "<p>Espacio para las condiciones de trabajo del personal sanitario, de gestión y servicios y sociosanitario. La Federación de Atención a la Ciudadanía incluye la sanidad y los recursos sociosanitarios entre sus sectores profesionales.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/\">FAC-USO</a></li><li><a href=\"https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/\">Servicio Andaluz de Salud</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "administracion-local",
+      "title": "Administración local",
+      "parent": "sectores",
+      "status": "publish",
+      "html": "<p>Información para empleados de ayuntamientos, diputaciones y servicios públicos locales. Incluye bomberos, policía local, administración y servicios y función pública local.</p><h2>Recursos</h2><ul><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público</a></li><li><a href=\"https://uso.dipgra.cloud/\">Sección USO Diputación de Granada</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        },
+        {
+          "url": "https://uso.dipgra.cloud/",
+          "title": "USO Diputación de Granada"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "administracion-autonomica",
+      "title": "Administración autonómica",
+      "parent": "sectores",
+      "status": "publish",
+      "html": "<p>Ámbito de las personas empleadas por la Junta de Andalucía y sus entidades, con apartados para universidades, personal laboral y funcionariado.</p><h2>Recursos</h2><ul><li><a href=\"https://www.juntadeandalucia.es/boja/\">BOJA</a></li><li><a href=\"https://portalempleopublico.juntadeandalucia.es/\">Portal de Empleo Público de Andalucía</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "administracion-general-del-estado",
+      "title": "Administración General del Estado",
+      "parent": "sectores",
+      "status": "publish",
+      "html": "<p>Información sindical y recursos para el personal de la Administración General del Estado y sus organismos. Para convocatorias y normativa vigente, consulta los portales oficiales enlazados.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/\">FAC-USO</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público estatal</a></li><li><a href=\"https://www.boe.es/\">BOE</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "personal-sanitario",
+      "title": "Personal sanitario",
+      "parent": "sanidad",
+      "status": "publish",
+      "html": "<p>Área para el personal sanitario del sistema público y otros servicios de salud.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "personal-gestion-y-servicios",
+      "title": "Personal de gestión y servicios",
+      "parent": "sanidad",
+      "status": "publish",
+      "html": "<p>Área para el personal de administración, gestión, mantenimiento y servicios de la sanidad.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "personal-sociosanitario",
+      "title": "Personal sociosanitario",
+      "parent": "sanidad",
+      "status": "publish",
+      "html": "<p>Área para quienes trabajan en atención sociosanitaria y recursos de cuidados.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "bomberos",
+      "title": "Bomberos",
+      "parent": "administracion-local",
+      "status": "publish",
+      "html": "<p>Área para el personal de los servicios de prevención y extinción de incendios de ámbito local.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "policia-local",
+      "title": "Policía local",
+      "parent": "administracion-local",
+      "status": "publish",
+      "html": "<p>Área para los cuerpos de policía local de Andalucía.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "diputaciones",
+      "title": "Diputaciones",
+      "parent": "administracion-local",
+      "status": "publish",
+      "html": "<p>Área para el personal de las diputaciones provinciales. La sección sindical USO de Diputación de Granada publica avisos, oposiciones y recursos específicos.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li><li><a href=\"https://uso.dipgra.cloud/\">USO Diputación de Granada</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        },
+        {
+          "url": "https://uso.dipgra.cloud/",
+          "title": "USO Diputación de Granada"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "ayuntamientos",
+      "title": "Ayuntamientos",
+      "parent": "administracion-local",
+      "status": "publish",
+      "html": "<p>Área para el personal de los ayuntamientos andaluces y sus organismos.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "administracion-y-servicios",
+      "title": "Administración y servicios",
+      "parent": "administracion-local",
+      "status": "publish",
+      "html": "<p>Área para el personal administrativo y de servicios de las entidades locales.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "funcion-publica-local",
+      "title": "Función pública local",
+      "parent": "administracion-local",
+      "status": "publish",
+      "html": "<p>Normativa, convocatorias y condiciones de trabajo del empleo público local.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Buscador de empleo público</a></li><li><a href=\"https://www.juntadeandalucia.es/boja/\">BOJA</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "universidades",
+      "title": "Universidades",
+      "parent": "administracion-autonomica",
+      "status": "publish",
+      "html": "<p>Área para el personal de las universidades públicas andaluzas.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "personal-laboral",
+      "title": "Personal laboral",
+      "parent": "administracion-autonomica",
+      "status": "publish",
+      "html": "<p>Área para el personal laboral de la Administración autonómica.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "funcionariado",
+      "title": "Funcionariado",
+      "parent": "administracion-autonomica",
+      "status": "publish",
+      "html": "<p>Área para el personal funcionario de la Administración autonómica.</p><h2>Recursos</h2><ul><li><a href=\"https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf\">Estatutos de FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+          "title": "Estatutos de FAC-USO"
+        }
+      ],
+      "notes": [
+        "Subsección definida en el documento de encargo; ampliar con publicaciones propias cuando existan."
+      ]
+    },
+    {
+      "slug": "territorios",
+      "title": "Territorios",
+      "parent": null,
+      "status": "publish",
+      "html": "<p>Consulta los recursos sindicales de Andalucía y sus ocho provincias. Los contactos de las sedes que figuran aquí proceden del directorio público de USO Andalucía; conviene confirmar cita y horario antes de acudir.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/contacto/\">Directorio de sedes de USO Andalucía</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/contacto/",
+          "title": "Contacto y sedes de USO Andalucía"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "andalucia",
+      "title": "Andalucía",
+      "parent": "territorios",
+      "status": "publish",
+      "html": "<p>FAC-USO Andalucía reúne la información sindical de atención a la ciudadanía en toda la comunidad. Para consultas presenciales, USO Andalucía publica un directorio con sedes provinciales y comarcales.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/\">USO Andalucía</a></li><li><a href=\"https://www.usoandalucia.es/contacto/\">Sedes provinciales</a></li><li><a href=\"https://www.juntadeandalucia.es/boja/\">BOJA</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/contacto/",
+          "title": "Contacto y sedes de USO Andalucía"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "almeria",
+      "title": "Almería",
+      "parent": "territorios",
+      "status": "publish",
+      "html": "<p>La sede de USO en Almería figura en el directorio de USO Andalucía: Avenida del Mediterráneo, 225, 04009 Almería. Teléfono: 950 378 256. Correo: <a href=\"mailto:almeria@usoandalucia.net\">almeria@usoandalucia.net</a>. La información local y las convocatorias oficiales pueden consultarse en los enlaces siguientes.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/contacto/\">Directorio de sedes de USO Andalucía</a></li><li><a href=\"https://app.dipalme.org/bop/publico.zul\">BOP de Almería</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/contacto/",
+          "title": "Contacto y sedes de USO Andalucía"
+        },
+        {
+          "url": "https://app.dipalme.org/bop/publico.zul",
+          "title": "BOP de Almería"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "cadiz",
+      "title": "Cádiz",
+      "parent": "territorios",
+      "status": "publish",
+      "html": "<p>La sede de USO en Cádiz figura en el directorio de USO Andalucía: Calle García Carrera, 43, entreplanta, local 6, 11009 Cádiz. Teléfono: 956 22 66 44. Correo: <a href=\"mailto:uso@usocadiz.es\">uso@usocadiz.es</a>. La información local y las convocatorias oficiales pueden consultarse en los enlaces siguientes.</p><p>El directorio también recoge una sede comarcal de Campo de Gibraltar en Algeciras.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/contacto/\">Directorio de sedes de USO Andalucía</a></li><li><a href=\"https://bopcadiz.es/index.html\">BOP de Cádiz</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público</a></li><li><a href=\"https://spj.facuso.es/\">SPJ-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/contacto/",
+          "title": "Contacto y sedes de USO Andalucía"
+        },
+        {
+          "url": "https://bopcadiz.es/index.html",
+          "title": "BOP de Cádiz"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "cordoba",
+      "title": "Córdoba",
+      "parent": "territorios",
+      "status": "publish",
+      "html": "<p>La sede de USO en Córdoba figura en el directorio de USO Andalucía: Calle Virgen del Perpetuo Socorro, 4, 14004 Córdoba. Teléfono: 957 76 08 17 y 643 19 16 38. Correo: <a href=\"mailto:cordoba@usoandalucia.net\">cordoba@usoandalucia.net</a>. La información local y las convocatorias oficiales pueden consultarse en los enlaces siguientes.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/contacto/\">Directorio de sedes de USO Andalucía</a></li><li><a href=\"https://bop.dipucordoba.es/\">BOP de Córdoba</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/contacto/",
+          "title": "Contacto y sedes de USO Andalucía"
+        },
+        {
+          "url": "https://bop.dipucordoba.es/",
+          "title": "BOP de Córdoba"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "granada",
+      "title": "Granada",
+      "parent": "territorios",
+      "status": "publish",
+      "html": "<p>La sede de USO en Granada figura en el directorio de USO Andalucía: Avenida de Cádiz, 22, Zaidín, 18007 Granada. Teléfono: 958 12 83 48. Correo: <a href=\"mailto:granada@usoandalucia.net\">granada@usoandalucia.net</a>. La información local y las convocatorias oficiales pueden consultarse en los enlaces siguientes.</p><p>La sección sindical USO de Diputación de Granada dispone de un portal propio de noticias, oposiciones y atención sindical.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/contacto/\">Directorio de sedes de USO Andalucía</a></li><li><a href=\"https://bop.dipgra.es/publica/consulta-de-bops/page/index.html\">BOP de Granada</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público</a></li><li><a href=\"https://uso.dipgra.cloud/\">USO Diputación de Granada</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/contacto/",
+          "title": "Contacto y sedes de USO Andalucía"
+        },
+        {
+          "url": "https://bop.dipgra.es/publica/consulta-de-bops/page/index.html",
+          "title": "BOP de Granada"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "huelva",
+      "title": "Huelva",
+      "parent": "territorios",
+      "status": "publish",
+      "html": "<p>La sede de USO en Huelva figura en el directorio de USO Andalucía: Calle Marina, 19, entresuelo izquierda, 21001 Huelva. Teléfono: 959 24 98 60. Correo: <a href=\"mailto:huelva@usoandalucia.net\">huelva@usoandalucia.net</a>. La información local y las convocatorias oficiales pueden consultarse en los enlaces siguientes.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/contacto/\">Directorio de sedes de USO Andalucía</a></li><li><a href=\"https://sede.diphuelva.es/opencms/system/modules/gsede/elements/contenido/BOP.jsp\">BOP de Huelva</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/contacto/",
+          "title": "Contacto y sedes de USO Andalucía"
+        },
+        {
+          "url": "https://sede.diphuelva.es/opencms/system/modules/gsede/elements/contenido/BOP.jsp",
+          "title": "BOP de Huelva"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "jaen",
+      "title": "Jaén",
+      "parent": "territorios",
+      "status": "publish",
+      "html": "<p>La sede de USO en Jaén figura en el directorio de USO Andalucía: Plaza Jaén por la Paz, 3, 23009 Jaén. Teléfono: 953 27 27 36. Correo: <a href=\"mailto:info@usojaen.es\">info@usojaen.es</a>. La información local y las convocatorias oficiales pueden consultarse en los enlaces siguientes.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/contacto/\">Directorio de sedes de USO Andalucía</a></li><li><a href=\"https://bop.dipujaen.es/bop.dip\">BOP de Jaén</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/contacto/",
+          "title": "Contacto y sedes de USO Andalucía"
+        },
+        {
+          "url": "https://bop.dipujaen.es/bop.dip",
+          "title": "BOP de Jaén"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "malaga",
+      "title": "Málaga",
+      "parent": "territorios",
+      "status": "publish",
+      "html": "<p>La sede de USO en Málaga figura en el directorio de USO Andalucía: Calle Ventura Rodríguez, 48, 29009 Málaga. Teléfono: 952 61 61 31. Correo: <a href=\"mailto:administracion@usomalaga.es\">administracion@usomalaga.es</a>. La información local y las convocatorias oficiales pueden consultarse en los enlaces siguientes.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/contacto/\">Directorio de sedes de USO Andalucía</a></li><li><a href=\"https://www.bopmalaga.es/\">BOP de Málaga</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/contacto/",
+          "title": "Contacto y sedes de USO Andalucía"
+        },
+        {
+          "url": "https://www.bopmalaga.es/",
+          "title": "BOP de Málaga"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "sevilla",
+      "title": "Sevilla",
+      "parent": "territorios",
+      "status": "publish",
+      "html": "<p>La sede de USO en Sevilla figura en el directorio de USO Andalucía: Avenida Menéndez Pelayo, 52, 41003 Sevilla. Teléfono: 954 29 30 17. Correo: <a href=\"mailto:sevilla@usoandalucia.net\">sevilla@usoandalucia.net</a>. La información local y las convocatorias oficiales pueden consultarse en los enlaces siguientes.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/contacto/\">Directorio de sedes de USO Andalucía</a></li><li><a href=\"https://bopsevilla.dipusevilla.es/publica/consulta-de-bops/buscador/index.html\">BOP de Sevilla</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/contacto/",
+          "title": "Contacto y sedes de USO Andalucía"
+        },
+        {
+          "url": "https://bopsevilla.dipusevilla.es/publica/consulta-de-bops/buscador/index.html",
+          "title": "BOP de Sevilla"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "diputacion-de-granada",
+      "title": "USO en la Diputación de Granada",
+      "parent": "granada",
+      "status": "publish",
+      "html": "<p>La sección sindical USO de la Diputación de Granada mantiene un portal con tablón de anuncios, procesos de oferta pública de empleo, noticias y contenidos para TCAE, operarios, informática y servicios sociales. También enlaza a bolsas de trabajo y boletines de la Diputación.</p><p>Su contacto sindical publicado es el teléfono 958 247 799 y el correo <a href=\"mailto:uso@dipgra.es\">uso@dipgra.es</a>. Los temarios completos del aula de formación requieren acceso autorizado para personas afiliadas. Consulta directamente el portal para conocer los avisos vigentes.</p><h2>Recursos</h2><ul><li><a href=\"https://uso.dipgra.cloud/\">Portal de USO Diputación de Granada</a></li><li><a href=\"https://uso.dipgra.cloud/\">Tablón de anuncios</a></li><li><a href=\"https://uso.dipgra.cloud/contacto\">Contacto</a></li><li><a href=\"https://bop.dipgra.es/publica/consulta-de-bops/page/index.html\">BOP Granada</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://uso.dipgra.cloud/",
+          "title": "USO Diputación de Granada"
+        },
+        {
+          "url": "https://uso.dipgra.cloud/contacto",
+          "title": "Contacto de USO Diputación de Granada"
+        }
+      ],
+      "notes": [
+        "No se reproduce el formulario ni se traslada contenido reservado; los avisos dinámicos quedan en su fuente."
+      ]
+    },
+    {
+      "slug": "enlaces",
+      "title": "Enlaces",
+      "parent": null,
+      "status": "publish",
+      "html": "<p>Acceso a las organizaciones sindicales, los boletines oficiales y los servicios públicos de identificación y empleo. Los enlaces externos abren sus propios portales y pueden cambiar de contenido.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/\">USO Andalucía</a></li><li><a href=\"https://www.boe.es/\">BOE</a></li><li><a href=\"https://clave.gob.es/\">Cl@ve</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/",
+          "title": "USO Andalucía"
+        },
+        {
+          "url": "https://www.boe.es/",
+          "title": "BOE"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "corporativos",
+      "title": "Corporativos",
+      "parent": "enlaces",
+      "status": "publish",
+      "html": "<p>Portales oficiales de la Unión Sindical Obrera en Andalucía, de la confederación estatal y de la Federación de Atención a la Ciudadanía.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/\">USO Andalucía</a></li><li><a href=\"https://www.uso.es/\">USO confederal</a></li><li><a href=\"https://facuso.es/\">FAC-USO</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/",
+          "title": "USO Andalucía"
+        },
+        {
+          "url": "https://www.uso.es/",
+          "title": "USO confederal"
+        },
+        {
+          "url": "https://facuso.es/",
+          "title": "FAC-USO"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "slug": "publicaciones-oficiales",
+      "title": "Publicaciones oficiales",
+      "parent": "enlaces",
+      "status": "publish",
+      "html": "<p>Consulta los diarios oficiales para verificar el texto vigente de una convocatoria o disposición. La biblioteca jurídica del BOE reúne códigos electrónicos actualizados. El buscador de empleo público permite filtrar convocatorias por territorio y tipo de acceso.</p><h2>Recursos</h2><ul><li><a href=\"https://www.boe.es/\">BOE</a></li><li><a href=\"https://www.juntadeandalucia.es/boja/\">BOJA</a></li><li><a href=\"https://www.boe.es/biblioteca_juridica/index.php?tipo=C\">Códigos electrónicos del BOE</a></li><li><a href=\"https://app.dipalme.org/bop/publico.zul\">BOP de Almería</a></li><li><a href=\"https://bopcadiz.es/index.html\">BOP de Cádiz</a></li><li><a href=\"https://bop.dipucordoba.es/\">BOP de Córdoba</a></li><li><a href=\"https://bop.dipgra.es/publica/consulta-de-bops/page/index.html\">BOP de Granada</a></li><li><a href=\"https://sede.diphuelva.es/opencms/system/modules/gsede/elements/contenido/BOP.jsp\">BOP de Huelva</a></li><li><a href=\"https://bop.dipujaen.es/bop.dip\">BOP de Jaén</a></li><li><a href=\"https://www.bopmalaga.es/\">BOP de Málaga</a></li><li><a href=\"https://bopsevilla.dipusevilla.es/publica/consulta-de-bops/buscador/index.html\">BOP de Sevilla</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Buscador de empleo público</a></li><li><a href=\"https://portalempleopublico.juntadeandalucia.es/\">Portal de Empleo Público de Andalucía</a></li><li><a href=\"https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/PGE/PGE2023Prorroga2026/Paginas/PGE2023Prorroga2026.aspx\">Retribuciones del personal público estatal</a></li><li><a href=\"https://portalempleopublico.juntadeandalucia.es/\">Retribuciones de la Junta de Andalucía</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.boe.es/",
+          "title": "Boletín Oficial del Estado"
+        },
+        {
+          "url": "https://www.juntadeandalucia.es/boja/",
+          "title": "Boletín Oficial de la Junta de Andalucía"
+        },
+        {
+          "url": "https://www.boe.es/biblioteca_juridica/index.php?tipo=C",
+          "title": "Códigos electrónicos del BOE"
+        },
+        {
+          "url": "https://administracion.gob.es/empleopublico",
+          "title": "Empleo público del Punto de Acceso General"
+        },
+        {
+          "url": "https://app.dipalme.org/bop/publico.zul",
+          "title": "BOP de Almería"
+        },
+        {
+          "url": "https://bopcadiz.es/index.html",
+          "title": "BOP de Cádiz"
+        },
+        {
+          "url": "https://bop.dipucordoba.es/",
+          "title": "BOP de Córdoba"
+        },
+        {
+          "url": "https://bop.dipgra.es/publica/consulta-de-bops/page/index.html",
+          "title": "BOP de Granada"
+        },
+        {
+          "url": "https://sede.diphuelva.es/opencms/system/modules/gsede/elements/contenido/BOP.jsp",
+          "title": "BOP de Huelva"
+        },
+        {
+          "url": "https://bop.dipujaen.es/bop.dip",
+          "title": "BOP de Jaén"
+        },
+        {
+          "url": "https://www.bopmalaga.es/",
+          "title": "BOP de Málaga"
+        },
+        {
+          "url": "https://bopsevilla.dipusevilla.es/publica/consulta-de-bops/buscador/index.html",
+          "title": "BOP de Sevilla"
+        }
+      ],
+      "notes": [
+        "La ruta exacta de tablas retributivas estatales y andaluzas debe mantenerse actualizada cada ejercicio."
+      ]
+    },
+    {
+      "slug": "acceso-certificado-digital",
+      "title": "Acceso con certificado digital",
+      "parent": "enlaces",
+      "status": "publish",
+      "html": "<p>La FNMT ofrece información sobre el certificado electrónico de persona física. Cl@ve permite identificarse en trámites públicos con los métodos disponibles en cada servicio. La sede del Ministerio de Justicia y el portal del empleado público publican sus propios requisitos de acceso.</p><h2>Recursos</h2><ul><li><a href=\"https://www.sede.fnmt.gob.es/certificados/persona-fisica\">Certificado de persona física de la FNMT</a></li><li><a href=\"https://sede.mjusticia.gob.es/\">Sede electrónica del Ministerio de Justicia</a></li><li><a href=\"https://www.funciona.es/\">Portal del empleado público Funciona</a></li><li><a href=\"https://clave.gob.es/\">Cl@ve</a></li></ul>",
+      "sources": [
+        {
+          "url": "https://www.sede.fnmt.gob.es/certificados/persona-fisica",
+          "title": "Certificado de persona física FNMT"
+        },
+        {
+          "url": "https://sede.mjusticia.gob.es/",
+          "title": "Sede electrónica del Ministerio de Justicia"
+        },
+        {
+          "url": "https://clave.gob.es/",
+          "title": "Cl@ve"
+        }
+      ],
+      "notes": [
+        "Funciona es un servicio para personal habilitado; no ofrecer credenciales ni instrucciones de acceso no verificadas."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://facuso.es/wp-content/uploads/2024/01/ESTATUTOS.pdf",
+      "title": "Estatutos de FAC-USO",
+      "notes": ""
+    },
+    {
+      "url": "https://spj.facuso.es/",
+      "title": "SPJ-USO",
+      "notes": ""
+    },
+    {
+      "url": "https://uso.dipgra.cloud/",
+      "title": "USO Diputación de Granada",
+      "notes": ""
+    },
+    {
+      "url": "https://www.usoandalucia.es/contacto/",
+      "title": "Contacto y sedes de USO Andalucía",
+      "notes": ""
+    },
+    {
+      "url": "https://app.dipalme.org/bop/publico.zul",
+      "title": "BOP de Almería",
+      "notes": ""
+    },
+    {
+      "url": "https://bopcadiz.es/index.html",
+      "title": "BOP de Cádiz",
+      "notes": ""
+    },
+    {
+      "url": "https://bop.dipucordoba.es/",
+      "title": "BOP de Córdoba",
+      "notes": ""
+    },
+    {
+      "url": "https://bop.dipgra.es/publica/consulta-de-bops/page/index.html",
+      "title": "BOP de Granada",
+      "notes": ""
+    },
+    {
+      "url": "https://sede.diphuelva.es/opencms/system/modules/gsede/elements/contenido/BOP.jsp",
+      "title": "BOP de Huelva",
+      "notes": ""
+    },
+    {
+      "url": "https://bop.dipujaen.es/bop.dip",
+      "title": "BOP de Jaén",
+      "notes": ""
+    },
+    {
+      "url": "https://www.bopmalaga.es/",
+      "title": "BOP de Málaga",
+      "notes": ""
+    },
+    {
+      "url": "https://bopsevilla.dipusevilla.es/publica/consulta-de-bops/buscador/index.html",
+      "title": "BOP de Sevilla",
+      "notes": ""
+    },
+    {
+      "url": "https://uso.dipgra.cloud/contacto",
+      "title": "Contacto de USO Diputación de Granada",
+      "notes": ""
+    },
+    {
+      "url": "https://www.usoandalucia.es/",
+      "title": "USO Andalucía",
+      "notes": ""
+    },
+    {
+      "url": "https://www.boe.es/",
+      "title": "Boletín Oficial del Estado",
+      "notes": ""
+    },
+    {
+      "url": "https://www.uso.es/",
+      "title": "USO confederal",
+      "notes": ""
+    },
+    {
+      "url": "https://facuso.es/",
+      "title": "FAC-USO",
+      "notes": ""
+    },
+    {
+      "url": "https://www.juntadeandalucia.es/boja/",
+      "title": "Boletín Oficial de la Junta de Andalucía",
+      "notes": ""
+    },
+    {
+      "url": "https://www.boe.es/biblioteca_juridica/index.php?tipo=C",
+      "title": "Códigos electrónicos del BOE",
+      "notes": ""
+    },
+    {
+      "url": "https://administracion.gob.es/empleopublico",
+      "title": "Empleo público del Punto de Acceso General",
+      "notes": ""
+    },
+    {
+      "url": "https://www.sede.fnmt.gob.es/certificados/persona-fisica",
+      "title": "Certificado de persona física FNMT",
+      "notes": ""
+    },
+    {
+      "url": "https://sede.mjusticia.gob.es/",
+      "title": "Sede electrónica del Ministerio de Justicia",
+      "notes": ""
+    },
+    {
+      "url": "https://clave.gob.es/",
+      "title": "Cl@ve",
+      "notes": ""
+    }
+  ],
+  "pending": [
+    "Confirmar si la sección de Diputación de Granada debe figurar además bajo Administración local > Diputaciones; WordPress solo permite un padre por página, por lo que se enlaza desde ambos lugares.",
+    "Confirmar los responsables editoriales de los sectores: el ODT contiene propuestas y personas sin designación firme.",
+    "Aportar logos sectoriales y escudos provinciales con autorización de uso; el XML de páginas no configura la cabecera del tema.",
+    "La migración íntegra de webs sectoriales ajenas requiere exportaciones y permiso editorial de sus propietarios; aquí se enlazan como fuentes.",
+    "Contactos de USO provinciales verificados en https://www.usoandalucia.es/contacto/ el 18/10/2026; no son contactos específicos de FAC-USO. El directorio antiguo de sedes discrepa en las direcciones de Granada y el código postal de Almería."
+  ]
+}

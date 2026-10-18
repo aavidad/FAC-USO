@@ -1,0 +1,66 @@
+[
+  {
+    "province": "almeria",
+    "fetched": 11,
+    "created": 0,
+    "existing": 11,
+    "preview": 0,
+    "exit_code": 0
+  },
+  {
+    "province": "cadiz",
+    "fetched": 8,
+    "created": 0,
+    "existing": 8,
+    "preview": 0,
+    "exit_code": 0
+  },
+  {
+    "province": "cordoba",
+    "fetched": 3,
+    "created": 0,
+    "existing": 3,
+    "preview": 0,
+    "exit_code": 0
+  },
+  {
+    "province": "granada",
+    "fetched": 8,
+    "created": 0,
+    "existing": 8,
+    "preview": 0,
+    "exit_code": 0
+  },
+  {
+    "province": "huelva",
+    "fetched": 5,
+    "created": 0,
+    "existing": 5,
+    "preview": 0,
+    "exit_code": 0
+  },
+  {
+    "province": "jaen",
+    "fetched": 12,
+    "created": 0,
+    "existing": 12,
+    "preview": 0,
+    "exit_code": 0
+  },
+  {
+    "province": "malaga",
+    "fetched": 6,
+    "created": 0,
+    "existing": 6,
+    "preview": 0,
+    "exit_code": 0
+  },
+  {
+    "province": "sevilla",
+    "fetched": 17,
+    "created": 0,
+    "existing": 17,
+    "preview": 0,
+    "exit_code": 0
+  }
+]

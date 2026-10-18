@@ -1,0 +1,53 @@
+{
+  "home_order_stable": true,
+  "home_employment": {
+    "cards": 6,
+    "distinct_photos": 4
+  },
+  "home_general": {
+    "cards": 6,
+    "distinct_photos": 6
+  },
+  "home_list_detail_same_photo": 12,
+  "generated_resources": {
+    "files": 8,
+    "distinct_files": 8,
+    "distinct_images": 8
+  },
+  "search": {
+    "status": 200,
+    "cards": 5,
+    "cards_with_photo": 5
+  },
+  "granada_archive": {
+    "status": 200,
+    "cards": 10,
+    "cards_with_photo": 10
+  },
+  "favicon": {
+    "status": 200,
+    "type": "image/png",
+    "bytes": 5170
+  },
+  "boe_examples": [
+    {
+      "slug": "facuso-granada-786951a81428af8f1d57db00",
+      "status": 200,
+      "words": 170,
+      "official_text": true,
+      "source_link": true
+    },
+    {
+      "slug": "facuso-almeria-a49468b3fffa21bf3a307271",
+      "status": 200,
+      "words": 360,
+      "official_text": true,
+      "source_link": true
+    }
+  ],
+  "cadiz_university": {
+    "found": 2,
+    "categorized": 2
+  },
+  "errors": []
+}

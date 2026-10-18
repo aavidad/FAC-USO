@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+.playwright-cli/
+docker/.secrets/
+__pycache__/
+.runtime/
+bot-secrets/
+research/*.html
+research/base-*.txt
+research/base-media.json
+
+# Material de entrada y capturas de trabajo conservados solo en local.
+/*.odt
+/research/
+/assets/
+*.mp4
+*.webm
+*.wav
+*.mp3
+*.part

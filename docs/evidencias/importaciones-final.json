@@ -1,0 +1,145 @@
+{
+  "timestamp_utc": "2026-10-18T12:58:27.288683+00:00",
+  "wordpress": "7.1.3-php8.3-apache",
+  "prefixes": [
+    "facuso_ziptest_",
+    "facuso_wxrtest_"
+  ],
+  "packages_sha256": {
+    "facuso-arranque.zip": "7f33e55a20dcbb8302060e051d44b972cb43c4b0eeef0d7cc0116001e167c06d",
+    "facuso-andalucia.xml": "1d7648048197ed6446f8ea14a45d394395b82e111076df0e251b3acdca808805",
+    "facuso-andalucia-tema.zip": "bbe3d698b66416e03ff885bf135013ad04f7b8cf98cbe75af8895607d40444f7"
+  },
+  "tests": {
+    "zip": {
+      "mode": "zip",
+      "first": {
+        "created": 206,
+        "recovered": 0,
+        "adopted": 0,
+        "skipped": 0,
+        "categories": 39,
+        "menus": 2,
+        "conflicts": [],
+        "media": 34
+      },
+      "second": {
+        "created": 0,
+        "recovered": 0,
+        "adopted": 0,
+        "skipped": 206,
+        "categories": 0,
+        "menus": 2,
+        "conflicts": [],
+        "media": 34
+      },
+      "checks": 598,
+      "errors": [],
+      "pages": 74,
+      "posts": 132,
+      "attachments": 34,
+      "expected": {
+        "pages": 74,
+        "posts": 132,
+        "categories": 39
+      },
+      "table_prefix": "facuso_ziptest_"
+    },
+    "subdir": {
+      "mode": "subdir",
+      "checks": 552,
+      "errors": [],
+      "pages": 74,
+      "posts": 132,
+      "attachments": 34,
+      "expected": {
+        "pages": 74,
+        "posts": 132,
+        "categories": 39
+      },
+      "table_prefix": "facuso_ziptest_"
+    },
+    "xml": {
+      "mode": "xml",
+      "importer": "wordpress-importer 0.9.1",
+      "checks": 557,
+      "errors": [],
+      "pages": 74,
+      "posts": 132,
+      "attachments": 0,
+      "expected": {
+        "pages": 74,
+        "posts": 132,
+        "categories": 39
+      },
+      "table_prefix": "facuso_wxrtest_"
+    }
+  },
+  "http": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 38467
+    },
+    {
+      "path": "/conocenos/",
+      "status": 200,
+      "bytes": 24553
+    },
+    {
+      "path": "/territorios/sevilla/opaef/",
+      "status": 200,
+      "bytes": 24303
+    },
+    {
+      "path": "/territorios/almeria/empleo-publico-almeria/",
+      "status": 200,
+      "bytes": 33262
+    },
+    {
+      "path": "/territorios/cadiz/empleo-publico-cadiz/",
+      "status": 200,
+      "bytes": 27954
+    },
+    {
+      "path": "/territorios/cordoba/empleo-publico-cordoba/",
+      "status": 200,
+      "bytes": 28114
+    },
+    {
+      "path": "/territorios/granada/empleo-publico-granada/",
+      "status": 200,
+      "bytes": 30243
+    },
+    {
+      "path": "/territorios/huelva/empleo-publico-huelva/",
+      "status": 200,
+      "bytes": 31220
+    },
+    {
+      "path": "/territorios/jaen/empleo-publico-jaen/",
+      "status": 200,
+      "bytes": 31413
+    },
+    {
+      "path": "/territorios/malaga/empleo-publico-malaga/",
+      "status": 200,
+      "bytes": 25851
+    },
+    {
+      "path": "/territorios/sevilla/empleo-publico-sevilla/",
+      "status": 200,
+      "bytes": 33494
+    },
+    {
+      "path": "/territorios/sevilla/opaef/uso-opaef/",
+      "status": 200,
+      "bytes": 25615
+    },
+    {
+      "path": "/territorios/sevilla/opaef/observatorio-igualdad-opaef/",
+      "status": 200,
+      "bytes": 25700
+    }
+  ]
+}

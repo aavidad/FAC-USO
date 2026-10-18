@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-18",
+  "test": "bot/almeria_browser/integration_redirect.py",
+  "executor": "Agente principal; Docker sin red externa",
+  "isolation": {"network":"none","read_only":true,"uid":10001,"memory_mb":512,"cpus":1,"pids_limit":192},
+  "result": {"tests":1,"failures":0,"source_requests":1,"off_origin_destination_requests":0},
+  "note": "Dos servidores loopback en el contenedor. El origen permitido devuelve 302 hacia otro origen; el navegador no lo visita."
+}

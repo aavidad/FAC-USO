@@ -1,0 +1,42 @@
+[
+  {
+    "file": "foto-empleo.webp",
+    "alt": "Mesa de preparación con ordenador, libros y documentación",
+    "credit": "Imagen de recurso generada con IA",
+    "kind": "generated",
+    "source_url": "",
+    "description": "Escena ilustrativa de oficina y preparación de empleo público. No documenta una convocatoria ni un acontecimiento real."
+  },
+  {
+    "file": "foto-formacion.webp",
+    "alt": "Personas adultas en una sesión de formación profesional",
+    "credit": "Imagen de recurso generada con IA",
+    "kind": "generated",
+    "source_url": "",
+    "description": "Escena ilustrativa generada para contenidos de formación. No corresponde a una jornada real de USO."
+  },
+  {
+    "file": "foto-sanidad.webp",
+    "alt": "Material sanitario y pasillo de un centro de salud ilustrativo",
+    "credit": "Imagen de recurso generada con IA",
+    "kind": "generated",
+    "source_url": "",
+    "description": "Escena ilustrativa de sanidad. No identifica un hospital ni documenta la noticia."
+  },
+  {
+    "file": "foto-justicia.webp",
+    "alt": "Libros y balanza en un despacho de asesoramiento ilustrativo",
+    "credit": "Imagen de recurso generada con IA",
+    "kind": "generated",
+    "source_url": "",
+    "description": "Escena ilustrativa para contenidos de Justicia y asesoramiento. No corresponde a un órgano judicial real."
+  },
+  {
+    "file": "montaje-campana.webp",
+    "alt": "Montaje ilustrativo de campaña con escenario y multitud generados",
+    "credit": "Montaje ilustrativo generado con IA a partir de una fotografía publicada por USO Andalucía. No representa una movilización real.",
+    "kind": "montage",
+    "source_url": "https://www.usoandalucia.es/44420-2/",
+    "description": "Fotografía original de septiembre de 2026. Escenario y multitud generados con etiqueta visible de montaje. Logotipos oficiales de la fuente conservados como referencia; revisar fidelidad antes de uso corporativo."
+  }
+]

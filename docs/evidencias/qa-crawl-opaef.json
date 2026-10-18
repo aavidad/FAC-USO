@@ -1,0 +1,20 @@
+{
+  "base": "http://127.0.0.1:18086",
+  "package": {
+    "pages": 74,
+    "posts": 132,
+    "categories": 39
+  },
+  "rest_published": {
+    "pages": 72,
+    "posts": 132
+  },
+  "html_pages_visited": 285,
+  "assets_checked": 48,
+  "http_status_counts": {
+    "200": 349
+  },
+  "errors": [],
+  "warnings": [],
+  "security_http": {}
+}

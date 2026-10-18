@@ -1,0 +1,44 @@
+{
+  "browser": "Chrome sistema, playwright-cli",
+  "pages": [
+    {
+      "path": "/territorios/sevilla/opaef/",
+      "tabs": 2,
+      "active": 0,
+      "status": 200,
+      "context": "Sevilla",
+      "viewport_width": 390,
+      "document_width": 390,
+      "public_forms": 0,
+      "internal_tabs_same_window": true
+    },
+    {
+      "path": "/territorios/sevilla/opaef/uso-opaef/",
+      "tabs": 2,
+      "active": 1,
+      "status": 200,
+      "context": "Sevilla",
+      "viewport_width": 390,
+      "document_width": 390,
+      "public_forms": 0,
+      "internal_tabs_same_window": true
+    },
+    {
+      "path": "/territorios/sevilla/opaef/observatorio-igualdad-opaef/",
+      "tabs": 2,
+      "active": 1,
+      "status": 200,
+      "context": "Sevilla",
+      "viewport_width": 390,
+      "document_width": 390,
+      "public_forms": 0,
+      "internal_tabs_same_window": true
+    }
+  ],
+  "general_verification": {
+    "checks": 2210,
+    "errors": 0
+  },
+  "crawl": "qa-crawl-opaef.json",
+  "scope": "contenido y navegación; sin recepción pública de casos ni contactos nuevos"
+}

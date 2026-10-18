@@ -1,0 +1,20 @@
+{
+  "published_news_checked": 132,
+  "post_ids_unique": true,
+  "home_sections": [
+    {
+      "title": "Actualidad sindical",
+      "cards": 6,
+      "distinct_images": 6
+    },
+    {
+      "title": "Bolsas y oposiciones",
+      "cards": 6,
+      "distinct_images": 5
+    }
+  ],
+  "gallery_photos": 25,
+  "image_urls_checked": 33,
+  "montage_labeled": true,
+  "errors": []
+}

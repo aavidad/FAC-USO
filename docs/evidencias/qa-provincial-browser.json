@@ -1,0 +1,20 @@
+{
+  "browser": "Chrome del sistema mediante playwright-cli",
+  "source": "bop",
+  "cards": 9,
+  "internal_same_tab": true,
+  "external_new_tab": true,
+  "original_preserved": true,
+  "opener_null": true,
+  "dynamic_external": {
+    "target": "_blank",
+    "rel": "nofollow ugc noopener noreferrer"
+  },
+  "dynamic_internal_target": "",
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "mobile_no_overflow": true,
+  "external_navigation": "respuesta simulada de app.dipalme.org mediante context.route, sin consultar esa fuente"
+}

@@ -1,0 +1,34 @@
+{
+    "mode": "zip",
+    "first": {
+        "created": 206,
+        "recovered": 0,
+        "adopted": 0,
+        "skipped": 0,
+        "categories": 39,
+        "menus": 2,
+        "conflicts": [],
+        "media": 34
+    },
+    "second": {
+        "created": 0,
+        "recovered": 0,
+        "adopted": 0,
+        "skipped": 206,
+        "categories": 0,
+        "menus": 2,
+        "conflicts": [],
+        "media": 34
+    },
+    "checks": 598,
+    "errors": [],
+    "pages": 74,
+    "posts": 132,
+    "attachments": 34,
+    "expected": {
+        "pages": 74,
+        "posts": 132,
+        "categories": 39
+    },
+    "table_prefix": "facuso_ziptest_"
+}

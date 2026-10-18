@@ -1,0 +1,14 @@
+{
+    "mode": "subdir",
+    "checks": 552,
+    "errors": [],
+    "pages": 74,
+    "posts": 132,
+    "attachments": 34,
+    "expected": {
+        "pages": 74,
+        "posts": 132,
+        "categories": 39
+    },
+    "table_prefix": "facuso_ziptest_"
+}

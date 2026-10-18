@@ -1,0 +1,11 @@
+[
+  {"kind":"bop","province":"almeria","label":"BOP de Almería","hosts":["app.dipalme.org","bop.almeria.es"]},
+  {"kind":"bop","province":"cadiz","label":"BOP de Cádiz","hosts":["bopcadiz.es","www.bopcadiz.es"]},
+  {"kind":"bop","province":"cordoba","label":"BOP de Córdoba","hosts":["bop.dipucordoba.es"]},
+  {"kind":"bop","province":"granada","label":"BOP de Granada","hosts":["bop.dipgra.es"]},
+  {"kind":"bop","province":"huelva","label":"BOP de Huelva","hosts":["bop.diphuelva.es","sede.diphuelva.es","s2.diphuelva.es","www.diphuelva.es"]},
+  {"kind":"bop","province":"jaen","label":"BOP de Jaén","hosts":["bop.dipujaen.es"]},
+  {"kind":"bop","province":"malaga","label":"BOP de Málaga","hosts":["bopmalaga.es","www.bopmalaga.es"]},
+  {"kind":"bop","province":"sevilla","label":"BOP de Sevilla","hosts":["bopsevilla.dipusevilla.es"]},
+  {"kind":"boe","province":"","label":"BOE","hosts":["boe.es","www.boe.es"]}
+]

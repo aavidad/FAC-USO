@@ -1,0 +1,67 @@
+async page => {
+  const base = 'http://127.0.0.1:18086';
+  const errors = [];
+  const runtimeErrors = [];
+  page.on('pageerror', error => runtimeErrors.push(error.message));
+  const links = [base + '/'];
+  for (const type of ['pages', 'posts']) {
+    let current = 1;
+    while (true) {
+      const result = await page.request.get(`${base}/wp-json/wp/v2/${type}?per_page=100&page=${current}&_fields=link`);
+      if (result.status() !== 200) throw new Error(`REST ${type} ${result.status()}`);
+      for (const item of await result.json()) links.push(item.link);
+      if (current >= Number(result.headers()['x-wp-totalpages'] || 1)) break;
+      current++;
+    }
+  }
+  await page.setViewportSize({ width: 390, height: 844 });
+  for (const url of [...new Set(links)]) {
+    const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+    if (!response || response.status() !== 200) {
+      errors.push(`${url}: HTTP ${response ? response.status() : 'sin respuesta'}`);
+      continue;
+    }
+    const result = await page.evaluate(() => ({
+      overflow: document.documentElement.scrollWidth - innerWidth,
+      headings: document.querySelectorAll('main h1').length,
+      flag: !!document.querySelector('.fac-flag'),
+      title: document.title,
+    }));
+    if (result.overflow > 1) errors.push(`${url}: desbordamiento ${result.overflow}px`);
+    if (result.headings !== 1) errors.push(`${url}: ${result.headings} H1`);
+    if (!result.flag) errors.push(`${url}: falta bandera`);
+    if (!result.title) errors.push(`${url}: falta título`);
+  }
+  const first = await page.goto(base + '/', { waitUntil: 'domcontentloaded' });
+  await page.getByRole('button', { name: 'Menú y secciones' }).click();
+  if (await page.locator('.fac-menu-toggle').getAttribute('aria-expanded') !== 'true') errors.push('Menú móvil no abre');
+  await page.getByRole('button', { name: 'Abrir apartados de Provincias' }).click();
+  const provinceButton = page.getByRole('button', { name: 'Abrir apartados de Provincias' });
+  if (await provinceButton.getAttribute('aria-expanded') !== 'true') errors.push('Submenú provincial no abre');
+  await page.getByRole('link', { name: 'Granada', exact: true }).first().click();
+  if (!page.url().endsWith('/territorios/granada/')) errors.push('Enlace móvil a Granada falla');
+  await page.goto(base + '/noticias/', { waitUntil: 'domcontentloaded' });
+  await page.locator('#fac-sector').selectOption('sanidad');
+  await page.locator('#fac-territorio').selectOption('cadiz');
+  await page.getByRole('button', { name: 'Ver noticias' }).click();
+  const filtered = await page.evaluate(() => ({
+    sector: new URLSearchParams(location.search).get('fac_sector'),
+    territory: new URLSearchParams(location.search).get('fac_territorio'),
+    count: document.querySelector('.fac-count')?.textContent,
+    cards: document.querySelectorAll('.fac-news .fac-card').length,
+  }));
+  if (filtered.sector !== 'sanidad' || filtered.territory !== 'cadiz')
+    errors.push('Formulario móvil no aplica los dos filtros');
+  if (!filtered.count || !filtered.cards) errors.push('Formulario móvil no muestra noticias filtradas');
+  await page.getByRole('link', { name: 'Restablecer' }).click();
+  if (new URL(page.url()).searchParams.has('fac_sector')) errors.push('Restablecer filtro falla');
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto(base + '/', { waitUntil: 'domcontentloaded' });
+  const desktop = await page.evaluate(() => ({
+    overflow: document.documentElement.scrollWidth - innerWidth,
+    nav: getComputedStyle(document.querySelector('.fac-navigation')).display,
+  }));
+  if (desktop.overflow > 1) errors.push(`Portada escritorio desbordada ${desktop.overflow}px`);
+  if (desktop.nav === 'none') errors.push('Menú escritorio oculto');
+  return { pagesVisitedMobile: [...new Set(links)].length, desktop, runtimeErrors: [...new Set(runtimeErrors)], errors };
+}

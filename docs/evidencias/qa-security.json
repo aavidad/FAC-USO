@@ -1,0 +1,37 @@
+{
+  "base": "http://127.0.0.1:18086",
+  "package": {
+    "pages": 63,
+    "posts": 132,
+    "categories": 39
+  },
+  "rest_published": {
+    "pages": 61,
+    "posts": 132
+  },
+  "html_pages_visited": 289,
+  "assets_checked": 47,
+  "http_status_counts": {
+    "200": 352
+  },
+  "errors": [],
+  "warnings": [],
+  "security_http": {
+    "anonymous_import": 400,
+    "anonymous_rest_post": 401,
+    "admin_without_nonce": 403,
+    "subscriber_import": 403,
+    "subscriber_rest_post": 401,
+    "bot_identity": 200,
+    "foreign_province": 403,
+    "malicious_source": 403,
+    "source_with_userinfo": 403,
+    "create_user": 403,
+    "upload_media": 403,
+    "edit_other_post": 403,
+    "delete_other_post": 403,
+    "xmlrpc_get_users_blogs": "fault:403",
+    "xmlrpc_new_post": "fault:403",
+    "xmlrpc_qa_posts_after": 0
+  }
+}

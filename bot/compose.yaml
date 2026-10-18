@@ -1,0 +1,69 @@
+x-env: &env
+  WP_BASE_URL: ${WP_BASE_URL:?Indica WP_BASE_URL}
+  WP_APP_PASSWORD_FILE: /run/secrets/wp_application_password
+  BOT_PUBLISH: ${BOT_PUBLISH:-false}
+  WP_ALLOW_LOCAL_HTTP: ${WP_ALLOW_LOCAL_HTTP:-false}
+
+x-bot: &bot
+  profiles: ["bots"]
+  build: .
+  restart: "no"
+  user: "${BOT_UID:-1000}:${BOT_GID:-1000}"
+  read_only: true
+  tmpfs:
+    - /tmp:rw,noexec,nosuid,size=16m
+  security_opt:
+    - no-new-privileges:true
+  cap_drop:
+    - ALL
+  pids_limit: 32
+  mem_limit: 128m
+  cpus: 0.5
+
+services:
+  almeria:
+    <<: *bot
+    environment: {<<: *env, WP_USER: facuso-bot-almeria, ALMERIA_BOP_FILE: /data/almeria_bop.json}
+    volumes:
+      - "${WP_APP_PASSWORD_DIR:?Indica WP_APP_PASSWORD_DIR}/almeria:/run/secrets/wp_application_password:ro"
+      - facuso_almeria_bop:/data:ro
+    command: ["--province", "almeria"]
+  cadiz:
+    <<: *bot
+    environment: {<<: *env, WP_USER: facuso-bot-cadiz}
+    volumes: ["${WP_APP_PASSWORD_DIR:?Indica WP_APP_PASSWORD_DIR}/cadiz:/run/secrets/wp_application_password:ro"]
+    command: ["--province", "cadiz"]
+  cordoba:
+    <<: *bot
+    environment: {<<: *env, WP_USER: facuso-bot-cordoba}
+    volumes: ["${WP_APP_PASSWORD_DIR:?Indica WP_APP_PASSWORD_DIR}/cordoba:/run/secrets/wp_application_password:ro"]
+    command: ["--province", "cordoba"]
+  granada:
+    <<: *bot
+    environment: {<<: *env, WP_USER: facuso-bot-granada}
+    volumes: ["${WP_APP_PASSWORD_DIR:?Indica WP_APP_PASSWORD_DIR}/granada:/run/secrets/wp_application_password:ro"]
+    command: ["--province", "granada"]
+  huelva:
+    <<: *bot
+    environment: {<<: *env, WP_USER: facuso-bot-huelva}
+    volumes: ["${WP_APP_PASSWORD_DIR:?Indica WP_APP_PASSWORD_DIR}/huelva:/run/secrets/wp_application_password:ro"]
+    command: ["--province", "huelva"]
+  jaen:
+    <<: *bot
+    environment: {<<: *env, WP_USER: facuso-bot-jaen}
+    volumes: ["${WP_APP_PASSWORD_DIR:?Indica WP_APP_PASSWORD_DIR}/jaen:/run/secrets/wp_application_password:ro"]
+    command: ["--province", "jaen"]
+  malaga:
+    <<: *bot
+    environment: {<<: *env, WP_USER: facuso-bot-malaga}
+    volumes: ["${WP_APP_PASSWORD_DIR:?Indica WP_APP_PASSWORD_DIR}/malaga:/run/secrets/wp_application_password:ro"]
+    command: ["--province", "malaga"]
+  sevilla:
+    <<: *bot
+    environment: {<<: *env, WP_USER: facuso-bot-sevilla}
+    volumes: ["${WP_APP_PASSWORD_DIR:?Indica WP_APP_PASSWORD_DIR}/sevilla:/run/secrets/wp_application_password:ro"]
+    command: ["--province", "sevilla"]
+
+volumes:
+  facuso_almeria_bop:
+    name: facuso_almeria_bop

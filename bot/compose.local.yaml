@@ -1,0 +1,27 @@
+services:
+  almeria:
+    networks: [facuso_local, facuso_acceso]
+  cadiz:
+    networks: [facuso_local, facuso_acceso]
+  cordoba:
+    networks: [facuso_local, facuso_acceso]
+  granada:
+    networks: [facuso_local, facuso_acceso]
+  huelva:
+    networks: [facuso_local, facuso_acceso]
+    extra_hosts:
+      - "s2.diphuelva.es:${HUELVA_BOP_IP:?Indica HUELVA_BOP_IP para DNS local}"
+  jaen:
+    networks: [facuso_local, facuso_acceso]
+  malaga:
+    networks: [facuso_local, facuso_acceso]
+  sevilla:
+    networks: [facuso_local, facuso_acceso]
+
+networks:
+  facuso_local:
+    external: true
+    name: facuso-importacion_local
+  facuso_acceso:
+    external: true
+    name: facuso-importacion_acceso

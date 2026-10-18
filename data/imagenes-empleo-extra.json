@@ -1,0 +1,34 @@
+[
+  {
+    "file": "foto-empleo-oficina.webp",
+    "alt": "Mesa de oficina municipal con ordenador y agenda en una sala luminosa",
+    "credit": "Imagen de recurso generada con IA",
+    "kind": "generated",
+    "source_url": "",
+    "description": "Escena ilustrativa de oficina municipal. No muestra una convocatoria ni una dependencia real."
+  },
+  {
+    "file": "foto-empleo-aula.webp",
+    "alt": "Aula vacía preparada con filas de mesas y sillas para un examen",
+    "credit": "Imagen de recurso generada con IA",
+    "kind": "generated",
+    "source_url": "",
+    "description": "Escena ilustrativa de aula de examen. No documenta una prueba selectiva real."
+  },
+  {
+    "file": "foto-empleo-ayuntamiento.webp",
+    "alt": "Fachada ilustrativa de un ayuntamiento andaluz junto a una plaza con naranjos",
+    "credit": "Imagen de recurso generada con IA",
+    "kind": "generated",
+    "source_url": "",
+    "description": "Escena ilustrativa de un ayuntamiento ficticio. No identifica ningún municipio real."
+  },
+  {
+    "file": "foto-empleo-atencion.webp",
+    "alt": "Dos personas vistas de espaldas ante un mostrador de atención ciudadana",
+    "credit": "Imagen de recurso generada con IA",
+    "kind": "generated",
+    "source_url": "",
+    "description": "Escena ilustrativa de atención ciudadana. Las personas y la oficina son generadas y no documentan un trámite real."
+  }
+]

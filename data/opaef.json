@@ -1,0 +1,74 @@
+{
+  "pages": [
+    {
+      "slug": "opaef",
+      "title": "OPAEF",
+      "parent": "sevilla",
+      "status": "publish",
+      "navigation_label": "Apartados de OPAEF",
+      "tabs": [
+        {
+          "page": "uso-opaef",
+          "label": "USO-OPAEF · Sección sindical"
+        },
+        {
+          "page": "observatorio-igualdad-opaef",
+          "label": "Observatorio de Igualdad, Acoso y Discriminación USO-OPAEF"
+        }
+      ],
+      "html": "<p>El OPAEF es el Organismo Provincial de Asistencia Económica y Fiscal de la Diputación de Sevilla. Presta servicios relacionados con la gestión y recaudación de tributos y con la asistencia económica a los municipios de la provincia. Puedes conocer su actividad en la <a href=\"https://www.opaef.es/el-organismo/informacion-institucional/\">información institucional del organismo</a>.</p><p>Este espacio reúne la actividad de USO en el OPAEF. La sección sindical trata las condiciones de trabajo y la representación de la plantilla. El Observatorio de Igualdad, Acoso y Discriminación USO-OPAEF ofrece un punto de referencia para quienes desean hablar de estas cuestiones y recoge el trabajo sindical relacionado con el I Plan de Igualdad del OPAEF.</p>",
+      "sources": [
+        {
+          "url": "https://www.opaef.es/el-organismo/informacion-institucional/",
+          "title": "Información institucional del OPAEF"
+        }
+      ],
+      "notes": [
+        "La denominación de las dos subpáginas responde a la petición de Alberto del 18 de octubre de 2026. La descripción del organismo procede de su web institucional."
+      ]
+    },
+    {
+      "slug": "uso-opaef",
+      "title": "USO-OPAEF · Sección sindical",
+      "parent": "opaef",
+      "status": "publish",
+      "html": "<p>La sección sindical USO-OPAEF es un espacio para que la plantilla plantee cuestiones de su trabajo diario y participe en la elaboración de propuestas. Su labor parte de escuchar a las personas trabajadoras y de trasladar los asuntos colectivos a los ámbitos de representación y negociación que correspondan.</p><h2>En qué trabajamos</h2><p>Nos interesan la organización del servicio, las cargas de trabajo, las condiciones laborales y los recursos necesarios para atender bien a la ciudadanía. Las experiencias de los distintos centros y puestos ayudan a detectar problemas comunes y a ordenar prioridades. Cuando una cuestión afecta a varias personas, podemos estudiarla con ellas, contrastar la información disponible y preparar una propuesta para plantearla donde proceda.</p><p>También seguimos la actualidad que afecta al OPAEF. En una <a href=\"https://www.usoandalucia.es/los-sindicatos-del-opaef-denuncian-el-abandono-institucional-del-presidente-de-la-diputacion-ante-la-grave-crisis-del-servicio-de-recaudacion/\">noticia publicada por USO Andalucía</a> puedes consultar una actuación sindical sobre el servicio de recaudación. La noticia refleja la situación descrita en su fecha de publicación; las novedades posteriores deben comprobarse en las fuentes vigentes.</p><h2>Habla con la sección</h2><p>Si trabajas en el OPAEF y quieres trasladar una consulta, una propuesta o una preocupación sobre tus condiciones de trabajo, solicita contacto con la sección sindical a través de <a href=\"[[page:sevilla]]\">USO Sevilla</a>. Indica que deseas hablar con USO-OPAEF y evita detallar casos de terceras personas en espacios públicos. Puedes plantear tanto una cuestión individual como una idea que merezca debatirse con el resto de la plantilla.</p>",
+      "sources": [
+        {
+          "url": "https://www.usoandalucia.es/los-sindicatos-del-opaef-denuncian-el-abandono-institucional-del-presidente-de-la-diputacion-ante-la-grave-crisis-del-servicio-de-recaudacion/",
+          "title": "Noticia de USO Andalucía sobre el OPAEF"
+        }
+      ],
+      "notes": [
+        "Áreas de actuación redactadas como orientación sindical general a partir de la petición de Alberto del 18 de octubre de 2026; no afirman acuerdos, cargos ni compromisos concretos.",
+        "El contacto remite a la página territorial de Sevilla; no se crean direcciones, nombres ni canales nuevos."
+      ]
+    },
+    {
+      "slug": "observatorio-igualdad-opaef",
+      "title": "Observatorio de Igualdad, Acoso y Discriminación USO-OPAEF",
+      "parent": "opaef",
+      "status": "publish",
+      "html": "<p>Este espacio de USO-OPAEF atiende inquietudes sobre igualdad, acoso y discriminación en el trabajo. Si necesitas hablar de una situación propia o proponer una mejora colectiva, puedes pedir contacto con la sección sindical. Escuchar a la plantilla ayuda a identificar asuntos que requieren atención y a preparar propuestas.</p><h2>Escucha y acompañamiento</h2><p>Las dos personas que impulsamos este espacio ayudamos a compañeras y compañeros que nos lo piden. Podemos escuchar su situación, ayudarles a ordenar la información que desea trasladar y orientarla sobre los cauces que puedan ser adecuados. El acompañamiento se acuerda con la persona interesada según lo que necesite y las posibilidades de la representación sindical. También puedes empezar por una consulta general sin exponer detalles personales.</p><p>En asuntos que afectan a otras personas, conviene cuidar su privacidad desde el primer contacto. La conversación directa permite valorar qué información compartir y qué pasos quiere dar quien consulta.</p><h2>Trabajo sobre el I Plan de Igualdad</h2><p>Representantes de USO-OPAEF preparan reuniones relacionadas con la negociación del I Plan de Igualdad del OPAEF. Para ese trabajo recogen inquietudes de la plantilla y estudian posibles propuestas. Entre las materias que podrían examinarse están el acceso a oportunidades profesionales, las condiciones que afectan a la conciliación y las medidas para prevenir situaciones de acoso o discriminación. Son propuestas para analizar y debatir durante la negociación. Las medidas y los acuerdos se comunicarán cuando estén contrastados.</p><p>Quienes conocen el trabajo cotidiano pueden ayudar a concretar prioridades antes de cada reunión. Si quieres hacer una sugerencia, explica qué te preocupa y qué cambio te parecería útil, sin incluir datos personales de otras personas en mensajes abiertos.</p><h2>Primer contacto</h2><p>Solicita hablar con el Observatorio de Igualdad, Acoso y Discriminación USO-OPAEF a través de <a href=\"[[page:sevilla]]\">USO Sevilla</a>. Indica que deseas hablar con la sección y evita detallar casos de terceras personas en espacios públicos. Puedes pedir una conversación para explicar qué necesitas.</p>",
+      "sources": [],
+      "notes": [
+        "La existencia y finalidad de este espacio, la ayuda a compañeros que la solicitan y la preparación de reuniones sobre la negociación del I Plan de Igualdad proceden de la petición de Alberto del 18 de octubre de 2026; no hay URL pública aportada para esa fuente interna.",
+        "Las materias del plan son ejemplos de posibles propuestas, no medidas acordadas. No se afirma que exista un protocolo, buzón, plazo de atención o garantía absoluta de confidencialidad."
+      ]
+    }
+  ],
+  "entry_points": [
+    {
+      "page": "sevilla",
+      "html": "<h2>USO en el OPAEF</h2><p>La sección sindical y el observatorio tienen un espacio propio para la plantilla del organismo.</p><p><a class=\"fac-button secondary\" href=\"[[page:opaef]]\">OPAEF · Sección sindical y observatorio</a></p>"
+    },
+    {
+      "page": "diputaciones",
+      "html": "<h2>Sección sindical del OPAEF de Sevilla</h2><p>Consulta la actividad de USO en el Organismo Provincial de Asistencia Económica y Fiscal y el trabajo del Observatorio de Igualdad, Acoso y Discriminación.</p><p><a href=\"[[page:opaef]]\">Acceder al espacio OPAEF</a></p>"
+    },
+    {
+      "page": "igualdad",
+      "html": "<h2>Observatorio USO-OPAEF</h2><p>El Observatorio de Igualdad, Acoso y Discriminación USO-OPAEF ofrece escucha y acompañamiento a compañeras y compañeros que lo solicitan, y prepara reuniones para la negociación del I Plan de Igualdad del OPAEF.</p><p><a class=\"fac-button secondary\" href=\"[[page:observatorio-igualdad-opaef]]\">Conocer el Observatorio USO-OPAEF</a></p>"
+    }
+  ]
+}

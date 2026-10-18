@@ -1,0 +1,137 @@
+{
+  "schedule": "0 * * * *",
+  "timezone": "Europe/Madrid (host CEST)",
+  "cron_service_active": true,
+  "jobs": {
+    "almeria": {
+      "started_at": "2026-10-18T04:41:07Z",
+      "finished_at": "2026-10-18T04:41:12Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "almeria",
+        "fetched": 11,
+        "created": 0,
+        "existing": 11,
+        "preview": 0
+      }
+    },
+    "almeria_browser": {
+      "started_at": "2026-10-18T04:40:58Z",
+      "finished_at": "2026-10-18T04:41:07Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "date": "2026-10-18",
+        "items": 7,
+        "output": "/data/almeria_bop.json"
+      }
+    },
+    "cadiz": {
+      "started_at": "2026-10-18T04:41:12Z",
+      "finished_at": "2026-10-18T04:41:16Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "cadiz",
+        "fetched": 8,
+        "created": 0,
+        "existing": 8,
+        "preview": 0
+      }
+    },
+    "cordoba": {
+      "started_at": "2026-10-18T04:41:16Z",
+      "finished_at": "2026-10-18T04:41:22Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "cordoba",
+        "fetched": 3,
+        "created": 0,
+        "existing": 3,
+        "preview": 0
+      }
+    },
+    "granada": {
+      "started_at": "2026-10-18T04:41:22Z",
+      "finished_at": "2026-10-18T04:41:27Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "granada",
+        "fetched": 8,
+        "created": 0,
+        "existing": 8,
+        "preview": 0
+      }
+    },
+    "huelva": {
+      "started_at": "2026-10-18T04:41:27Z",
+      "finished_at": "2026-10-18T04:41:31Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "huelva",
+        "fetched": 5,
+        "created": 0,
+        "existing": 5,
+        "preview": 0
+      }
+    },
+    "jaen": {
+      "started_at": "2026-10-18T04:41:31Z",
+      "finished_at": "2026-10-18T04:41:35Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "jaen",
+        "fetched": 12,
+        "created": 0,
+        "existing": 12,
+        "preview": 0
+      }
+    },
+    "malaga": {
+      "started_at": "2026-10-18T04:41:35Z",
+      "finished_at": "2026-10-18T04:41:39Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "malaga",
+        "fetched": 6,
+        "created": 0,
+        "existing": 6,
+        "preview": 0
+      }
+    },
+    "sevilla": {
+      "started_at": "2026-10-18T04:41:39Z",
+      "finished_at": "2026-10-18T04:41:43Z",
+      "status": "ok",
+      "exit_code": "0",
+      "result": {
+        "province": "sevilla",
+        "fetched": 17,
+        "created": 0,
+        "existing": 17,
+        "preview": 0
+      }
+    }
+  },
+  "manual_cycle_exit_code": 0,
+  "second_execution_while_running": "omitted by flock, no second scraping",
+  "installer_repeated": "one matching cron entry",
+  "legacy_loop_containers": "stopped and removed, shared BOP volume preserved",
+  "static_checks": [
+    "bash -n",
+    "ShellCheck",
+    "Docker Compose config -q"
+  ],
+  "unit_tests": {
+    "bot": 29,
+    "errors": 0,
+    "network": "none"
+  },
+  "independent_review": "security-audit focal; bounded cleanup and exact cron marker fixes verified"
+}

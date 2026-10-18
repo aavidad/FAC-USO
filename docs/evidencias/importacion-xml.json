@@ -1,0 +1,15 @@
+{
+    "mode": "xml",
+    "importer": "wordpress-importer 0.9.1",
+    "checks": 557,
+    "errors": [],
+    "pages": 74,
+    "posts": 132,
+    "attachments": 0,
+    "expected": {
+        "pages": 74,
+        "posts": 132,
+        "categories": 39
+    },
+    "table_prefix": "facuso_wxrtest_"
+}

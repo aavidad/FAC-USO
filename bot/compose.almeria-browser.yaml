@@ -1,0 +1,32 @@
+name: facuso-almeria-browser
+
+services:
+  almeria_browser:
+    profiles: ["bots"]
+    build: ./almeria_browser
+    init: true
+    restart: "no"
+    read_only: true
+    tmpfs:
+      - /tmp:rw,nosuid,size=64m,mode=1777
+    shm_size: 128m
+    volumes:
+      - facuso_almeria_bop:/data
+    networks:
+      - facuso_acceso
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    pids_limit: 128
+    mem_limit: 512m
+    cpus: 1.0
+
+volumes:
+  facuso_almeria_bop:
+    external: true
+    name: facuso_almeria_bop
+
+networks:
+  facuso_acceso:
+    external: true
+    name: facuso-importacion_acceso

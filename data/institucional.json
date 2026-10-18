@@ -1,0 +1,209 @@
+{
+  "pages": [
+    {
+      "slug": "conocenos",
+      "title": "Conócenos",
+      "parent": "",
+      "status": "publish",
+      "html": "<p>FAC-USO Andalucía es la organización de la Federación de Atención a la Ciudadanía de USO en Andalucía. Reúne la actividad sindical vinculada a los servicios públicos y a sus plantillas. En estas páginas puedes conocer la organización, sus órganos, su historia y cómo contactar con ella.</p><p>FAC-USO forma parte de la Unión Sindical Obrera. Sus estatutos federales recogen la defensa de los servicios públicos y de las condiciones de trabajo de quienes los prestan. <a href=\"https://facuso.es/portal-de-transparencia-fac-uso/\">Consulta la información institucional de FAC-USO</a>.</p>",
+      "sources": [{"url":"https://facuso.es/portal-de-transparencia-fac-uso/","title":"Portal de Transparencia FAC-USO"}],
+      "notes": ["Síntesis original. La organización territorial concreta de FAC-USO Andalucía debe validarse editorialmente."]
+    },
+    {
+      "slug": "que-es-la-uso-andalucia",
+      "title": "Qué es la USO-Andalucía",
+      "parent": "conocenos",
+      "status": "publish",
+      "html": "<p>USO Andalucía es la unión territorial andaluza de la Unión Sindical Obrera. La USO se organiza mediante uniones territoriales y federaciones profesionales; FAC-USO es su federación para la atención a la ciudadanía. El sindicato defiende su autonomía respecto de partidos, gobiernos y empresas, y la participación de la afiliación en las decisiones.</p><p>La web de FAC-USO Andalucía ya contiene una explicación de <a href=\"https://facusoandalucia.es/que-es-la-uso-andalucia/\">qué es la USO-Andalucía</a>. También puedes consultar la <a href=\"https://www.uso.es/que-es-la-uso/\">presentación confederal de USO</a> y la <a href=\"https://www.usoandalucia.es/\">actualidad de USO Andalucía</a>.</p>",
+      "sources": [{"url":"https://facusoandalucia.es/que-es-la-uso-andalucia/","title":"Qué es la USO-Andalucía, FAC-USO Andalucía"},{"url":"https://www.uso.es/que-es-la-uso/","title":"Qué es la USO, Confederación USO"},{"url":"https://www.usoandalucia.es/","title":"USO Andalucía"}],
+      "notes": ["Se enlaza la entrada ya publicada; no se duplica su texto."]
+    },
+    {
+      "slug": "bienvenida-del-secretario-general",
+      "title": "Bienvenida del secretario general",
+      "parent": "conocenos",
+      "status": "draft",
+      "html": "<p>Pendiente de una bienvenida firmada y aprobada por la Secretaría General de FAC-USO Andalucía.</p>",
+      "sources": [],
+      "notes": ["El ODT solicita esta página, pero no contiene una bienvenida ni autoriza atribuir palabras a su secretario general. Mantener como borrador."]
+    },
+    {
+      "slug": "comision-ejecutiva-regional",
+      "title": "Comisión Ejecutiva Regional",
+      "parent": "conocenos",
+      "status": "publish",
+      "html": "<p>Directorio facilitado en el documento «20261015 MODIFICACION ESTRUCTURA WEB.odt», de 15 de octubre de 2026. La composición y los cargos deben confirmarse antes de usarlos como referencia oficial.</p><ul><li>Enrique Jiménez, Secretaría General: <a href=\"mailto:sgeneral.andalucia@facuso.es\">sgeneral.andalucia@facuso.es</a>.</li><li>Luis Vinelli, Secretaría de Organización: <a href=\"mailto:luis.vinelli@facuso.es\">luis.vinelli@facuso.es</a>.</li><li>Secretaría de Acción Sindical y Formación: <a href=\"mailto:asindical.andalucia@facuso.es\">asindical.andalucia@facuso.es</a> y <a href=\"mailto:formacion.andalucia@facuso.es\">formacion.andalucia@facuso.es</a>. El documento no identifica a su titular.</li><li>Mael Domínguez, Secretaría de Finanzas y Comunicación: <a href=\"mailto:finanzas.andalucia@facuso.es\">finanzas.andalucia@facuso.es</a>.</li><li>Inmaculada Jaime, Secretaría de Igualdad y Salud Laboral y Oficina Jurídica: <a href=\"mailto:igualdad.andalucia@facuso.es\">igualdad.andalucia@facuso.es</a>, <a href=\"mailto:saludlaboral.andalucia@facuso.es\">saludlaboral.andalucia@facuso.es</a> y <a href=\"mailto:juridico.andalucia@facuso.es\">juridico.andalucia@facuso.es</a>.</li></ul><h2>Comisión de Garantías</h2><p>Según el mismo directorio, Adriano Moreno figura como presidente y Encarnación Jiménez como vocal. Correo de la comisión: <a href=\"mailto:cgarantias.andalucia@facuso.es\">cgarantias.andalucia@facuso.es</a>. Hay una vocalía pendiente de actualización.</p>",
+      "sources": [],
+      "notes": ["Fuente local: 20261015 MODIFICACION ESTRUCTURA WEB.odt. Los cargos y direcciones proceden del encargo, no de una fuente pública verificada. El correo de Comunicación del ODT contiene una tilde en la parte local y se omite hasta confirmar la dirección correcta.", "Se omite el nombre de la vocal señalada para sustitución por jubilación.", "No confundir esta comisión de FAC-USO Andalucía con la Comisión Ejecutiva Regional de la unión territorial USO Andalucía."]
+    },
+    {
+      "slug": "elecciones",
+      "title": "Elecciones sindicales",
+      "parent": "conocenos",
+      "status": "publish",
+      "html": "<p>Las elecciones sindicales permiten elegir a quienes representan a la plantilla en el centro de trabajo. FAC-USO presta orientación para formar candidaturas y participar en los procesos electorales del empleo público.</p><p>La Confederación publica <a href=\"https://www.uso.es/elecciones-sindicales/\">actualidad, una guía rápida y formación electoral</a>. Si quieres presentarte con USO, <a href=\"https://www.uso.es/quieres-presentarte-con-uso-a-las-elecciones-sindicales-te-contamos-como/\">consulta los pasos</a> y contacta con tu sección sindical o sede más cercana.</p>",
+      "sources": [{"url":"https://www.uso.es/elecciones-sindicales/","title":"Elecciones sindicales, USO"},{"url":"https://www.uso.es/quieres-presentarte-con-uso-a-las-elecciones-sindicales-te-contamos-como/","title":"Cómo presentarse con USO"}],
+      "notes": ["No se incluyen plazos ni reglas electorales específicas: dependen del ámbito y la convocatoria."]
+    },
+    {
+      "slug": "congresos",
+      "title": "Congresos",
+      "parent": "conocenos",
+      "status": "publish",
+      "html": "<p>Los congresos son espacios de debate y elección de las direcciones sindicales. En la información pública aparecen congresos de estructuras relacionadas, como el <a href=\"https://facuso.es/noticias/sindicato/noticias/celebrado-el-2o-congreso-de-fac-uso-sevilla/\">II Congreso de FAC-USO Sevilla</a> de 2021 y el <a href=\"https://www.usoandalucia.es/spj-uso-andalucia-congreso-spj-uso-andalucia-y-nueva-ejecutiva-regional/\">Congreso de SPJ-USO Andalucía</a> de 2025.</p><p>La página de <a href=\"https://facuso.es/portal-de-transparencia-fac-uso/\">transparencia de FAC-USO</a> reúne documentación federal. La relación de congresos propios de FAC-USO Andalucía, sus actas y sus resoluciones queda pendiente de aportación por la organización.</p>",
+      "sources": [{"url":"https://facuso.es/noticias/sindicato/noticias/celebrado-el-2o-congreso-de-fac-uso-sevilla/","title":"II Congreso de FAC-USO Sevilla"},{"url":"https://www.usoandalucia.es/spj-uso-andalucia-congreso-spj-uso-andalucia-y-nueva-ejecutiva-regional/","title":"Congreso de SPJ-USO Andalucía"},{"url":"https://facuso.es/portal-de-transparencia-fac-uso/","title":"Portal de transparencia de FAC-USO"}],
+      "notes": ["Los congresos enlazados pertenecen a organizaciones relacionadas y se identifican como tales. No se atribuyen a FAC-USO Andalucía."]
+    },
+    {
+      "slug": "estatutos-y-resoluciones",
+      "title": "Estatutos y resoluciones",
+      "parent": "conocenos",
+      "status": "publish",
+      "html": "<p>Los estatutos explican cómo se organiza el sindicato, sus órganos y los derechos y deberes de la afiliación. Las resoluciones recogen acuerdos aprobados en sus órganos.</p><ul><li><a href=\"https://facuso.es/portal-de-transparencia-fac-uso/\">Normativa y transparencia de FAC-USO</a>.</li><li><a href=\"https://www.usoandalucia.es/portal-de-transparencia/\">Estatutos de USO Andalucía</a>.</li><li><a href=\"https://www.uso.es/estatutos-y-resoluciones/\">Estatutos y resoluciones de la Confederación USO</a>.</li></ul><p>Se incorporarán aquí los estatutos y las resoluciones de FAC-USO Andalucía cuando la federación facilite versiones aprobadas y vigentes.</p>",
+      "sources": [{"url":"https://facuso.es/portal-de-transparencia-fac-uso/","title":"Transparencia FAC-USO"},{"url":"https://www.usoandalucia.es/portal-de-transparencia/","title":"Transparencia USO Andalucía"},{"url":"https://www.uso.es/estatutos-y-resoluciones/","title":"Estatutos y resoluciones USO"}],
+      "notes": ["La fuente de FAC-USO estatal no acredita por sí sola estatutos regionales; solicitarlos antes de etiquetar documentos como regionales."]
+    },
+    {
+      "slug": "historia-de-la-uso",
+      "title": "Historia de la USO",
+      "parent": "conocenos",
+      "status": "publish",
+      "html": "<p>La Unión Sindical Obrera surgió a finales de la década de 1950. Su Carta Fundacional se publicó en 1961, en un contexto sin libertades sindicales. Durante la transición democrática extendió su organización y defendió la libertad sindical.</p><p>FAC-USO Andalucía ya publicó una <a href=\"https://facusoandalucia.es/historia-de-la-uso/\">entrada sobre la historia de USO</a>, con enlace a la Carta Fundacional. La <a href=\"https://www.uso.es/historia/\">Confederación ofrece un relato más amplio</a>.</p>",
+      "sources": [{"url":"https://facusoandalucia.es/historia-de-la-uso/","title":"Historia de la USO, FAC-USO Andalucía"},{"url":"https://www.uso.es/historia/","title":"Historia, USO"}],
+      "notes": ["Síntesis propia con acceso al artículo que ya existe en la web en construcción."]
+    },
+    {
+      "slug": "videos",
+      "title": "Vídeos",
+      "parent": "conocenos",
+      "status": "publish",
+      "html": "<p>La Confederación USO reúne <a href=\"https://www.uso.es/videos-corporativos/\">vídeos corporativos</a> sobre su identidad, sus derechos y su historia. FAC-USO Andalucía incorporará sus propios vídeos cuando disponga de materiales autorizados, con título, fecha y descripción accesible.</p>",
+      "sources": [{"url":"https://www.uso.es/videos-corporativos/","title":"Vídeos corporativos, USO"}],
+      "notes": ["No se reinsertan archivos de terceros ni se asume autorización de reutilización audiovisual."]
+    },
+    {
+      "slug": "fotos",
+      "title": "Fotos",
+      "parent": "conocenos",
+      "status": "publish",
+      "html": "<p>Las noticias de <a href=\"https://www.usoandalucia.es/\">USO Andalucía</a> y <a href=\"https://facuso.es/\">FAC-USO</a> incluyen fotografías de actos y actividad sindical. Esta sección recogerá galerías propias de FAC-USO Andalucía cuando se faciliten las imágenes, su fecha, autoría y permisos de publicación.</p>",
+      "sources": [{"url":"https://www.usoandalucia.es/","title":"USO Andalucía"},{"url":"https://facuso.es/","title":"FAC-USO"}],
+      "notes": ["Sin fotografías regionales aportadas ni licencia de reutilización explícita; se ofrecen enlaces a publicaciones corporativas."]
+    },
+    {
+      "slug": "sedes",
+      "title": "Sedes",
+      "parent": "conocenos",
+      "status": "publish",
+      "html": "<p>La red territorial de USO Andalucía tiene atención en las ocho provincias andaluzas y en el Campo de Gibraltar. <a href=\"https://www.usoandalucia.es/contacto/\">Consulta las direcciones, teléfonos y correos actualizados</a> antes de desplazarte.</p><p>Para asuntos de FAC-USO Andalucía, utiliza los contactos de la <a href=\"/conocenos/comision-ejecutiva-regional/\">Comisión Ejecutiva Regional</a>. La organización debe confirmar qué sedes territoriales atienden presencialmente los asuntos específicos de FAC-USO.</p>",
+      "sources": [{"url":"https://www.usoandalucia.es/contacto/","title":"Sedes y contacto, USO Andalucía"}],
+      "notes": ["Las direcciones pertenecen a USO Andalucía, no se presentan como sedes exclusivas de FAC-USO. URL interna del directorio sujeta a la estructura final de permalinks."]
+    },
+    {
+      "slug": "contacto",
+      "title": "Contacto",
+      "parent": "conocenos",
+      "status": "publish",
+      "html": "<p>Para consultas sobre empleo público y actividad de FAC-USO Andalucía, escribe al área que corresponda:</p><ul><li>Secretaría General: <a href=\"mailto:sgeneral.andalucia@facuso.es\">sgeneral.andalucia@facuso.es</a></li><li>Acción sindical: <a href=\"mailto:asindical.andalucia@facuso.es\">asindical.andalucia@facuso.es</a></li><li>Formación: <a href=\"mailto:formacion.andalucia@facuso.es\">formacion.andalucia@facuso.es</a></li><li>Igualdad: <a href=\"mailto:igualdad.andalucia@facuso.es\">igualdad.andalucia@facuso.es</a></li><li>Salud laboral: <a href=\"mailto:saludlaboral.andalucia@facuso.es\">saludlaboral.andalucia@facuso.es</a></li><li>Oficina jurídica: <a href=\"mailto:juridico.andalucia@facuso.es\">juridico.andalucia@facuso.es</a></li></ul><p>Directorio facilitado el 15 de octubre de 2026 y pendiente de confirmación por la organización. Para atención territorial general, consulta las <a href=\"https://www.usoandalucia.es/contacto/\">sedes de USO Andalucía</a>.</p>",
+      "sources": [{"url":"https://www.usoandalucia.es/contacto/","title":"Contacto y sedes, USO Andalucía"}],
+      "notes": ["Los correos de FAC-USO Andalucía provienen del ODT local; confirmar vigencia y que se autoriza su publicación."]
+    },
+    {
+      "slug": "servicios-a-la-afiliacion",
+      "title": "Servicios a la afiliación",
+      "parent": "",
+      "status": "publish",
+      "html": "<p>La afiliación a USO puede acceder a asesoramiento, formación, promociones y a la Caja de Resistencia y Solidaridad, de acuerdo con los requisitos aplicables a cada servicio. FAC-USO ofrece además formación vinculada al empleo público.</p><p><a href=\"https://www.uso.es/servicios-afiliacion/\">Consulta los servicios confederales</a> y la <a href=\"https://facuso.es/afiliate/\">información de afiliación de FAC-USO</a>. Las condiciones vigentes se comprueban en cada servicio antes de solicitarlas.</p>",
+      "sources": [{"url":"https://www.uso.es/servicios-afiliacion/","title":"Servicios a la afiliación, USO"},{"url":"https://facuso.es/afiliate/","title":"Afíliate, FAC-USO"}],
+      "notes": []
+    },
+    {
+      "slug": "promociones",
+      "title": "Promociones",
+      "parent": "servicios-a-la-afiliacion",
+      "status": "publish",
+      "html": "<p>USO publica ventajas para su afiliación en ámbitos como formación, salud, viajes, consumo y ocio. Cada oferta tiene su propio plazo, requisitos y proveedor. <a href=\"https://www.uso.es/servicios-afiliacion/promociones/\">Consulta el catálogo vigente</a> y verifica allí las condiciones antes de contratar.</p>",
+      "sources": [{"url":"https://www.uso.es/servicios-afiliacion/promociones/","title":"Promociones, USO"}],
+      "notes": ["Se evitan descuentos concretos porque pueden caducar o cambiar."]
+    },
+    {
+      "slug": "formacion",
+      "title": "Formación",
+      "parent": "servicios-a-la-afiliacion",
+      "status": "publish",
+      "html": "<p>FAC-USO dispone de una <a href=\"https://formacion.facuso.es/\">plataforma de formación</a> para su afiliación. En ella se publican cursos y ediciones relacionadas con distintos ámbitos del empleo público, incluida Andalucía. Las convocatorias indican quién puede inscribirse, plazos y número de cursos permitidos.</p><p>USO también ofrece <a href=\"https://www.uso.es/servicios-afiliacion/formacion/\">formación sindical y otros itinerarios para la afiliación</a>. Antes de matricularte, revisa la convocatoria vigente y tus datos de afiliación.</p>",
+      "sources": [{"url":"https://formacion.facuso.es/course/","title":"Categorías de cursos, FAC-USO"},{"url":"https://facuso.es/noticias/informacion/formacion/cursos-afedap-inap-2026-quinta-edicion/","title":"Convocatoria de formación FAC-USO 2026"},{"url":"https://www.uso.es/servicios-afiliacion/formacion/","title":"Formación, USO"}],
+      "notes": ["No se presenta una convocatoria de 2026 como abierta sin comprobar sus fechas."]
+    },
+    {
+      "slug": "asesoria-juridica",
+      "title": "Asesoría jurídica",
+      "parent": "servicios-a-la-afiliacion",
+      "status": "publish",
+      "html": "<p>Las asesorías jurídicas de USO orientan y defienden a su afiliación en conflictos laborales y, según el caso, en materias contencioso-administrativas. La atención y las condiciones de acceso se concretan en la sede o federación correspondiente.</p><p>Para asuntos de FAC-USO Andalucía puedes escribir a <a href=\"mailto:juridico.andalucia@facuso.es\">juridico.andalucia@facuso.es</a>, correo facilitado en el directorio de octubre de 2026 y pendiente de confirmación. <a href=\"https://www.uso.es/servicios-afiliacion/asesoria-juridica/\">Más información sobre la asesoría de USO</a>.</p>",
+      "sources": [{"url":"https://www.uso.es/servicios-afiliacion/asesoria-juridica/","title":"Asesoría jurídica, USO"},{"url":"https://facuso.es/afiliate/","title":"Servicios de FAC-USO para su afiliación"}],
+      "notes": ["Correo regional tomado del ODT local; confirmar vigencia."]
+    },
+    {
+      "slug": "crs",
+      "title": "Caja de Resistencia y Solidaridad",
+      "parent": "servicios-a-la-afiliacion",
+      "status": "publish",
+      "html": "<p>La Caja de Resistencia y Solidaridad (CRS) es el instrumento de apoyo económico de USO para su afiliación en determinados conflictos, como huelgas, cierres patronales y sanciones o despidos de carácter sindical, conforme a su reglamento y a la situación de cada persona.</p><p>FAC-USO Andalucía ya tiene una <a href=\"https://facusoandalucia.es/caja-de-resistencia-y-solidaridad/\">página informativa sobre la CRS</a>. Para conocer cuantías y requisitos aplicables, consulta la <a href=\"https://www.uso.es/servicios-afiliacion/\">información confederal vigente</a> y confirma tu caso con el sindicato.</p>",
+      "sources": [{"url":"https://facusoandalucia.es/caja-de-resistencia-y-solidaridad/","title":"Caja de Resistencia y Solidaridad, FAC-USO Andalucía"},{"url":"https://www.uso.es/servicios-afiliacion/","title":"Servicios a la afiliación, USO"},{"url":"https://www.uso.es/wp-content/uploads/2024/10/sindicato-uso-caja-de-resistencia-y-solidaridad-crs.pdf","title":"Información confederal sobre la CRS"}],
+      "notes": ["La página ya publicada contiene cuantías. No se duplican porque el salario mínimo y el reglamento pueden cambiar."]
+    },
+    {
+      "slug": "informacion",
+      "title": "Información",
+      "parent": "",
+      "status": "publish",
+      "html": "<p>Consulta la actividad sindical de FAC-USO Andalucía y los recursos sobre condiciones de trabajo, prevención e igualdad. Las noticias de la federación se organizan también por sector, materia y territorio para localizar lo que afecta a cada plantilla.</p><p>La web en construcción ya dispone de páginas de <a href=\"https://facusoandalucia.es/accion-sindical/\">acción sindical</a>, <a href=\"https://facusoandalucia.es/salud-laboral/\">salud laboral</a> e <a href=\"https://facusoandalucia.es/igualdad/\">igualdad</a>.</p>",
+      "sources": [{"url":"https://facusoandalucia.es/accion-sindical/","title":"Acción sindical, FAC-USO Andalucía"},{"url":"https://facusoandalucia.es/salud-laboral/","title":"Salud laboral, FAC-USO Andalucía"},{"url":"https://facusoandalucia.es/igualdad/","title":"Igualdad, FAC-USO Andalucía"}],
+      "notes": ["Las páginas existentes contienen bloques de noticias, campañas e información; conservar su contenido al importar sobre la web en construcción."]
+    },
+    {
+      "slug": "accion-sindical",
+      "title": "Acción sindical",
+      "parent": "informacion",
+      "status": "publish",
+      "html": "<p>La acción sindical reúne el trabajo de representación, negociación y defensa de las condiciones de empleo. En FAC-USO Andalucía abarca los distintos sectores de los servicios públicos y las administraciones.</p><p>La <a href=\"https://facusoandalucia.es/accion-sindical/\">página de acción sindical ya publicada</a> organiza noticias, campañas e información. Para materiales generales de negociación y derechos laborales, consulta la <a href=\"https://www.uso.es/accion-sindical/\">sección confederal</a>.</p>",
+      "sources": [{"url":"https://facusoandalucia.es/accion-sindical/","title":"Acción sindical, FAC-USO Andalucía"},{"url":"https://www.uso.es/accion-sindical/","title":"Acción sindical, USO"}],
+      "notes": ["Se enlaza la página existente; importación sobre el sitio activo requiere conservar sus bloques y asociaciones de contenido."]
+    },
+    {
+      "slug": "salud-laboral",
+      "title": "Salud laboral",
+      "parent": "informacion",
+      "status": "publish",
+      "html": "<p>La prevención de riesgos laborales busca evitar daños en el trabajo. USO impulsa la prevención, la actuación de las personas delegadas de prevención y la mejora de las condiciones de seguridad y salud.</p><p>La <a href=\"https://facusoandalucia.es/salud-laboral/\">página de FAC-USO Andalucía</a> reúne noticias, campañas e información. La <a href=\"https://www.uso.es/salud-laboral/\">sección confederal de salud laboral</a> ofrece guías, documentos y consultas. Para contactar con el área regional figura <a href=\"mailto:saludlaboral.andalucia@facuso.es\">saludlaboral.andalucia@facuso.es</a> en el directorio de octubre de 2026, pendiente de confirmación.</p>",
+      "sources": [{"url":"https://facusoandalucia.es/salud-laboral/","title":"Salud laboral, FAC-USO Andalucía"},{"url":"https://www.uso.es/salud-laboral/","title":"Salud laboral, USO"}],
+      "notes": ["Correo regional tomado del ODT local; confirmar vigencia."]
+    },
+    {
+      "slug": "igualdad",
+      "title": "Igualdad",
+      "parent": "informacion",
+      "status": "publish",
+      "html": "<p>El área de igualdad trabaja para evitar la discriminación en el empleo y mejorar la igualdad efectiva en las condiciones de trabajo. USO promueve planes de igualdad, medidas frente a la brecha salarial y acciones de sensibilización.</p><p>La <a href=\"https://facusoandalucia.es/igualdad/\">página de igualdad de FAC-USO Andalucía</a> reúne noticias, campañas e información. También puedes consultar los <a href=\"https://www.uso.es/igualdad/\">recursos confederales</a>. El directorio regional de octubre de 2026 facilita <a href=\"mailto:igualdad.andalucia@facuso.es\">igualdad.andalucia@facuso.es</a>, pendiente de confirmación.</p>",
+      "sources": [{"url":"https://facusoandalucia.es/igualdad/","title":"Igualdad, FAC-USO Andalucía"},{"url":"https://www.uso.es/igualdad/","title":"Igualdad, USO"}],
+      "notes": ["Correo regional tomado del ODT local; confirmar vigencia."]
+    }
+  ],
+  "sources": [
+    {"url":"https://facusoandalucia.es/wp-json/wp/v2/","title":"API pública de la web FAC-USO Andalucía en construcción","notes":"Consultada el 18 de octubre de 2026. La ruta /facuso/ facilitada por el usuario devolvía 404, pero la API exponía 7 páginas, 11 entradas y categorías ya publicadas."},
+    {"url":"https://www.uso.es/","title":"Confederación USO","notes":"Fuente corporativa consultada el 18 de octubre de 2026."},
+    {"url":"https://www.usoandalucia.es/","title":"USO Andalucía","notes":"Fuente de la unión territorial; distinta de FAC-USO Andalucía. Consultada el 18 de octubre de 2026."},
+    {"url":"https://facuso.es/","title":"FAC-USO estatal","notes":"Fuente federal consultada el 18 de octubre de 2026."},
+    {"url":"https://formacion.facuso.es/course/","title":"Aula de formación FAC-USO","notes":"Catálogo consultado el 18 de octubre de 2026."}
+  ],
+  "pending": [
+    "Aprobar y firmar la bienvenida del secretario general de FAC-USO Andalucía.",
+    "Confirmar la composición actual de la Comisión Ejecutiva Regional y la Comisión de Garantías, incluido el reemplazo de la vocalía indicada en el ODT.",
+    "Confirmar todas las direcciones de correo del ODT; en particular, Comunicación aparece allí con tilde en la parte local de la dirección.",
+    "Aportar documentos aprobados de congresos, estatutos y resoluciones propios de FAC-USO Andalucía.",
+    "Aportar vídeos y fotografías de FAC-USO Andalucía con permisos de publicación, autoría, fecha y textos alternativos.",
+    "Precisar qué sedes atienden asuntos específicos de FAC-USO Andalucía y quién mantendrá el directorio.",
+    "Al importar sobre la web actual, conservar páginas y entradas existentes y evitar duplicar slugs publicados."
+  ]
+}

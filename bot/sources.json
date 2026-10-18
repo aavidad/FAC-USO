@@ -1,0 +1,36 @@
+{
+  "provinces": {
+    "almeria": {"boe_lookback_days": 7, "bop_enabled": false, "rss_sources": [
+      {"name": "fac", "url": "https://facusoandalucia.es/feed/", "allowed_hosts": ["facusoandalucia.es", "www.facusoandalucia.es"]},
+      {"name": "uso", "url": "https://www.uso.es/feed/", "allowed_hosts": ["uso.es", "www.uso.es"]}
+    ]},
+    "cadiz": {"boe_lookback_days": 7, "bop_enabled": true, "bop_lookback_days": 3, "rss_sources": [
+      {"name": "fac", "url": "https://facusoandalucia.es/feed/", "allowed_hosts": ["facusoandalucia.es", "www.facusoandalucia.es"]},
+      {"name": "uso", "url": "https://www.uso.es/feed/", "allowed_hosts": ["uso.es", "www.uso.es"]}
+    ]},
+    "cordoba": {"boe_lookback_days": 7, "bop_enabled": true, "bop_lookback_days": 3, "rss_sources": [
+      {"name": "fac", "url": "https://facusoandalucia.es/feed/", "allowed_hosts": ["facusoandalucia.es", "www.facusoandalucia.es"]},
+      {"name": "uso", "url": "https://www.uso.es/feed/", "allowed_hosts": ["uso.es", "www.uso.es"]}
+    ]},
+    "granada": {"boe_lookback_days": 7, "bop_enabled": true, "bop_lookback_days": 3, "rss_sources": [
+      {"name": "fac", "url": "https://facusoandalucia.es/feed/", "allowed_hosts": ["facusoandalucia.es", "www.facusoandalucia.es"]},
+      {"name": "uso", "url": "https://www.uso.es/feed/", "allowed_hosts": ["uso.es", "www.uso.es"]}
+    ]},
+    "huelva": {"boe_lookback_days": 7, "bop_enabled": true, "bop_lookback_days": 3, "rss_sources": [
+      {"name": "fac", "url": "https://facusoandalucia.es/feed/", "allowed_hosts": ["facusoandalucia.es", "www.facusoandalucia.es"]},
+      {"name": "uso", "url": "https://www.uso.es/feed/", "allowed_hosts": ["uso.es", "www.uso.es"]}
+    ]},
+    "jaen": {"boe_lookback_days": 7, "bop_enabled": true, "bop_lookback_days": 3, "rss_sources": [
+      {"name": "fac", "url": "https://facusoandalucia.es/feed/", "allowed_hosts": ["facusoandalucia.es", "www.facusoandalucia.es"]},
+      {"name": "uso", "url": "https://www.uso.es/feed/", "allowed_hosts": ["uso.es", "www.uso.es"]}
+    ]},
+    "malaga": {"boe_lookback_days": 7, "bop_enabled": false, "rss_sources": [
+      {"name": "fac", "url": "https://facusoandalucia.es/feed/", "allowed_hosts": ["facusoandalucia.es", "www.facusoandalucia.es"]},
+      {"name": "uso", "url": "https://www.uso.es/feed/", "allowed_hosts": ["uso.es", "www.uso.es"]}
+    ]},
+    "sevilla": {"boe_lookback_days": 7, "bop_enabled": true, "bop_lookback_days": 3, "rss_sources": [
+      {"name": "fac", "url": "https://facusoandalucia.es/feed/", "allowed_hosts": ["facusoandalucia.es", "www.facusoandalucia.es"]},
+      {"name": "uso", "url": "https://www.uso.es/feed/", "allowed_hosts": ["uso.es", "www.uso.es"]}
+    ]}
+  }
+}

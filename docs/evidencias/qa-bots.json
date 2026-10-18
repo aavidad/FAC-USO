@@ -1,0 +1,26 @@
+{
+    "published_by_province": {
+        "almeria": 11,
+        "cadiz": 8,
+        "cordoba": 3,
+        "granada": 8,
+        "huelva": 5,
+        "jaen": 12,
+        "malaga": 6,
+        "sevilla": 17
+    },
+    "bop_by_province": {
+        "almeria": 7,
+        "cadiz": 3,
+        "cordoba": 1,
+        "granada": 3,
+        "huelva": 4,
+        "jaen": 5,
+        "malaga": 0,
+        "sevilla": 9
+    },
+    "cadiz_shared_pdf_notices": 2,
+    "false_ids_present": [],
+    "unsafe_title_ids": [],
+    "wrong_territory_ids": []
+}
