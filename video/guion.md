@@ -1,99 +1,143 @@
-# Recorrido narrado por FAC-USO Andalucía
+# Recorrido corregido FAC-USO Andalucía
 
-Versión final, 18 de octubre de 2026. El recorrido se grabó en la vista previa local `127.0.0.1:18086`, sin sesión de WordPress. Las frases describen páginas públicas y tres cartelas explicativas identificadas como tales. Los datos variables de noticias no se leen como cifras permanentes. Las tres rutas OPAEF se comprobaron en la vista previa antes de cerrar la grabación.
+## Bienvenida y portada
 
-Duración objetivo: entre siete y nueve minutos. Formato: 1440 × 900, 25 fotogramas por segundo, H.264, AAC, capítulos navegables y voz española. Cada apartado muestra acciones reales con pausas para leer las páginas. La duración medida y los controles finales constan en `QA.md`.
+Bienvenidas y bienvenidos a la nueva web de FAC-USO Andalucía. Vamos a conocer sus apartados y los servicios que ofrece.
 
-## 1. Portada y orientación
+La cabecera conserva los logotipos oficiales y los colores de FAC-USO. El menú organiza el acceso a la información sindical y a los servicios.
 
-**En pantalla:** cartela de bienvenida breve, seguida de un avance con tres pantallas reales (portada, provincia y noticia) con movimiento suave. Después, portada real, cabecera y desplazamiento hasta los dos bloques de noticias.
+Desde la portada puedes encontrar tu sector y elegir tu provincia. Estos accesos llevan a recursos y noticias de cada ámbito.
 
-**Locución de bienvenida y avance:** «Bienvenidas y bienvenidos a la nueva web de FAC-USO Andalucía. Un espacio para encontrar información sindical, servicios a la afiliación, empleo público de tu provincia y apoyo a quienes trabajan en los servicios públicos. Vamos a conocer sus apartados y cómo se mantiene al día.»
+La actualidad sindical y las bolsas y oposiciones aparecen en bloques separados. Cada tarjeta muestra una imagen, su fecha y un resumen.
 
-**Locución del recorrido:** «Comenzamos en la portada. Los accesos principales llevan a cada apartado y la actualidad sindical aparece separada de bolsas y oposiciones. Las tarjetas muestran imagen, fecha y un resumen que permite decidir qué noticia abrir.»
+## Conócenos, sedes y contacto
 
-## 2. Conócenos y contacto
+Conócenos reúne la presentación del sindicato, sus órganos, historia, elecciones, congresos, sedes y contacto. Aquí puedes consultar el índice de apartados.
 
-**En pantalla:** pulsar «Conócenos»; abrir «Qué es la USO-Andalucía», volver y pulsar «Contacto» desde su enlace visible.
+Esta presentación explica la relación entre USO, USO Andalucía y FAC-USO. Las fuentes enlazadas permiten ampliar la información de cada organización.
 
-**Locución:** «Conócenos presenta la organización, sus órganos, su historia, elecciones, sedes y contacto. La explicación distingue la confederación USO, su ámbito andaluz y la federación de atención a la ciudadanía. Desde aquí se llega a las sedes y a los canales de contacto publicados. Los datos de cargos y direcciones deben validarse editorialmente antes de llevar esta propuesta al dominio definitivo.»
+En Sedes se orienta a quienes necesitan atención territorial. El directorio enlaza la información de las oficinas de USO Andalucía.
 
-## 3. Servicios a la afiliación
+Contacto agrupa los correos profesionales por área. Antes de convertir esta propuesta en la web definitiva, la organización debe ratificar los datos del directorio.
 
-**En pantalla:** pulsar «Servicios» y recorrer sus cuatro hijas por enlaces reales: Promociones, Formación, Asesoría jurídica y Caja de Resistencia y Solidaridad.
+## Servicios a la afiliación
 
-**Locución:** «Servicios agrupa cuatro accesos: promociones, formación, asesoría jurídica y Caja de Resistencia y Solidaridad. Cada página explica para qué sirve el recurso y remite a la fuente vigente. Así se evita presentar como actuales precios, condiciones o plazos que pueden cambiar. La persona interesada puede volver al índice y elegir otro servicio sin perder la navegación principal.»
+Servicios a la afiliación reúne cuatro apartados. Los veremos uno a uno, manteniendo en pantalla el contenido que se explica.
 
-## 4. Información y empleo público
+Promociones presenta el acceso a ventajas y convenios para la afiliación. Las condiciones vigentes se comprueban en las fuentes de cada servicio.
 
-**En pantalla:** pulsar «Información»; abrir Acción sindical, Salud laboral, Igualdad y Empleo público; mostrar las tres hijas de Empleo público.
+Formación orienta sobre cursos y preparación profesional. La información enlazada permite confirmar las convocatorias y los requisitos de acceso.
 
-**Locución:** «Información reúne acción sindical, salud laboral, igualdad y empleo público. En empleo distinguimos bolsas de trabajo, convocatorias de oposiciones y ofertas de empleo público. Esta distinción ayuda a interpretar cada anuncio antes de consultar sus bases. La fecha de publicación de una noticia no garantiza que el plazo siga abierto: siempre hay que comprobar la convocatoria y sus rectificaciones en la fuente oficial.»
+La Asesoría jurídica explica cómo pedir orientación sindical. Desde aquí se accede a información sobre la atención jurídica y sus condiciones.
 
-## 5. Sectores y especialidades
+La Caja de Resistencia y Solidaridad presenta este recurso de USO. Su información de origen recoge los requisitos y el procedimiento para solicitar prestaciones.
 
-**En pantalla:** pulsar «Sectores»; mostrar sus cinco tarjetas; entrar en Sanidad, Administración local y Administración autonómica, desplazándose por las subpáginas.
+## Información sindical y empleo público
 
-**Locución:** «Los cinco sectores son Justicia, Sanidad, Administración local, Administración autonómica y Administración General del Estado. Cada uno dispone de espacio para recursos y noticias de su ámbito. Sanidad se desglosa en personal sanitario, gestión y servicios, y personal sociosanitario. En Administración local aparecen Bomberos, Policía local, Diputaciones, Ayuntamientos, Administración y servicios, y Función pública local. La autonómica distingue Universidades, Personal laboral y Funcionariado. La estructura permite encontrar un tema concreto desde el índice sectorial.»
+Información organiza la acción sindical, la salud laboral, la igualdad y el empleo público. Las categorías ayudan a encontrar publicaciones relacionadas.
 
-## 6. Provincias, Granada y OPAEF
+Acción sindical reúne actividad y recursos para la representación de las plantillas. Cada noticia conserva su fecha y la atribución a su fuente.
 
-**En pantalla:** pulsar «Provincias»; mostrar Andalucía y las ocho provincias; abrir Granada, su enlace «USO en la Diputación de Granada»; volver al índice, entrar en Sevilla y en OPAEF, después en las dos subpáginas OPAEF.
+Salud laboral reúne información preventiva. Igualdad dispone de su propio apartado y del acceso al nuevo Observatorio USO-OPAEF.
 
-**Locución:** «Provincias permite entrar en Andalucía y en cada una de las ocho provincias. Cada página territorial reúne contacto, recursos y noticias filtradas por ese ámbito. Granada incluye un acceso a la sección sindical en la Diputación. En Sevilla se incorpora el espacio OPAEF, con una página para la sección sindical de USO y otra para el Observatorio de Igualdad. El Observatorio ofrece apoyo a quien lo solicita y prepara reuniones para negociar el primer Plan de Igualdad. Aquí se presenta el trabajo preparatorio para esa negociación, sin publicar nombres ni casos de las personas atendidas.»
+Empleo público distingue bolsas temporales, convocatorias de oposiciones y ofertas de empleo. Una oferta anuncia plazas previstas y no abre por sí sola un plazo de solicitudes.
 
-## 7. Empleo provincial y fuentes
+## Sectores y especialidades
 
-**En pantalla:** desde Provincias abrir Almería y «Empleo público de Almería»; mostrar el selector BOP, elegir BOE y observar el cambio de resultados; regresar a BOP si hay resultados.
+Sectores permite elegir Justicia, Sanidad, Administración local, Administración autonómica o Administración General del Estado. El índice reúne los cinco ámbitos.
 
-**Locución:** «Cada provincia tiene un apartado propio de empleo. En Almería, el filtro inicial selecciona anuncios de su boletín provincial. Podemos cambiar a BOE o consultar todas las fuentes, manteniendo fija la provincia. El boletín aparece identificado junto a cada resultado para que se sepa de dónde procede. Si no hay entradas en una selección, la página lo explica; no sustituye silenciosamente un BOP por noticias del BOE.»
+Sanidad diferencia personal sanitario, gestión y servicios, y personal sociosanitario. Sus accesos permiten consultar recursos de cada especialidad.
 
-## 8. Una noticia con imagen y fuente
+Administración local incluye Bomberos, Policía local, Diputaciones, Ayuntamientos, Administración y servicios, y Función pública local.
 
-**En pantalla:** abrir una tarjeta local con foto documental; señalar la imagen, fecha, crédito y enlace de origen sin salir del sitio.
+Administración autonómica distingue Universidades, Personal laboral y Funcionariado. En los apartados sectoriales las noticias se filtran por su ámbito.
 
-**Locución:** «Al abrir una noticia vemos el titular, la fecha, una imagen y su crédito visible. Cuando la foto documenta una publicación original, queda asociada a la noticia de esa fuente. La atribución y el enlace permiten comprobar el contexto. Los enlaces externos están preparados para abrir una pestaña nueva; durante este recorrido mantenemos la navegación en la copia local.»
+## Provincias y secciones sindicales
 
-## 9. Noticias y filtros combinados
+Provincias ofrece Andalucía y las ocho provincias. Cada territorio reúne contactos, recursos, empleo público y noticias de su ámbito.
 
-**En pantalla:** pulsar «Noticias»; elegir un sector, una materia y una provincia en los controles reales; aplicar, mostrar recuento y restablecer.
+En Granada encontramos la sede, el teléfono y el correo publicados, además del acceso a su boletín provincial y a los anuncios de empleo.
 
-**Locución:** «El listado general permite combinar sector, materia y territorio. Los filtros se aplican juntos: un resultado debe corresponder a las tres selecciones, cuando las tres están activas. El número de coincidencias y la paginación acompañan la consulta. Si la combinación no produce noticias, aparece un mensaje específico y una forma de reiniciar la búsqueda. Esto sirve para localizar información relevante sin mezclar ámbitos distintos.»
+Granada incluye también un espacio para USO en la Diputación. Desde él se puede ampliar la información en la web de la sección sindical.
 
-## 10. Fotos, enlaces y afiliación
+## USO-OPAEF y Observatorio de Igualdad
 
-**En pantalla:** abrir Fotos desde Conócenos; desplazarse por la galería y el montaje etiquetado; pulsar «Enlaces» y «Afíliate a USO» por controles del sitio.
+En Sevilla se ha incorporado OPAEF. Este espacio tiene dos subpestañas: la sección sindical USO-OPAEF y el Observatorio de Igualdad, Acoso y Discriminación.
 
-**Locución:** «La galería reúne fotografías ligadas a publicaciones originales y conserva el enlace a cada fuente. También contiene un montaje identificado como ilustración generada; su escena no se presenta como fotografía de un acto real. En Enlaces se agrupan portales sindicales y recursos oficiales como boletines, empleo y trámites. La opción de afiliación está accesible desde el pie de página y orienta a quien quiera dar ese paso.»
+La sección sindical explica su labor sobre condiciones de trabajo, organización del servicio y propuestas de la plantilla. El contacto se solicita a través de USO Sevilla.
 
-## 11. Navegación móvil
+El Observatorio ofrece escucha y acompañamiento a las compañeras y compañeros que lo solicitan. La página explica cómo pedir una conversación con la sección.
 
-**En pantalla:** cambiar el navegador a tamaño móvil, recargar la portada, pulsar el botón de menú y desplegar un submenú; entrar en una página y desplazarse.
+Las dos personas que impulsan este espacio preparan reuniones para negociar el primer Plan de Igualdad del OPAEF. Se presentan propuestas para debatir, sin publicar casos personales.
 
-**Locución:** «En móvil, la navegación se adapta a una sola columna. El botón de menú abre los apartados y sus submenús sin perder contacto ni afiliación. Las tarjetas de noticias y las secciones se leen una debajo de otra. Esta vista muestra la misma información pública, ordenada para una pantalla estrecha.»
+## Empleo provincial: BOP y BOE
 
-## 12. Cómo se actualiza: fuentes
+El empleo público de una provincia se consulta dentro de nuestra web. En Almería, este acceso abre los anuncios de su boletín provincial.
 
-**En pantalla:** cartela explicativa rotulada «Cómo se actualiza · fuentes», sobre un fotograma real de Empleo público de Almería, con esquema fuente oficial o sindical → conector provincial → API REST de WordPress → provincia, materia y sector. No se simula un panel del producto.
+La selección inicial es el BOP de Almería. El filtro mantiene fija la provincia, de modo que los resultados pertenecen al territorio elegido.
 
-**Locución:** «Las noticias automáticas parten de fuentes oficiales de empleo y publicaciones sindicales. Cada provincia consulta el BOE mediante su API de sumarios y las fuentes sindicales mediante sus canales RSS. Siete boletines provinciales tienen conector activo: Almería necesita Chrome para leer y validar datos del BOP; Huelva ofrece una API JSON; Cádiz, Córdoba, Granada, Jaén y Sevilla se leen desde sus páginas HTML. El conector entrega cada hallazgo a la API REST de WordPress, donde se clasifica por provincia, materia y sector. En pantalla vimos un ejemplo de Almería: el BOP se consulta dentro de la página provincial y el selector permite pasar al BOE. El enlace y la fecha de origen acompañan la noticia para poder comprobarla.»
+Ahora cambiamos la fuente a BOE y aplicamos el filtro. Podemos consultar sus convocatorias sin salir del apartado de Almería.
 
-## 13. Cómo se actualiza: cuentas y control
+Cada resultado identifica el boletín junto a la fecha. La noticia remite a la publicación oficial para comprobar las bases y sus rectificaciones.
 
-**En pantalla:** cartela explicativa «Cómo se actualiza · control», sobre un fotograma real de Noticias, con cron horario → lector de Almería → ocho bots → validación y borrador. Incluir iconos de imagen y crédito.
+## Noticias con imagen, crédito y fuente
 
-**Locución:** «En la instalación local hay una tarea horaria real. Ejecuta primero el lector de Almería y después los ocho bots provinciales, con un bloqueo para que dos pasadas no se solapen. Cada bot usa una cuenta distinta con permisos limitados a su provincia; ninguna es administradora. Antes de guardar, se valida la dirección de la fuente y el ámbito provincial; se comparan el identificador y la URL de origen para evitar entradas repetidas en esa provincia. La noticia lleva imagen, crédito y fecha. El modo habitual crea un borrador para revisión humana. En esta prueba local se permitió publicar automáticamente para comprobar el recorrido completo, pero esa decisión editorial queda pendiente para producción.»
+Vamos a abrir una noticia sindical. Además del titular y la fecha, encontramos una imagen asociada a la publicación de origen.
 
-## 14. Cómo se actualiza: alcance y siguientes pasos
+La fotografía tiene un crédito visible. Las fotos documentales conservan su relación con la noticia original; las imágenes de recurso se identifican como ilustrativas.
 
-**En pantalla:** cartela explicativa «Cómo se actualiza · alcance», sobre un fotograma real de Empleo público de Málaga, con nota específica «Málaga: BOE y fuentes sindicales; BOP sin extracción activa»; cierre sobre la portada real.
+Al desplegar las fuentes vemos el enlace original. Los enlaces externos abren otra pestaña, mientras que la navegación interna mantiene la página actual.
 
-**Locución:** «Hay un límite importante en Málaga: el BOP exige una verificación de acceso que impide su lectura automática desde este entorno. Allí el bot usa BOE y fuentes sindicales, pero esto no equivale a cubrir por completo el BOP provincial. Y en cualquier provincia, la fecha de una noticia tampoco confirma que una convocatoria siga abierta: hay que consultar sus bases y rectificaciones. El cron y los bots se han ensayado localmente; todavía no se han desplegado en producción. El destino necesitará su propio cron, ocho credenciales nuevas, alojamiento y responsables para revisar los borradores. FAC-USO también debe validar contenidos, contactos y permisos de las imágenes antes de publicar la web definitiva. Así termina el recorrido por la propuesta actual.»
+## Filtros combinados de noticias
 
-## Criterios usados en la grabación
+Noticias permite combinar sector, materia y territorio. Vamos a seleccionar Administración local, Empleo público y Almería.
 
-- Se contrastaron las tres rutas de OPAEF en la vista previa antes de fijar los controles.
-- Los menús, selectores, noticias y pantalla móvil se recorrieron por interacción real. Un clic fallido se corrigió y se repitió la escena correspondiente.
-- El navegador usó el origen local `http://127.0.0.1:18086` sin sesión de WordPress. El script final restringe la red y los métodos HTTP; los detalles de la primera captura y la revisión focal figuran en `QA.md`.
-- El sintetizador recibió únicamente la locución pública de este documento, sin capturas ni datos de sesión.
-- La revisión de voz, capítulos, fotogramas y correspondencia entre narración y escenas está documentada en `QA.md`.
+Aplicamos la búsqueda. Los filtros se cumplen a la vez y el listado muestra el número de coincidencias con imágenes y fechas.
+
+Restablecer permite empezar otra búsqueda. Si una combinación no tiene noticias, la web muestra un mensaje y conserva una salida para continuar.
+
+## Fotografías, enlaces y afiliación
+
+Fotos reúne imágenes de actividad sindical enlazadas a sus publicaciones originales. La galería conserva el contexto y el crédito de cada fuente.
+
+La propuesta visual de campaña se identifica como un montaje generado. Su escena y su multitud no se presentan como asistencia real a un acto.
+
+Enlaces agrupa portales sindicales, boletines y recursos oficiales. Desde sus apartados se puede acceder a información corporativa y trámites.
+
+La afiliación está accesible desde el pie de la web. Esta página orienta y enlaza el formulario oficial de FAC-USO.
+
+## La web en el móvil
+
+La misma web se adapta al móvil. El botón de menú permite ver los apartados de navegación en una pantalla estrecha.
+
+Desplegamos Conócenos y elegimos Contacto. Los submenús se pueden abrir sin perder el acceso al resto de la navegación.
+
+Las páginas y tarjetas se ordenan en una columna. Los contactos y los recursos siguen disponibles desde el teléfono.
+
+## Noticias automáticas: fuentes y conectores
+
+Las noticias automáticas se obtienen de fuentes oficiales y sindicales. No se escriben noticias inventadas: cada entrada mantiene su procedencia.
+
+Los ocho bots consultan el BOE mediante su API de sumarios y las publicaciones sindicales mediante sus canales RSS.
+
+Los boletines provinciales requieren lectores distintos. Almería utiliza Chrome y un archivo validado; Huelva ofrece una API; otros boletines se leen desde sus páginas.
+
+La API de WordPress guarda los resultados en la provincia y materia correspondientes. La web muestra la imagen, la fecha y el enlace de origen.
+
+## Automatización cada hora y seguridad
+
+Los bots ya están instalados en el servidor de esta web. Una tarea de cron los ejecuta cada hora, sin depender de que nuestro ordenador esté encendido.
+
+Primero se ejecuta el lector de Almería y después los bots. Un bloqueo evita que dos pasadas se solapen, y cada proceso tiene un tiempo máximo.
+
+Cada bot usa una cuenta y una credencial propias, limitadas a su provincia. Ninguna de esas cuentas es administradora y las claves quedan fuera del repositorio.
+
+Antes de crear una entrada se comprueba si ya existe. La instalación publica automáticamente, aunque también puede configurarse para dejar borradores y revisarlos.
+
+## Cobertura y cierre
+
+La cobertura tiene límites que deben conocerse. Málaga sigue sin lectura automática de su BOP; Jaén devuelve errores desde el servidor y se reintenta cada hora.
+
+Una noticia reciente no garantiza que siga abierto un plazo de empleo. Hay que consultar las bases, sus rectificaciones y la fuente oficial.
+
+Esta es la web de revisión de FAC-USO Andalucía. Ya puedes recorrerla en facuso punto cidonia punto cloud y conocer sus servicios, provincias y noticias.

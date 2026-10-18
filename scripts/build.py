@@ -66,6 +66,22 @@ def build_content():
         by_slug['fotos']['html'] += '<h2>Propuesta visual de campaña</h2><p>Montaje ilustrativo a partir de una fotografía de las jornadas de SPJ-USO Andalucía de septiembre de 2026. El escenario y la multitud se han generado; no representan la asistencia a un acto real.</p>[facuso_imagen file="montaje-campana.webp"]<p><a href="https://www.usoandalucia.es/44420-2/">Publicación de la fotografía original</a>.</p>'
     by_slug['fotos']['html'] += '<h2>Fotografías de la actividad sindical</h2><p>Cada imagen enlaza su noticia de origen en USO Andalucía.</p>[facuso_galeria]'
     by_slug['videos']['html'] = '<p>Los <a href="https://www.uso.es/videos-corporativos/">vídeos corporativos de USO</a> presentan el sindicato y su actividad. Consulta también los testimonios y noticias audiovisuales publicados por <a href="https://facuso.es/">FAC-USO</a>. Los vídeos se abren en la plataforma de origen.</p>'
+    if (ROOT / 'data/video-presentacion.json').is_file():
+        video = read('video-presentacion.json')
+        for key in ['url', 'poster', 'captions']:
+            parsed = urlparse(video[key])
+            if (parsed.scheme != 'https' or parsed.hostname != 'facuso.cidonia.cloud'
+                    or parsed.username or parsed.password or parsed.port not in {None, 443}):
+                raise ValueError('El vídeo propio debe usar el origen HTTPS público autorizado')
+        own_video = ('<h2>' + html.escape(video['title']) + '</h2><p>'
+            + html.escape(video['description']) + '</p><figure class="wp-block-video">'
+            '<video controls preload="metadata" playsinline style="width:1100px;max-width:100%;height:auto" src="'
+            + html.escape(video['url'], quote=True) + '" poster="' + html.escape(video['poster'], quote=True)
+            + '"><track kind="captions" src="' + html.escape(video['captions'], quote=True)
+            + '" srclang="es" label="Español"></video><figcaption>'
+            + html.escape(video['caption']) + '</figcaption></figure><p><a href="'
+            + html.escape(video['url'], quote=True) + '">Ver o descargar el recorrido de la web</a>.</p>')
+        by_slug['videos']['html'] = own_video + '<h2>Otros vídeos de USO</h2>' + by_slug['videos']['html']
     # Referencias internas portables: el instalador las resuelve con las URL de destino.
     for p in pages:
         def internal(match):

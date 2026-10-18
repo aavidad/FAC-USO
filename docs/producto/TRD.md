@@ -18,6 +18,8 @@ La importación exige capacidades de administrador y nonce. Usa un bloqueo tempo
 
 El XML WXR conserva el texto, categorías, menús y rutas internas para un WordPress instalado en la raíz con enlaces permanentes legibles. No configura la portada. Las rutas internas del XML empiezan por `/`, por lo que el subdirectorio y los enlaces simples requieren revisión o adaptación; el ZIP cubre esos casos. El XML asigna segundos técnicos distintos cuando dos entradas comparten título y fecha para evitar colisiones del importador; la fecha original queda en los metadatos. Si se usa el XML y se quiere mostrar las imágenes de recurso, hay que instalar el ZIP del tema. La importación XML oficial y la importación ZIP se probaron por separado.
 
+El manifiesto opcional `data/video-presentacion.json` incorpora a la página de Vídeos un reproductor HTML nativo con póster y subtítulos VTT, usando URLs HTTPS del servidor autorizado. El MP4 se conserva en `video/` y en el servidor de medios; no se añade al ZIP reducido del plugin.
+
 ## Tema y textos
 
 `package/facuso-arranque/theme/` contiene PHP, CSS y JavaScript propios, sin constructor visual. El verde, rojo y blanco de FAC-USO se emplean en un diseño nuevo. La cabecera muestra bandera andaluza, logotipo original y el escudo o nombre del contexto. Justicia dispone de distintivo; los otros cuatro logotipos sectoriales quedan configurables y se muestran por texto mientras no se aporten. Las etiquetas de interfaz se generan desde `data/interfaz-es.json` a los catálogos JSON de complemento y tema. El contenido editorial vive en los JSON de `data/`.

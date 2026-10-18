@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "page": "https://facuso.cidonia.cloud/conocenos/videos/",
+  "video": "https://facuso.cidonia.cloud/wp-content/uploads/facuso-presentacion/facuso-recorrido-v2.mp4",
+  "sha256": "93523f3a4a94d2ec9c1d0b24ce850de2953d578f97a29c59f9511708da0b36a9",
+  "duration_seconds": 695.3,
+  "dimensions": [
+    1440,
+    1000
+  ],
+  "fps": 25,
+  "chapters": 15,
+  "phases": 56,
+  "min_stable_seconds": 8.35,
+  "audio_mapped_per_phase": true,
+  "voice_starts_after_corresponding_action": true,
+  "all_audio_finishes_before_next_phase": true,
+  "decode_exit_code": 0,
+  "remote_http2_download_sha256": "93523f3a4a94d2ec9c1d0b24ce850de2953d578f97a29c59f9511708da0b36a9",
+  "http_range_status": 206,
+  "browser": {
+    "plays": true,
+    "pauses": true,
+    "seek_seconds": 180,
+    "subtitles_cues": 56,
+    "network_errors": 0,
+    "media_cancelled_requests": "expected Chromium cancellations during seek and context close"
+  },
+  "mobile": {
+    "width": 390,
+    "document_width": 390,
+    "video_width": 354
+  },
+  "secret_scan_before_changes": {
+    "commits": 3,
+    "objects_including_archives": 1000,
+    "known_secret_matches": 0
+  },
+  "visual_review": [
+    "welcome shows whole homepage",
+    "menu remains in view while described",
+    "OPAEF and observatory",
+    "BOP/BOE selection",
+    "mobile layout",
+    "automation diagrams"
+  ],
+  "recording": "public HTTPS site, no WordPress login; only GET same origin; service workers, WebSocket and redirects blocked",
+  "technique": "real transitions kept at original speed; last frame held for narration and reading"
+}

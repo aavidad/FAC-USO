@@ -37,4 +37,6 @@ La ejecución del importador se hace con `WP_HTTP_BLOCK_EXTERNAL` y sin descarga
 
 Los resultados íntegros, los prefijos usados, las trece rutas HTTP y los hashes están en [importaciones-final.json](evidencias/importaciones-final.json). Las salidas individuales se conservan en `docs/evidencias/importacion-{zip,subdir,xml}.json`.
 
-SHA-256 de los archivos ensayados: `facuso-arranque.zip` = `7f33e55a20dcbb8302060e051d44b972cb43c4b0eeef0d7cc0116001e167c06d`; `facuso-andalucia.xml` = `1d7648048197ed6446f8ea14a45d394395b82e111076df0e251b3acdca808805`; `facuso-andalucia-tema.zip` = `bbe3d698b66416e03ff885bf135013ad04f7b8cf98cbe75af8895607d40444f7`.
+SHA-256 de los archivos ensayados: `facuso-arranque.zip` = `0b54b1ce800aa2aec0033247661463a5ead2b1cf9788d92c6567e8b522c31dfb`; `facuso-andalucia.xml` = `5f664c132d122baccf1964668c59456c9908b19d48801ff89cef0c4d0d55a951`; `facuso-andalucia-tema.zip` = `bbe3d698b66416e03ff885bf135013ad04f7b8cf98cbe75af8895607d40444f7`.
+
+La última repetición incluye el reproductor de vídeo propio y los subtítulos VTT en «Conócenos → Vídeos». ZIP, XML y subdirectorio conservan cero errores. El MP4 se aloja en la URL HTTPS pública y está en `video/` del repositorio; no se descarga en el servidor durante la importación ni se incluye dentro del ZIP pequeño del complemento.

@@ -8,7 +8,7 @@ La web está disponible para revisión en **[https://facuso.cidonia.cloud/](http
 
 Repositorio: [aavidad/FAC-USO](https://github.com/aavidad/FAC-USO). Contiene el código, los datos editoriales, las imágenes finales del tema, los instaladores y los manuales. La configuración privada y el documento original de especificaciones se conservan fuera de Git. Las condiciones de los materiales están en [NOTICE.md](NOTICE.md) y las pautas de seguridad en [SECURITY.md](SECURITY.md).
 
-[Vídeo con voz: recorrido de 7:35](video/README.md) · [Capturas](imagenes/README.md) · [Descargar la entrega](https://github.com/aavidad/FAC-USO/releases/tag/v1.0.0).
+[Ver el vídeo corregido en la web — 11:35](https://facuso.cidonia.cloud/conocenos/videos/) · [Capturas](imagenes/README.md) · [Descargar la entrega](https://github.com/aavidad/FAC-USO/releases/latest).
 
 ## Instalar en un WordPress vacío
 

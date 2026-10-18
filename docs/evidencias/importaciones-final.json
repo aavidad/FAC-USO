@@ -1,13 +1,13 @@
 {
-  "timestamp_utc": "2026-10-18T12:58:27.288683+00:00",
+  "timestamp_utc": "2026-10-18T14:15:19.186036+00:00",
   "wordpress": "7.1.3-php8.3-apache",
   "prefixes": [
     "facuso_ziptest_",
     "facuso_wxrtest_"
   ],
   "packages_sha256": {
-    "facuso-arranque.zip": "7f33e55a20dcbb8302060e051d44b972cb43c4b0eeef0d7cc0116001e167c06d",
-    "facuso-andalucia.xml": "1d7648048197ed6446f8ea14a45d394395b82e111076df0e251b3acdca808805",
+    "facuso-arranque.zip": "0b54b1ce800aa2aec0033247661463a5ead2b1cf9788d92c6567e8b522c31dfb",
+    "facuso-andalucia.xml": "5f664c132d122baccf1964668c59456c9908b19d48801ff89cef0c4d0d55a951",
     "facuso-andalucia-tema.zip": "bbe3d698b66416e03ff885bf135013ad04f7b8cf98cbe75af8895607d40444f7"
   },
   "tests": {
@@ -141,5 +141,6 @@
       "status": 200,
       "bytes": 25700
     }
-  ]
+  ],
+  "note": "Paquete con reproductor propio y subtítulos del vídeo corregido; mismas 74 páginas y 132 noticias."
 }

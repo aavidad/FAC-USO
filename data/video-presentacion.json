@@ -1,0 +1,10 @@
+{
+  "title": "Bienvenidas y bienvenidos a la web de FAC-USO Andalucía",
+  "description": "Recorrido con voz por la portada, los servicios, sectores, provincias, USO-OPAEF y su Observatorio, el empleo público y el sistema de noticias automáticas. Puedes verlo aquí, activar los subtítulos o descargarlo.",
+  "url": "https://facuso.cidonia.cloud/wp-content/uploads/facuso-presentacion/facuso-recorrido-v2.mp4",
+  "poster": "https://facuso.cidonia.cloud/wp-content/uploads/facuso-presentacion/poster-v2.jpg",
+  "captions": "https://facuso.cidonia.cloud/wp-content/uploads/facuso-presentacion/subtitulos-v2.vtt",
+  "caption": "Versión corregida: 11 min 35 s, 15 capítulos y navegación acompasada a la explicación. Locución sintética en español.",
+  "duration_seconds": 695.3,
+  "sha256": "93523f3a4a94d2ec9c1d0b24ce850de2953d578f97a29c59f9511708da0b36a9"
+}

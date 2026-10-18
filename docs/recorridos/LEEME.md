@@ -1,19 +1,22 @@
-# Vídeo de recorrido FAC-USO Andalucía
+# Recorrido con voz: versión corregida
 
-El guion público está en [guion.md](guion.md). El resultado se guarda fuera del repositorio, en `/home/alberto/Vídeos/FAC-USO/recorrido-<huella>/`. La carpeta contiene `video.mp4`, `voz.wav`, `guion.md`, `capitulos.txt`, `ficha-tecnica.md`, `hoja-control.png`, capturas por escena y los clips originales. El vídeo se grabó sobre la vista previa local `127.0.0.1:18086`; no representa un despliegue de producción.
+La versión vigente está publicada en [la web](https://facuso.cidonia.cloud/conocenos/videos/) y en [video/](../../video/README.md). Su guion es [guion-v2.md](guion-v2.md) y el plan de acciones y locuciones está en [plan-v2.json](plan-v2.json).
 
-El método sigue el recorrido de ETF: voz `es-ES-AlvaroNeural` a `+4 %` con la versión fijada de `edge-tts`, WAV mono a 24 kHz, grabación real con Playwright y Chrome del sistema, salida H.264 de 1440 × 900 a 25 fps, AAC y normalización a −16 LUFS. La bienvenida muestra un avance de pantallas reales. Después se navega con clics y selectores; las tres cartelas finales explican los bots sobre imágenes de la web y se identifican como esquemas, no como controles de WordPress.
+El método conserva la voz española usada en ETF y alinea cada frase con una pantalla. Hay 56 fases y 15 capítulos. Primero se prepara la locución y se mide su duración. Chrome graba las acciones reales contra la web pública, sin sesión de WordPress. Cada capítulo incluye un ancla visual para relacionar el reloj del navegador con los PTS del WebM. El montaje conserva el movimiento sin acelerarlo y prolonga la pantalla final durante la explicación, con un mínimo de lectura. El inicio permanece en la portada; no se usa un avance de páginas que todavía no se explica.
 
-Para repetirlo en este entorno:
+## Repetir en el entorno de trabajo
 
 ```sh
-python3 scripts/recorridos/voz.py
-node scripts/recorridos/grabar.mjs /home/alberto/Vídeos/FAC-USO/recorrido-<huella>
-python3 scripts/recorridos/montar.py /home/alberto/Vídeos/FAC-USO/recorrido-<huella>
+/home/alberto/Vídeos/ETF/.herramientas/voz/bin/python scripts/recorridos/preparar_v2.py
+node scripts/recorridos/grabar_v2.mjs /home/alberto/Vídeos/FAC-USO/corregido-v2-<huella> --preflight
+node scripts/recorridos/grabar_v2.mjs /home/alberto/Vídeos/FAC-USO/corregido-v2-<huella>
+python3 scripts/recorridos/montar_v2.py /home/alberto/Vídeos/FAC-USO/corregido-v2-<huella>
 ```
 
-La huella se imprime al preparar la voz. La grabación conserva escenas terminadas si un enlace cambia y hay que reanudar. Antes de reanudar, se corrige el selector contra la página pública actual y se comprueba que el guion no haya cambiado. Si cambia el guion, `voz.py` crea otra carpeta para no mezclar audio de distintas versiones. Las variables `FACUSO_VIDEO_OUTPUT`, `FACUSO_EDGE_PYTHON` y `FACUSO_PLAYWRIGHT_PACKAGE` permiten escoger la salida externa, el intérprete con la versión fijada de `edge-tts` y una instalación existente de `playwright-core`; sus valores predeterminados señalan al kit local de ETF. `FACUSO_CHROME` permite indicar otro Chrome del sistema. No se instalan dependencias al ejecutar el recorrido.
+`preparar_v2.py` requiere el entorno existente de edge-tts fijado usado en ETF. Se usa `es-ES-AlvaroNeural` a `+4 %`; al servicio se envía únicamente la locución pública. `FACUSO_VIDEO_OUTPUT` permite elegir una carpeta de trabajo fuera del repositorio. La captura admite `FACUSO_PLAYWRIGHT_PACKAGE` y `FACUSO_CHROME` para reutilizar una instalación de Playwright y Chrome del sistema, sin descargar dependencias al ejecutar. El montaje requiere FFmpeg con H.264/AAC, ffprobe y Pillow.
 
-El navegador solo permite solicitudes GET al origen local, además de `about:` y `data:` para su funcionamiento interno. Bloquea service workers, WebSocket y redirecciones HTTP; no inicia sesión ni abre las fuentes externas. El sintetizador recibe únicamente las frases públicas del guion, sin capturas, contraseñas ni sesiones. Las rutas de producción y el estado editorial no se infieren de las cartelas.
+La captura bloquea service workers, WebSocket, redirecciones, métodos distintos de GET y orígenes ajenos a la web pública. Los esquemas sobre los bots se identifican como explicaciones y no se presentan como paneles reales. Los originales, pistas por frase y archivos temporales se guardan fuera del repositorio. Solo los medios finales, las capturas públicas y los guiones se versionan.
 
-La revisión final comprueba duración, códecs, capítulos, pista audible, correspondencia general entre voz y acciones, texto de OPAEF, selector BOP/BOE de Almería, filtros combinados, vista móvil, crédito de imágenes y límite del BOP de Málaga. Las capturas por escena y `hoja-control.png` ayudan a localizar un tramo, pero hay que revisar también el MP4 completo. La locución de cada apartado es continua; no se ha calculado una alineación exacta de cada oración con cada clic.
+`publish-video.php` actualiza exclusivamente la página propia de Vídeos mediante CLI en el servidor, conservando una revisión. Los archivos MP4, JPG y VTT se copian al directorio público de medios y `data/video-presentacion.json` registra sus URLs y la huella del vídeo. Las credenciales no forman parte de esa publicación.
+
+La [QA vigente](QA.md) detalla duración, codec, mínimo de lectura, subtítulos, reproducción remota y límites. Los archivos `voz.py`, `grabar.mjs`, `montar.py`, `guion.md` y `QA-v1.md` conservan la primera versión como referencia; no son el flujo usado para la corrección.

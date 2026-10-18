@@ -30,7 +30,7 @@ Los bot se ejecutan cada hora mediante cron. Almería lee el BOP mediante Chrome
 
 ## Despliegue de revisión en cidonia.cloud
 
-WordPress y MariaDB tienen volúmenes y redes propios; Caddy sirve HTTPS con Let’s Encrypt y renovación automática. Los ocho bots y el lector de Almería están instalados en el servidor, con cuentas nuevas y cron horario. Hay copias diarias y una restauración SQL ensayada sin tocar la base activa. El entorno conserva `noindex`. El manual operativo está en `docs/DESPLIEGUE_CIDONIA.md`. La auditoría completa quedó incompleta por cuota de subagentes; la revisión focal independiente y los ensayos no la sustituyen. La siguiente tarea pendiente es corregir el ritmo visual del vídeo, conservando la locución.
+WordPress y MariaDB tienen volúmenes y redes propios; Caddy sirve HTTPS con Let’s Encrypt y renovación automática. Los ocho bots y el lector de Almería están instalados en el servidor, con cuentas nuevas y cron horario. Hay copias diarias y una restauración SQL ensayada sin tocar la base activa. El entorno conserva `noindex`. El manual operativo está en `docs/DESPLIEGUE_CIDONIA.md`. La auditoría completa quedó incompleta por cuota de subagentes; la revisión focal independiente y los ensayos no la sustituyen. El vídeo corregido está publicado en «Conócenos → Vídeos»: 56 fases acompasadas con la locución, 15 capítulos y subtítulos. Se ha comprobado la reproducción y el salto de tiempo en escritorio y móvil.
 
 ## Contradicciones encontradas
 

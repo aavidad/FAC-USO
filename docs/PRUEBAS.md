@@ -85,3 +85,11 @@ El lector y los ocho bots completaron una pasada con código cero y cero noticia
 Se instaló un cron horario y una copia diaria privada. Una copia SQL se restauró en un MariaDB efímero, sin red ni puertos y separado de la base activa, con los recuentos esperados. Los archivos tar pasaron su comprobación de integridad y una copia privada se guardó fuera del VPS. [Evidencia de restauración](evidencias/qa-restauracion-cidonia.json). El manual de operación y los límites del ensayo están en [DESPLIEGUE_CIDONIA.md](DESPLIEGUE_CIDONIA.md).
 
 La revisión focal independiente de código y configuración no encontró vulnerabilidades confirmadas. La auditoría completa quick se interrumpió por el límite de uso de los subagentes tras el reconocimiento; consta como incompleta y sus nueve unidades quedan diferidas. No se afirma una aprobación global de seguridad ni una prueba completa de recuperación del servidor.
+
+## Vídeo corregido e integrado en la web
+
+La segunda versión dura 695,3 segundos, con 56 fases, 15 capítulos y 56 cues VTT. El mínimo medido de permanencia de pantalla después de cada acción es de 8,35 segundos. Cada pista de voz empieza después de su acción y termina antes del cambio siguiente. Se revisaron la bienvenida y el menú, OPAEF, selección de fuentes, móvil y los esquemas de automatización. El MP4 completo decodifica sin errores.
+
+El reproductor de `https://facuso.cidonia.cloud/conocenos/videos/` permite reproducción, pausa y salto al segundo 180, con carga de los 56 cues de subtítulos. Chrome no encontró desbordamiento a 390 px; el reproductor mide 354 px. La descarga completa HTTP/2 coincide con la huella local y las solicitudes Range devuelven 206. Se corrigió el buffering de Nginx para evitar llenar la tmpfs al transmitir un MP4 mayor que ella, manteniendo los bloqueos de PHP y archivos ocultos. [Evidencia](evidencias/qa-video-v2.json) y [QA detallada](recorridos/QA.md).
+
+Se volvieron a probar los importadores con el reproductor: ZIP 598, XML 557 y subdirectorio 552 comprobaciones, sin errores. Las huellas vigentes constan en `PRUEBAS_IMPORTACION.md`.

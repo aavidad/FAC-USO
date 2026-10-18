@@ -16,6 +16,8 @@ Las páginas interiores presentan ruta de navegación, título, texto, enlaces a
 
 OPAEF emplea dos enlaces de navegación con estilo de pestañas. El apartado activo se distingue por color y `aria-current="page"`; son enlaces nativos accesibles por teclado y funcionan sin JavaScript. El título completo del observatorio se conserva y el texto se adapta al móvil.
 
+La página de Vídeos incorpora un reproductor nativo adaptable al ancho de pantalla, con imagen de portada, subtítulos en castellano y enlace de descarga. El vídeo corregido mantiene la portada al dar la bienvenida y asigna una pantalla a cada explicación.
+
 La página de Fotos contiene una galería de 25 imágenes tomadas de publicaciones originales de USO Andalucía, enlazadas a la noticia de origen. Incluye también un montaje de campaña etiquetado como ilustración generada a partir de una foto original; el texto aclara que la escena y la multitud no documentan un acto real. Los ocho recursos visuales generados con IA se describen como ilustraciones. Cada entrada tiene imagen y crédito; las 25 fotos originales se muestran cuando hay coincidencia con la fuente y, en otro caso, se elige un recurso temático. El crédito forma parte del contenido visible, no solo del texto alternativo.
 
 ## Accesibilidad y pruebas

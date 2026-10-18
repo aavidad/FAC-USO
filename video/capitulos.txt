@@ -1,14 +1,15 @@
-00:00  Portada y orientación
-00:34  Conócenos y contacto
-00:59  Servicios a la afiliación
-01:25  Información y empleo público
-01:52  Sectores y especialidades
-02:31  Provincias, Granada y OPAEF
-03:08  Empleo provincial y fuentes
-03:35  Una noticia con imagen y fuente
-04:00  Noticias y filtros combinados
-04:29  Fotos, enlaces y afiliación
-04:56  Navegación móvil
-05:16  Cómo se actualiza: fuentes
-06:03  Cómo se actualiza: cuentas y control
-06:47  Cómo se actualiza: alcance y siguientes pasos
+00:00 Bienvenida y portada
+00:42 Conócenos, sedes y contacto
+01:37 Servicios a la afiliación
+02:44 Información sindical y empleo público
+03:39 Sectores y especialidades
+04:37 Provincias y secciones sindicales
+05:14 USO-OPAEF y Observatorio de Igualdad
+06:07 Empleo provincial: BOP y BOE
+06:55 Noticias con imagen, crédito y fuente
+07:31 Filtros combinados de noticias
+08:10 Fotografías, enlaces y afiliación
+08:59 La web en el móvil
+09:30 Noticias automáticas: fuentes y conectores
+10:14 Automatización cada hora y seguridad
+11:00 Cobertura y cierre
