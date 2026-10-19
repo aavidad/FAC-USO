@@ -37,3 +37,5 @@ Actualizar al cambiar colores, cabecera, navegación, tarjetas, galería o acces
 ABSORBIDOS: `20261015 MODIFICACION ESTRUCTURA WEB.odt` — parcial; cabecera y navegación se reflejan aquí, mientras que el original conserva detalles de cargos. `package/facuso-arranque/theme/` — parcial; se documenta el patrón visible, su código permanece en el tema.
 
 La sección de USO Diputación de Granada presenta sus cursos ajustados a las bases de las OPE de esta administración, con capturas reales y una práctica pública de seis preguntas de TCAE. El acceso completo permanece autorizado en el portal original. El recorrido y la procedencia se documentan en `docs/CURSOS_GRANADA.md`.
+
+El 19/10/2026 se incorpora la identidad de USO Administración Local Sevilla facilitada por el responsable (`imagenes/Imagen pegada.png`), sin modificar el diseño de la imagen. Se muestra en la página provincial y en su contexto de cabecera, incluidos sus apartados hijos.

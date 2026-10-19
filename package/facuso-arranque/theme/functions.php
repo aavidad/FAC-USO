@@ -48,7 +48,7 @@ function fac_theme_context(): array {
     }
     foreach ($slugs as $slug) {
         if (in_array($slug, $provinces, true)) {
-            return ['title' => fac_theme_text($slug), 'image' => get_template_directory_uri() . '/assets/' . $slug . '.png', 'kind' => 'province'];
+            return ['title' => fac_theme_text($slug), 'image' => get_template_directory_uri() . '/assets/' . ($slug === 'sevilla' ? 'uso-sevilla' : $slug) . '.png', 'kind' => 'province'];
         }
     }
     foreach ($slugs as $slug) {

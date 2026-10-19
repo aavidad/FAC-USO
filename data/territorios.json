@@ -449,7 +449,7 @@
       "title": "Sevilla",
       "parent": "territorios",
       "status": "publish",
-      "html": "<p>La sede de USO en Sevilla figura en el directorio de USO Andalucía: Avenida Menéndez Pelayo, 52, 41003 Sevilla. Teléfono: 954 29 30 17. Correo: <a href=\"mailto:sevilla@usoandalucia.net\">sevilla@usoandalucia.net</a>. La información local y las convocatorias oficiales pueden consultarse en los enlaces siguientes.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/contacto/\">Directorio de sedes de USO Andalucía</a></li><li><a href=\"https://bopsevilla.dipusevilla.es/publica/consulta-de-bops/buscador/index.html\">BOP de Sevilla</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público</a></li></ul>",
+      "html": "<figure><img width=\"1536\" height=\"1024\" style=\"width:640px;max-width:100%;height:auto\" src=\"[[asset:uso-sevilla.png]]\" alt=\"USO Administración Local Sevilla\"></figure><p>La sede de USO en Sevilla figura en el directorio de USO Andalucía: Avenida Menéndez Pelayo, 52, 41003 Sevilla. Teléfono: 954 29 30 17. Correo: <a href=\"mailto:sevilla@usoandalucia.net\">sevilla@usoandalucia.net</a>. La información local y las convocatorias oficiales pueden consultarse en los enlaces siguientes.</p><h2>Recursos</h2><ul><li><a href=\"https://www.usoandalucia.es/contacto/\">Directorio de sedes de USO Andalucía</a></li><li><a href=\"https://bopsevilla.dipusevilla.es/publica/consulta-de-bops/buscador/index.html\">BOP de Sevilla</a></li><li><a href=\"https://administracion.gob.es/empleopublico\">Empleo público</a></li></ul>",
       "sources": [
         {
           "url": "https://www.usoandalucia.es/contacto/",
